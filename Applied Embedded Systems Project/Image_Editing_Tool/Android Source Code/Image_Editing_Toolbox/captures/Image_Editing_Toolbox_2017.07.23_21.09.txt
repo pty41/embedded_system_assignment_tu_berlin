@@ -1,0 +1,1532 @@
+ACTIVITY MANAGER PENDING INTENTS (dumpsys activity intents)
+  * PendingIntentRecord{1c4f21f2 android broadcastIntent}
+  * PendingIntentRecord{1d356043 android broadcastIntent}
+  * PendingIntentRecord{29e096c0 android broadcastIntent}
+  * PendingIntentRecord{1b0edff9 android startActivity}
+  * PendingIntentRecord{1296b3e android broadcastIntent}
+  * PendingIntentRecord{d43bd9f android broadcastIntent}
+  * PendingIntentRecord{11985eec android broadcastIntent}
+  * PendingIntentRecord{15482b5 android broadcastIntent}
+  * PendingIntentRecord{1dccfd4a android broadcastIntent}
+  * PendingIntentRecord{16b094bb android broadcastIntent}
+  * PendingIntentRecord{3a227dd8 android broadcastIntent}
+  * PendingIntentRecord{30179531 android broadcastIntent}
+  * PendingIntentRecord{3e65a416 android broadcastIntent}
+  * PendingIntentRecord{849c197 android broadcastIntent}
+  * PendingIntentRecord{122d9f84 android startActivity}
+  * PendingIntentRecord{81f536d android broadcastIntent}
+  * PendingIntentRecord{340feba2 android broadcastIntent}
+  * PendingIntentRecord{25dee033 android broadcastIntent}
+  * PendingIntentRecord{22a72ff0 com.android.inputmethod.latin broadcastIntent}
+  * PendingIntentRecord{356ab969 android broadcastIntent}
+  * PendingIntentRecord{13251fee android broadcastIntent}
+  * PendingIntentRecord{169d4c8f android broadcastIntent}
+
+ACTIVITY MANAGER BROADCAST STATE (dumpsys activity broadcasts)
+  Historical broadcasts [foreground]:
+  #0: BroadcastRecord{13e75b1c u-1 android.intent.action.CONFIGURATION_CHANGED}
+    act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010
+  #1: BroadcastRecord{aec8325 u-1 android.intent.action.USER_SWITCHED}
+    act=android.intent.action.USER_SWITCHED flg=0x50000010 (has extras)
+    extras: Bundle[{android.intent.extra.user_handle=0}]
+  #2: BroadcastRecord{a474cfa u0 android.intent.action.USER_STARTED}
+    act=android.intent.action.USER_STARTED flg=0x50000010 (has extras)
+    extras: Bundle[{android.intent.extra.user_handle=0}]
+  #3: BroadcastRecord{1d2c22ab u-1 android.intent.action.CONFIGURATION_CHANGED}
+    act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010
+
+  Active ordered broadcasts [background]:
+  Active Ordered Broadcast background #12:
+    BroadcastRecord{199d0d08 u-1 android.intent.action.SIM_STATE_CHANGED} to user -1
+    Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x4000010 (has extras) }
+      extras: Bundle[mParcelledData.dataSize=196]
+    caller=null null pid=1802 uid=1001
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    resultAbort=false ordered=false sticky=true initialSticky=false
+    Receiver #0: ResolveInfo{1e072ca1 com.google.android.gms/.checkin.CheckinServiceTriggerReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.checkin.CheckinServiceTriggerReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+  Active Ordered Broadcast background #11:
+    BroadcastRecord{35883e87 u-1 android.intent.action.SIM_STATE_CHANGED} to user -1
+    Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x4000010 (has extras) }
+      extras: Bundle[mParcelledData.dataSize=192]
+    caller=null null pid=1802 uid=1001
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    resultAbort=false ordered=false sticky=true initialSticky=false
+    Receiver #0: ResolveInfo{3179f1b4 com.google.android.gms/.checkin.CheckinServiceTriggerReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.checkin.CheckinServiceTriggerReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+  Active Ordered Broadcast background #10:
+    BroadcastRecord{1dc8f1dd u0 android.intent.action.BOOT_COMPLETED} to user 0
+    Intent { act=android.intent.action.BOOT_COMPLETED flg=0x8000010 (has extras) }
+      extras: Bundle[{android.intent.extra.user_handle=0}]
+    caller=null null pid=1536 uid=1000
+    requiredPermission=android.permission.RECEIVE_BOOT_COMPLETED  appOp=-1
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    resultTo=com.android.server.am.ActivityManagerService$8@162e8152 resultCode=0 resultData=null
+    resultAbort=false ordered=true sticky=false initialSticky=false
+    Receiver #0: BroadcastFilter{35523b7f u-1 ReceiverList{134db49e 1536 system/1000/u-1 local:191af2d9}}
+    Receiver #1: BroadcastFilter{14e7942e u0 ReceiverList{2a1956a9 1536 system/1000/u0 local:1924fa30}}
+    Receiver #2: BroadcastFilter{2c303054 u0 ReceiverList{2c8bd3a7 1536 system/1000/u0 local:209b7466}}
+    Receiver #3: BroadcastFilter{114e3f2e u0 ReceiverList{1093cda9 1641 com.android.systemui/10012/u0 remote:31b2ed30}}
+    Receiver #4: BroadcastFilter{2cab57d8 u0 ReceiverList{12afc74a 1641 com.android.systemui/10012/u0 remote:83c34b5}}
+    Receiver #5: ResolveInfo{34a03c23 android/com.android.server.BootReceiver p=1000 m=0x108000}
+      priority=1000 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.server.BootReceiver
+        packageName=android
+        enabled=true exported=true processName=system
+        taskAffinity=android targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        launchMode=0 flags=0x20000000 theme=0x0
+        ApplicationInfo:
+          packageName=android
+          labelRes=0x1040110 nonLocalizedLabel=null icon=0x108036e banner=0x0
+          processName=system
+          taskAffinity=android
+          uid=1000 flags=0x40c8be09 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/framework/framework-res.apk
+          seinfo=platform
+          dataDir=/data/system
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=true
+    Receiver #6: ResolveInfo{209e7520 com.android.systemui/.BootReceiver p=1000 m=0x108000}
+      priority=1000 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.systemui.BootReceiver
+        packageName=com.android.systemui
+        enabled=true exported=true processName=com.android.systemui
+        taskAffinity=com.android.systemui targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        launchMode=0 flags=0x20000000 theme=0x0
+        ApplicationInfo:
+          packageName=com.android.systemui
+          labelRes=0x7f0c0008 nonLocalizedLabel=null icon=0x7f0200ca banner=0x0
+          className=com.android.systemui.SystemUIApplication
+          processName=com.android.systemui
+          taskAffinity=com.android.systemui
+          uid=10012 flags=0x40c83e0d theme=0x7f0b0029
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/SystemUI/SystemUI.apk
+          seinfo=platform
+          dataDir=/data/data/com.android.systemui
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=true
+    Receiver #7: ResolveInfo{21e7ced9 com.android.dialer/.calllog.CallLogReceiver p=100 m=0x108000}
+      priority=100 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.dialer.calllog.CallLogReceiver
+        packageName=com.android.dialer
+        enabled=true exported=true processName=com.android.dialer
+        taskAffinity=com.android.dialer targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.dialer
+          labelRes=0x7f0a01c2 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.android.dialer.DialerApplication
+          processName=com.android.dialer
+          taskAffinity=com.android.dialer
+          uid=10004 flags=0x40c9be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Dialer/Dialer.apk
+          seinfo=default
+          dataDir=/data/data/com.android.dialer
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=true
+    Receiver #8: ResolveInfo{258f609e com.android.phone/.OtaStartupReceiver p=100 m=0x108000}
+      priority=100 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.phone.OtaStartupReceiver
+        packageName=com.android.phone
+        enabled=true exported=false processName=com.android.phone
+        taskAffinity=com.android.phone targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        launchMode=0 flags=0x20000000 theme=0x0
+        ApplicationInfo:
+          packageName=com.android.phone
+          labelRes=0x7f08008c nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.android.phone.PhoneApp
+          processName=com.android.phone
+          taskAffinity=com.android.phone
+          uid=1001 flags=0x40c83e4d theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/TeleService/TeleService.apk
+          seinfo=platform
+          dataDir=/data/data/com.android.phone
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=true
+    Receiver #9: BroadcastFilter{5e320d u0 ReceiverList{1af854a4 1536 system/1000/u0 local:38a79737}}
+    Receiver #10: BroadcastFilter{35dfc316 u0 ReceiverList{14bad031 1536 system/1000/u0 local:28b1c4d8}}
+    Receiver #11: BroadcastFilter{174326ea u0 ReceiverList{39c8ced5 1536 system/1000/u0 local:1c7bc78c}}
+    Receiver #12: ResolveInfo{5b0777f com.android.providers.calendar/.CalendarReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.providers.calendar.CalendarReceiver
+        packageName=com.android.providers.calendar
+        enabled=true exported=true processName=com.android.providers.calendar
+        taskAffinity=com.android.providers.calendar targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.providers.calendar
+          labelRes=0x7f050000 nonLocalizedLabel=null icon=0x7f020000 banner=0x0
+          processName=com.android.providers.calendar
+          taskAffinity=com.android.providers.calendar
+          uid=10001 flags=0x40883e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/CalendarProvider/CalendarProvider.apk
+          seinfo=default
+          dataDir=/data/data/com.android.providers.calendar
+          sharedLibraryFiles=[Ljava.lang.String;@1bc5c34c
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=false
+    Receiver #13: ResolveInfo{2d7d7f95 com.android.providers.downloads/.DownloadReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.providers.downloads.DownloadReceiver
+        packageName=com.android.providers.downloads
+        enabled=true exported=false processName=android.process.media
+        taskAffinity=com.android.providers.downloads targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.providers.downloads
+          labelRes=0x7f030000 nonLocalizedLabel=null icon=0x7f020000 banner=0x0
+          processName=android.process.media
+          taskAffinity=com.android.providers.downloads
+          uid=10005 flags=0x40883e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/DownloadProvider/DownloadProvider.apk
+          seinfo=default
+          dataDir=/data/data/com.android.providers.downloads
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=false
+    Receiver #14: ResolveInfo{1d8ce8aa com.android.managedprovisioning/.BootReminder m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.managedprovisioning.BootReminder
+        packageName=com.android.managedprovisioning
+        enabled=true exported=true processName=com.android.managedprovisioning
+        taskAffinity=com.android.managedprovisioning targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.managedprovisioning
+          labelRes=0x7f070000 nonLocalizedLabel=null icon=0x0 banner=0x0
+          processName=com.android.managedprovisioning
+          taskAffinity=com.android.managedprovisioning
+          uid=10008 flags=0x4088be05 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/ManagedProvisioning/ManagedProvisioning.apk
+          seinfo=platform
+          dataDir=/data/data/com.android.managedprovisioning
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=false
+    Receiver #15: ResolveInfo{215f0c9b com.android.providers.media/.MediaScannerReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.providers.media.MediaScannerReceiver
+        packageName=com.android.providers.media
+        enabled=true exported=true processName=android.process.media
+        taskAffinity=com.android.providers.media targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.providers.media
+          labelRes=0x7f050001 nonLocalizedLabel=null icon=0x0 banner=0x0
+          processName=android.process.media
+          taskAffinity=com.android.providers.media
+          uid=10005 flags=0x40c8be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/MediaProvider/MediaProvider.apk
+          seinfo=default
+          dataDir=/data/data/com.android.providers.media
+          enabled=true targetSdkVersion=22 versionCode=800
+          supportsRtl=true
+    Receiver #16: ResolveInfo{631c838 com.android.providers.media/.MtpReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.providers.media.MtpReceiver
+        packageName=com.android.providers.media
+        enabled=true exported=true processName=android.process.media
+        taskAffinity=com.android.providers.media targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.providers.media
+          labelRes=0x7f050001 nonLocalizedLabel=null icon=0x0 banner=0x0
+          processName=android.process.media
+          taskAffinity=com.android.providers.media
+          uid=10005 flags=0x40c8be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/MediaProvider/MediaProvider.apk
+          seinfo=default
+          dataDir=/data/data/com.android.providers.media
+          enabled=true targetSdkVersion=22 versionCode=800
+          supportsRtl=true
+    Receiver #17: ResolveInfo{21838011 com.android.mms/.transaction.MmsSystemEventReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.mms.transaction.MmsSystemEventReceiver
+        packageName=com.android.mms
+        enabled=true exported=true processName=com.android.mms
+        taskAffinity=android.task.mms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        launchMode=0 flags=0x40 theme=0x0
+        ApplicationInfo:
+          packageName=com.android.mms
+          labelRes=0x7f090000 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.android.mms.MmsApp
+          processName=com.android.mms
+          taskAffinity=android.task.mms
+          uid=10009 flags=0x4088be65 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Mms/Mms.apk
+          seinfo=default
+          dataDir=/data/data/com.android.mms
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=false
+    Receiver #18: ResolveInfo{3428e576 com.android.mms/.transaction.SmsReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.mms.transaction.SmsReceiver
+        packageName=com.android.mms
+        enabled=true exported=true processName=com.android.mms
+        permission=android.permission.SEND_SMS
+        taskAffinity=android.task.mms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        launchMode=0 flags=0x40 theme=0x0
+        ApplicationInfo:
+          packageName=com.android.mms
+          labelRes=0x7f090000 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.android.mms.MmsApp
+          processName=com.android.mms
+          taskAffinity=android.task.mms
+          uid=10009 flags=0x4088be65 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Mms/Mms.apk
+          seinfo=default
+          dataDir=/data/data/com.android.mms
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=false
+    Receiver #19: ResolveInfo{1a97d777 com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms.persistent
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #20: ResolveInfo{33572fe4 com.google.android.gms/.auth.setup.notification.PersistentNotificationBroadcastReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.auth.setup.notification.PersistentNotificationBroadcastReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms.persistent
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #21: ResolveInfo{1b0f0c4d com.google.android.gms/.games.chimera.GamesSystemBroadcastReceiverProxy m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.games.chimera.GamesSystemBroadcastReceiverProxy
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #22: ResolveInfo{2bb5e302 com.android.settings/.sim.SimBootReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.settings.sim.SimBootReceiver
+        packageName=com.android.settings
+        enabled=true exported=true processName=com.android.settings
+        taskAffinity=null targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.settings
+          labelRes=0x7f090103 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          processName=com.android.settings
+          taskAffinity=null
+          uid=1000 flags=0x40c83e45 theme=0x7f0a0042
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Settings/Settings.apk
+          seinfo=platform
+          dataDir=/data/data/com.android.settings
+          enabled=true targetSdkVersion=22 versionCode=22
+          supportsRtl=true
+    Receiver #23: ResolveInfo{1d287413 com.google.android.googlequicksearchbox/com.google.android.search.core.StartUpReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.search.core.StartUpReceiver
+        packageName=com.google.android.googlequicksearchbox
+        enabled=true exported=true processName=com.google.android.googlequicksearchbox:search
+        taskAffinity=com.google.android.googlequicksearchbox targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.googlequicksearchbox
+          labelRes=0x7f0b0611 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.google.android.velvet.VelvetApplication
+          processName=com.google.android.googlequicksearchbox
+          taskAffinity=com.google.android.googlequicksearchbox
+          uid=10013 flags=0x40dbbe45 theme=0x7f0e018f
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Velvet/Velvet.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.googlequicksearchbox
+          enabled=true targetSdkVersion=21 versionCode=300401291
+          manageSpaceActivityName=com.google.android.managespace.VelvetManageSpaceActivity
+          supportsRtl=true
+    Receiver #24: ResolveInfo{17496650 com.google.android.googlequicksearchbox/.GelStubAppWatcher m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.googlequicksearchbox.GelStubAppWatcher
+        packageName=com.google.android.googlequicksearchbox
+        enabled=true exported=true processName=com.google.android.googlequicksearchbox:search
+        taskAffinity=com.google.android.googlequicksearchbox targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.googlequicksearchbox
+          labelRes=0x7f0b0611 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.google.android.velvet.VelvetApplication
+          processName=com.google.android.googlequicksearchbox
+          taskAffinity=com.google.android.googlequicksearchbox
+          uid=10013 flags=0x40dbbe45 theme=0x7f0e018f
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Velvet/Velvet.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.googlequicksearchbox
+          enabled=true targetSdkVersion=21 versionCode=300401291
+          manageSpaceActivityName=com.google.android.managespace.VelvetManageSpaceActivity
+          supportsRtl=true
+    Receiver #25: ResolveInfo{394d2049 com.google.android.googlequicksearchbox/com.android.launcher3.StartupReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.launcher3.StartupReceiver
+        packageName=com.google.android.googlequicksearchbox
+        enabled=false exported=true processName=com.google.android.googlequicksearchbox
+        taskAffinity=com.google.android.googlequicksearchbox targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.googlequicksearchbox
+          labelRes=0x7f0b0611 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.google.android.velvet.VelvetApplication
+          processName=com.google.android.googlequicksearchbox
+          taskAffinity=com.google.android.googlequicksearchbox
+          uid=10013 flags=0x40dbbe45 theme=0x7f0e018f
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Velvet/Velvet.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.googlequicksearchbox
+          enabled=true targetSdkVersion=21 versionCode=300401291
+          manageSpaceActivityName=com.google.android.managespace.VelvetManageSpaceActivity
+          supportsRtl=true
+    Receiver #26: ResolveInfo{27232d4e com.android.calendar/.alerts.AlertReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.calendar.alerts.AlertReceiver
+        packageName=com.android.calendar
+        enabled=true exported=true processName=com.android.calendar
+        taskAffinity=android.task.calendar targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.calendar
+          labelRes=0x7f0c0000 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          className=com.android.calendar.CalendarApplication
+          processName=com.android.calendar
+          taskAffinity=android.task.calendar
+          uid=10018 flags=0x89be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/Calendar/Calendar.apk
+          seinfo=default
+          dataDir=/data/data/com.android.calendar
+          enabled=true targetSdkVersion=18 versionCode=22
+          supportsRtl=false
+    Receiver #27: ResolveInfo{3a1c3e6f com.android.deskclock/.AlarmInitReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.deskclock.AlarmInitReceiver
+        packageName=com.android.deskclock
+        enabled=true exported=true processName=com.android.deskclock
+        taskAffinity=com.android.deskclock targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.deskclock
+          labelRes=0x7f0e0003 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          processName=com.android.deskclock
+          taskAffinity=com.android.deskclock
+          uid=10022 flags=0xc8be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/DeskClock/DeskClock.apk
+          seinfo=default
+          dataDir=/data/data/com.android.deskclock
+          enabled=true targetSdkVersion=22 versionCode=303
+          supportsRtl=true
+    Receiver #28: ResolveInfo{11e6977c com.android.email/.service.EmailBroadcastReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.email.service.EmailBroadcastReceiver
+        packageName=com.android.email
+        enabled=true exported=true processName=com.android.email
+        taskAffinity=com.android.email targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.email
+          labelRes=0x7f090056 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.android.email.EmailApplication
+          processName=com.android.email
+          taskAffinity=com.android.email
+          uid=10026 flags=0xc83e45 theme=0x7f0b01b4
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/Email/Email.apk
+          seinfo=default
+          dataDir=/data/data/com.android.email
+          enabled=true targetSdkVersion=21 versionCode=7008110
+          supportsRtl=true
+    Receiver #29: ResolveInfo{73e7805 com.android.inputmethod.latin/.SystemBroadcastReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.inputmethod.latin.SystemBroadcastReceiver
+        packageName=com.android.inputmethod.latin
+        enabled=true exported=true processName=com.android.inputmethod.latin
+        taskAffinity=com.android.inputmethod.latin targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.inputmethod.latin
+          labelRes=0x7f0a0037 nonLocalizedLabel=null icon=0x7f02007e banner=0x0
+          processName=com.android.inputmethod.latin
+          taskAffinity=com.android.inputmethod.latin
+          uid=10032 flags=0xc8be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/LatinIME/LatinIME.apk
+          seinfo=default
+          dataDir=/data/data/com.android.inputmethod.latin
+          enabled=true targetSdkVersion=19 versionCode=22
+          supportsRtl=true
+    Receiver #30: ResolveInfo{3708d05a com.google.android.apps.maps/com.google.android.apps.gmm.iamhere.ble.StartBleServiceReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.apps.gmm.iamhere.ble.StartBleServiceReceiver
+        packageName=com.google.android.apps.maps
+        enabled=true exported=true processName=com.google.android.apps.maps
+        taskAffinity=com.google.android.apps.maps targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.apps.maps
+          labelRes=0x7f0b0087 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          className=com.google.android.apps.gmm.base.app.GoogleMapsApplication
+          processName=com.google.android.apps.maps
+          taskAffinity=com.google.android.apps.maps
+          uid=10036 flags=0xd83e45 theme=0x7f0e020e
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/Maps/Maps.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.apps.maps
+          enabled=true targetSdkVersion=17 versionCode=903008020
+          supportsRtl=true
+  Active Ordered Broadcast background #9:
+    BroadcastRecord{1dd8528b u-1 android.intent.action.SIM_STATE_CHANGED} to user -1
+    Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x4000010 (has extras) }
+      extras: Bundle[mParcelledData.dataSize=192]
+    caller=null null pid=1802 uid=1001
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    resultAbort=false ordered=false sticky=true initialSticky=false
+    Receiver #0: ResolveInfo{c3af68 com.google.android.gms/.checkin.CheckinServiceTriggerReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.checkin.CheckinServiceTriggerReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+  Active Ordered Broadcast background #8:
+    BroadcastRecord{5338f81 u-1 android.intent.action.TIME_SET} to user -1
+    Intent { act=android.intent.action.TIME_SET flg=0x24000010 }
+    caller=android 1536:system/1000 pid=1536 uid=1000
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    Receiver #0: ResolveInfo{2b739826 com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms.persistent
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #1: ResolveInfo{bf78c67 com.google.android.gms/.clearcut.receiver.WallClockChangedReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.clearcut.receiver.WallClockChangedReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms.persistent
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #2: ResolveInfo{3d85a14 com.google.android.gms/.checkin.EventLogServiceReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.checkin.EventLogServiceReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #3: ResolveInfo{e08a2bd com.android.calendar/.widget.CalendarAppWidgetService$CalendarFactory m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.calendar.widget.CalendarAppWidgetService$CalendarFactory
+        packageName=com.android.calendar
+        enabled=true exported=true processName=com.android.calendar
+        taskAffinity=android.task.calendar targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.calendar
+          labelRes=0x7f0c0000 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          className=com.android.calendar.CalendarApplication
+          processName=com.android.calendar
+          taskAffinity=android.task.calendar
+          uid=10018 flags=0x89be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/Calendar/Calendar.apk
+          seinfo=default
+          dataDir=/data/data/com.android.calendar
+          enabled=true targetSdkVersion=18 versionCode=22
+          supportsRtl=false
+    Receiver #4: ResolveInfo{367110b2 com.android.deskclock/.AlarmInitReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.deskclock.AlarmInitReceiver
+        packageName=com.android.deskclock
+        enabled=true exported=true processName=com.android.deskclock
+        taskAffinity=com.android.deskclock targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.deskclock
+          labelRes=0x7f0e0003 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          processName=com.android.deskclock
+          taskAffinity=com.android.deskclock
+          uid=10022 flags=0xc8be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/DeskClock/DeskClock.apk
+          seinfo=default
+          dataDir=/data/data/com.android.deskclock
+          enabled=true targetSdkVersion=22 versionCode=303
+          supportsRtl=true
+    Receiver #5: ResolveInfo{3ce68803 com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.alarmclock.DigitalAppWidgetProvider
+        packageName=com.android.deskclock
+        labelRes=0x7f0e009f nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+        enabled=true exported=true processName=com.android.deskclock
+        taskAffinity=com.android.deskclock targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.android.deskclock
+          labelRes=0x7f0e0003 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          processName=com.android.deskclock
+          taskAffinity=com.android.deskclock
+          uid=10022 flags=0xc8be45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/DeskClock/DeskClock.apk
+          seinfo=default
+          dataDir=/data/data/com.android.deskclock
+          enabled=true targetSdkVersion=22 versionCode=303
+          supportsRtl=true
+  Active Ordered Broadcast background #7:
+    BroadcastRecord{20eb0380 u-1 android.intent.action.SIM_STATE_CHANGED} to user -1
+    Intent { act=android.intent.action.SIM_STATE_CHANGED flg=0x4000010 (has extras) }
+      extras: Bundle[mParcelledData.dataSize=200]
+    caller=null null pid=1802 uid=1001
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    resultAbort=false ordered=false sticky=true initialSticky=false
+    Receiver #0: ResolveInfo{1421adb9 com.google.android.gms/.checkin.CheckinServiceTriggerReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.checkin.CheckinServiceTriggerReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+  Active Ordered Broadcast background #6:
+    BroadcastRecord{2b5b85fe u-1 android.media.AUDIO_BECOMING_NOISY} to user -1
+    Intent { act=android.media.AUDIO_BECOMING_NOISY flg=0x4000010 }
+    caller=android 1536:system/1000 pid=1536 uid=1000
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    Receiver #0: ResolveInfo{393fa15f com.android.music/.MediaButtonIntentReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.android.music.MediaButtonIntentReceiver
+        packageName=com.android.music
+        enabled=true exported=true processName=com.android.music
+        taskAffinity=android.task.music targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        launchMode=0 flags=0x40 theme=0x0
+        ApplicationInfo:
+          packageName=com.android.music
+          labelRes=0x7f070050 nonLocalizedLabel=null icon=0x7f020003 banner=0x0
+          processName=com.android.music
+          taskAffinity=android.task.music
+          uid=10037 flags=0x88be65 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/Music/Music.apk
+          seinfo=default
+          dataDir=/data/data/com.android.music
+          enabled=true targetSdkVersion=9 versionCode=22
+          supportsRtl=false
+  Active Ordered Broadcast background #5:
+    BroadcastRecord{31bcd7ac u0 android.appwidget.action.APPWIDGET_UPDATE} to user 0
+    Intent { act=android.appwidget.action.APPWIDGET_UPDATE flg=0x10 cmp=com.google.android.googlequicksearchbox/.SearchWidgetProvider (has extras) }
+      extras: Bundle[{appWidgetIds=[I@32266c75}]
+    caller=android 1536:system/1000 pid=1536 uid=1000
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    Receiver #0: ResolveInfo{26e6040a com.google.android.googlequicksearchbox/.SearchWidgetProvider m=0x0}
+      priority=0 preferredOrder=0 match=0x0 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.googlequicksearchbox.SearchWidgetProvider
+        packageName=com.google.android.googlequicksearchbox
+        labelRes=0x7f0b0611 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.google.android.googlequicksearchbox:search
+        taskAffinity=com.google.android.googlequicksearchbox targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.googlequicksearchbox
+          labelRes=0x7f0b0611 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.google.android.velvet.VelvetApplication
+          processName=com.google.android.googlequicksearchbox
+          taskAffinity=com.google.android.googlequicksearchbox
+          uid=10013 flags=0x40dbbe45 theme=0x7f0e018f
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Velvet/Velvet.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.googlequicksearchbox
+          enabled=true targetSdkVersion=21 versionCode=300401291
+          manageSpaceActivityName=com.google.android.managespace.VelvetManageSpaceActivity
+          supportsRtl=true
+  Active Ordered Broadcast background #4:
+    BroadcastRecord{ee6f47b u0 android.appwidget.action.APPWIDGET_ENABLED} to user 0
+    Intent { act=android.appwidget.action.APPWIDGET_ENABLED flg=0x10 cmp=com.google.android.googlequicksearchbox/.SearchWidgetProvider }
+    caller=android 1536:system/1000 pid=1536 uid=1000
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    Receiver #0: ResolveInfo{8f5c298 com.google.android.googlequicksearchbox/.SearchWidgetProvider m=0x0}
+      priority=0 preferredOrder=0 match=0x0 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.googlequicksearchbox.SearchWidgetProvider
+        packageName=com.google.android.googlequicksearchbox
+        labelRes=0x7f0b0611 nonLocalizedLabel=null icon=0x0 banner=0x0
+        enabled=true exported=true processName=com.google.android.googlequicksearchbox:search
+        taskAffinity=com.google.android.googlequicksearchbox targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.googlequicksearchbox
+          labelRes=0x7f0b0611 nonLocalizedLabel=null icon=0x7f030001 banner=0x0
+          className=com.google.android.velvet.VelvetApplication
+          processName=com.google.android.googlequicksearchbox
+          taskAffinity=com.google.android.googlequicksearchbox
+          uid=10013 flags=0x40dbbe45 theme=0x7f0e018f
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/Velvet/Velvet.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.googlequicksearchbox
+          enabled=true targetSdkVersion=21 versionCode=300401291
+          manageSpaceActivityName=com.google.android.managespace.VelvetManageSpaceActivity
+          supportsRtl=true
+  Active Ordered Broadcast background #3:
+    BroadcastRecord{b7e5af1 u0 android.content.jobscheduler.JOB_DELAY_EXPIRED} to user 0
+    Intent { act=android.content.jobscheduler.JOB_DELAY_EXPIRED flg=0x14 (has extras) }
+      extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+    caller=android null pid=-1 uid=1000
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    resultTo=android.app.PendingIntent$FinishedDispatcher@2be856d6 resultCode=0 resultData=null
+    resultAbort=false ordered=true sticky=false initialSticky=false
+    Receiver #0: BroadcastFilter{258e4305 u0 ReceiverList{39baae7c 1536 system/1000/u0 local:e6516f}}
+  Active Ordered Broadcast background #2:
+    BroadcastRecord{3be65d57 u-1 android.intent.action.USER_STARTING} to user -1
+    Intent { act=android.intent.action.USER_STARTING flg=0x40000010 (has extras) }
+      extras: Bundle[{android.intent.extra.user_handle=0}]
+    caller=null null pid=1536 uid=1000
+    requiredPermission=android.permission.INTERACT_ACROSS_USERS  appOp=-1
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    resultTo=com.android.server.am.ActivityManagerService$15@39d07044 resultCode=0 resultData=null
+    resultAbort=false ordered=true sticky=false initialSticky=false
+    Receiver #0: BroadcastFilter{32edc023 u-1 ReceiverList{36ef9552 1536 system/1000/u-1 local:3b51d5dd}}
+    Receiver #1: BroadcastFilter{27e7a793 u-1 ReceiverList{24ebb482 1536 system/1000/u-1 local:3a1b33cd}}
+    Receiver #2: BroadcastFilter{af2c192 u-1 ReceiverList{4710b1d 1536 system/1000/u-1 local:39a7f4}}
+  Active Ordered Broadcast background #1:
+    BroadcastRecord{388cb52d u-1 android.location.MODE_CHANGED} to user -1
+    Intent { act=android.location.MODE_CHANGED flg=0x10 }
+    caller=android 1536:system/1000 pid=1536 uid=1000
+    dispatchClockTime=Thu Jan 01 01:00:00 GMT+01:00 1970
+    dispatchTime=-- receiverTime=--
+    Receiver #0: ResolveInfo{eb0a62 com.google.android.apps.maps/com.google.android.apps.gmm.iamhere.ble.StartBleServiceReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.apps.gmm.iamhere.ble.StartBleServiceReceiver
+        packageName=com.google.android.apps.maps
+        enabled=true exported=true processName=com.google.android.apps.maps
+        taskAffinity=com.google.android.apps.maps targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.apps.maps
+          labelRes=0x7f0b0087 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          className=com.google.android.apps.gmm.base.app.GoogleMapsApplication
+          processName=com.google.android.apps.maps
+          taskAffinity=com.google.android.apps.maps
+          uid=10036 flags=0xd83e45 theme=0x7f0e020e
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/Maps/Maps.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.apps.maps
+          enabled=true targetSdkVersion=17 versionCode=903008020
+          supportsRtl=true
+  Active Ordered Broadcast background #0:
+    BroadcastRecord{2b0977f3 u-1 android.location.PROVIDERS_CHANGED} to user -1
+    Intent { act=android.location.PROVIDERS_CHANGED flg=0x10 cmp=com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver }
+    caller=android 1536:system/1000 pid=1536 uid=1000
+    dispatchClockTime=Sun Jul 23 21:09:16 GMT+02:00 2017
+    dispatchTime=-3s436ms receiverTime=-3s436ms
+    nextReceiver=1 receiver=android.os.BinderProxy@2e864cb0
+    curReceiver=ActivityInfo{3aac7729 com.google.android.gms.chimera.GmsIntentOperationService$PersistentTrustedReceiver}
+    curApp=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    curComponent={com.google.android.gms/com.google.android.gms.chimera.GmsIntentOperationService$PersistentTrustedReceiver}
+    curSourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    state=1 (APP_RECEIVE)
+    Receiver #0: ResolveInfo{1a736aae com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.gms.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=true processName=com.google.android.gms.persistent
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #1: ResolveInfo{1e39a04f com.google.android.gms/com.google.android.location.internal.NlpNetworkProviderSettingsUpdateReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.location.internal.NlpNetworkProviderSettingsUpdateReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=false processName=com.google.android.gms.persistent
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #2: ResolveInfo{397b83dc com.google.android.gms/com.google.android.location.network.LocationProviderChangeReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.location.network.LocationProviderChangeReceiver
+        packageName=com.google.android.gms
+        enabled=true exported=false processName=com.google.android.gms.persistent
+        taskAffinity=com.google.android.gms targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.gms
+          labelRes=0x7e12003a nonLocalizedLabel=null icon=0x7f0200e8 banner=0x0
+          className=com.google.android.gms.common.app.GmsApplication
+          processName=com.google.android.gms
+          taskAffinity=com.google.android.gms
+          uid=10007 flags=0xc0c83e45 theme=0x0
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.gms
+          sharedLibraryFiles=[Ljava.lang.String;@1e2d3ec6
+          enabled=true targetSdkVersion=23 versionCode=10298270
+          manageSpaceActivityName=com.google.android.gms.app.settings.ManageSpaceActivity
+          supportsRtl=true
+    Receiver #3: ResolveInfo{33ec5ce5 com.google.android.apps.maps/com.google.android.apps.gmm.iamhere.ble.StartBleServiceReceiver m=0x108000}
+      priority=0 preferredOrder=0 match=0x108000 specificIndex=-1 isDefault=false
+      ActivityInfo:
+        name=com.google.android.apps.gmm.iamhere.ble.StartBleServiceReceiver
+        packageName=com.google.android.apps.maps
+        enabled=true exported=true processName=com.google.android.apps.maps
+        taskAffinity=com.google.android.apps.maps targetActivity=null persistableMode=PERSIST_ROOT_ONLY
+        ApplicationInfo:
+          packageName=com.google.android.apps.maps
+          labelRes=0x7f0b0087 nonLocalizedLabel=null icon=0x7f030000 banner=0x0
+          className=com.google.android.apps.gmm.base.app.GoogleMapsApplication
+          processName=com.google.android.apps.maps
+          taskAffinity=com.google.android.apps.maps
+          uid=10036 flags=0xd83e45 theme=0x7f0e020e
+          requiresSmallestWidthDp=0 compatibleWidthLimitDp=0 largestWidthLimitDp=0
+          sourceDir=/system/app/Maps/Maps.apk
+          seinfo=default
+          dataDir=/data/data/com.google.android.apps.maps
+          enabled=true targetSdkVersion=17 versionCode=903008020
+          supportsRtl=true
+
+  Pending broadcast [background]:
+    (null)
+
+  Historical broadcasts [background]:
+  #0: BroadcastRecord{1e0f83ba u-1 android.intent.action.SIM_STATE_CHANGED}
+    act=android.intent.action.SIM_STATE_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=196]
+  #1: BroadcastRecord{2299f26b u-1 android.intent.action.ACTION_DEFAULT_VOICE_SUBSCRIPTION_CHANGED}
+    act=android.intent.action.ACTION_DEFAULT_VOICE_SUBSCRIPTION_CHANGED flg=0x20000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=44]
+  #2: BroadcastRecord{d2b01c8 u-1 android.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGED}
+    act=android.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGED flg=0x20000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=44]
+  #3: BroadcastRecord{1e8ae261 u-1 android.intent.action.ACTION_DEFAULT_SUBSCRIPTION_CHANGED}
+    act=android.intent.action.ACTION_DEFAULT_SUBSCRIPTION_CHANGED flg=0x20000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=92]
+  #4: BroadcastRecord{a222186 u-1 android.intent.action.internal_sim_state_changed}
+    act=android.intent.action.internal_sim_state_changed flg=0x24000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=132]
+  #5: BroadcastRecord{2a634a47 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=ims, apn=null, state=DISCONNECTED, subscription=-2}]
+  #6: BroadcastRecord{6d27274 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=hipri, apn=null, state=DISCONNECTED, subscription=-2}]
+  #7: BroadcastRecord{32439d u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=emergency, apn=null, state=DISCONNECTED, subscription=-2}]
+  #8: BroadcastRecord{e6ed012 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=ia, apn=null, state=DISCONNECTED, subscription=-2}]
+  #9: BroadcastRecord{288043e3 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=supl, apn=null, state=DISCONNECTED, subscription=-2}]
+  #10: BroadcastRecord{37de41e0 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=fota, apn=null, state=DISCONNECTED, subscription=-2}]
+  #11: BroadcastRecord{14f47c99 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=cbs, apn=null, state=DISCONNECTED, subscription=-2}]
+  #12: BroadcastRecord{2165db5e u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=mms, apn=null, state=DISCONNECTED, subscription=-2}]
+  #13: BroadcastRecord{9e93b3f u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=simLoaded, apnType=default, apn=null, state=DISCONNECTED, subscription=-2}]
+  #14: BroadcastRecord{1a159c0c u-1 android.intent.action.SERVICE_STATE}
+    act=android.intent.action.SERVICE_STATE flg=0x10 (has extras)
+    extras: Bundle[{radioTechnology=0, data-operator-alpha-long=Android, operator-alpha-long=Android, operator-numeric=310260, manual=false, cdmaDefaultRoamingIndicator=-1, cssIndicator=false, emergencyOnly=false, subscription=-2, data-operator-numeric=310260, dataRegState=0, dataRoamingType=0, voiceRegState=0, dataRadioTechnology=14, cdmaRoamingIndicator=-1, voiceRoamingType=0, data-operator-alpha-short=Android, systemId=-1, networkId=-1, operator-alpha-short=Android}]
+  #15: BroadcastRecord{2e074955 u-1 android.provider.Telephony.SPN_STRINGS_UPDATED}
+    act=android.provider.Telephony.SPN_STRINGS_UPDATED flg=0x20000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=208]
+  #16: BroadcastRecord{1e304f6a u-1 android.intent.action.SIM_STATE_CHANGED}
+    act=android.intent.action.SIM_STATE_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=192]
+  #17: BroadcastRecord{28c04c5b u-1 android.intent.action.SIM_STATE_CHANGED}
+    act=android.intent.action.SIM_STATE_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=192]
+  #18: BroadcastRecord{1a866cf8 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=ims, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #19: BroadcastRecord{4025d1 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=hipri, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #20: BroadcastRecord{377bf836 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=emergency, apn=null, state=DISCONNECTED, subscription=-2}]
+  #21: BroadcastRecord{152d5337 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=ia, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #22: BroadcastRecord{273160a4 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=supl, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #23: BroadcastRecord{1e504e0d u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=fota, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #24: BroadcastRecord{b0761c2 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=cbs, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #25: BroadcastRecord{ff9ebd3 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=mms, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #26: BroadcastRecord{2b75e310 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataAttached, apnType=default, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #27: BroadcastRecord{1ac0be09 u-1 android.intent.action.SERVICE_STATE}
+    act=android.intent.action.SERVICE_STATE flg=0x10 (has extras)
+    extras: Bundle[{radioTechnology=0, data-operator-alpha-long=Android, operator-alpha-long=Android, operator-numeric=310260, manual=false, cdmaDefaultRoamingIndicator=0, cssIndicator=false, emergencyOnly=false, subscription=-2, data-operator-numeric=310260, dataRegState=0, dataRoamingType=0, voiceRegState=0, dataRadioTechnology=14, cdmaRoamingIndicator=0, voiceRoamingType=0, data-operator-alpha-short=Android, systemId=0, networkId=0, operator-alpha-short=Android}]
+  #28: BroadcastRecord{21edd80e u-1 android.provider.Telephony.SPN_STRINGS_UPDATED}
+    act=android.provider.Telephony.SPN_STRINGS_UPDATED flg=0x20000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=216]
+  #29: BroadcastRecord{12ed722f u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=ims, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #30: BroadcastRecord{273e203c u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=hipri, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #31: BroadcastRecord{dae31c5 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=emergency, apn=null, state=DISCONNECTED, subscription=-2}]
+  #32: BroadcastRecord{29b3671a u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=ia, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #33: BroadcastRecord{2e9024b u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=supl, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #34: BroadcastRecord{ceb0428 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=fota, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #35: BroadcastRecord{3a452541 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=cbs, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #36: BroadcastRecord{3210dae6 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=mms, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #37: BroadcastRecord{27c37827 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=roamingOff, apnType=default, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #38: BroadcastRecord{12003ad4 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=ims, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #39: BroadcastRecord{ffdd47d u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=hipri, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #40: BroadcastRecord{3b7fbf72 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=emergency, apn=null, state=DISCONNECTED, subscription=-2}]
+  #41: BroadcastRecord{5e56fc3 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=ia, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #42: BroadcastRecord{1e903040 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=supl, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #43: BroadcastRecord{3983b79 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=fota, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #44: BroadcastRecord{228660be u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=cbs, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #45: BroadcastRecord{35a5451f u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=mms, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #46: BroadcastRecord{768106c u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=dataDetached, apnType=default, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #47: BroadcastRecord{3bd81635 u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=radioTurnedOff, apnType=ims, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #48: BroadcastRecord{33c3caca u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=radioTurnedOff, apnType=hipri, networkUnvailable=true, apn=null, state=DISCONNECTED, subscription=-2}]
+  #49: BroadcastRecord{1463143b u-1 android.intent.action.ANY_DATA_STATE}
+    act=android.intent.action.ANY_DATA_STATE flg=0x10 (has extras)
+    extras: Bundle[{reason=radioTurnedOff, apnType=emergency, apn=null, state=DISCONNECTED, subscription=-2}]
+  ...
+
+  Sticky broadcasts for user -1:
+  * Sticky action android.intent.action.SERVICE_STATE
+  * Sticky action android.intent.action.ACTION_DEFAULT_SMS_SUBSCRIPTION_CHANGED
+  * Sticky action android.media.ACTION_SCO_AUDIO_STATE_UPDATED
+  * Sticky action android.intent.action.NETWORK_SET_TIME
+  * Sticky action android.intent.action.BATTERY_CHANGED
+  * Sticky action android.intent.action.ACTION_DEFAULT_SUBSCRIPTION_CHANGED
+  * Sticky action android.intent.action.ACTION_DEFAULT_VOICE_SUBSCRIPTION_CHANGED
+  * Sticky action android.intent.action.NETWORK_SET_TIMEZONE
+  * Sticky action android.intent.action.ANY_DATA_STATE
+  * Sticky action android.provider.Telephony.SPN_STRINGS_UPDATED
+  * Sticky action android.net.nsd.STATE_CHANGED
+  * Sticky action android.intent.action.SIM_STATE_CHANGED
+  * Sticky action android.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGED
+  * Sticky action android.media.INTERNAL_RINGER_MODE_CHANGED_ACTION
+  * Sticky action android.media.SCO_AUDIO_STATE_CHANGED
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * Sticky action android.intent.action.internal_sim_state_changed
+  * Sticky action android.media.MASTER_MUTE_CHANGED_ACTION
+  * Sticky action wifi_scan_available
+  * Sticky action android.intent.action.HDMI_PLUGGED
+  * Sticky action android.media.RINGER_MODE_CHANGED
+
+ACTIVITY MANAGER CONTENT PROVIDERS (dumpsys activity providers)
+  Published single-user content providers (by class):
+  * ContentProviderRecord{3efbc758 u0 com.android.providers.telephony/.TelephonyProvider}
+    proc=ProcessRecord{e00e0b1 1802:com.android.phone/1001}
+    singleton=true
+    authority=telephony
+  * ContentProviderRecord{34bbc996 u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    proc=ProcessRecord{e00e0b1 1802:com.android.phone/1001}
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{2b64b917 u0 com.android.providers.settings/.SettingsProvider}
+    proc=ProcessRecord{1a5111ff 1536:system/1000}
+    singleton=true
+    authority=settings
+    7 connections, 0 external handles
+      -> 1641:com.android.systemui/u0a12 s1/1 u0/0 +4s642ms
+      -> 1802:com.android.phone/1001 s1/1 u0/0 +3s565ms
+      -> 1733:com.android.inputmethod.latin/u0a32 s1/1 u0/0 +3s162ms
+      -> 1682:android.process.media/u0a5 s1/1 u0/0 +2s707ms
+      -> 1834:com.google.android.googlequicksearchbox/u0a13 s1/1 u0/0 +1s884ms
+      -> 1945:com.google.android.gms.persistent/u0a7 s1/1 u0/0 +488ms
+      -> 2046:com.google.process.gapps/u0a7 s1/1 u0/0 +421ms
+  * ContentProviderRecord{29120104 u0 com.android.providers.telephony/.MmsProvider}
+    proc=ProcessRecord{e00e0b1 1802:com.android.phone/1001}
+    singleton=true
+    authority=mms
+  * ContentProviderRecord{611d6ed u0 com.android.providers.telephony/.MmsSmsProvider}
+    proc=ProcessRecord{e00e0b1 1802:com.android.phone/1001}
+    singleton=true
+    authority=mms-sms
+  * ContentProviderRecord{2d62e922 u0 com.android.providers.telephony/.SmsProvider}
+    proc=ProcessRecord{e00e0b1 1802:com.android.phone/1001}
+    singleton=true
+    authority=sms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{2871cfb3 u0 com.google.android.gsf/.subscribedfeeds.SubscribedFeedsProvider}
+    proc=ProcessRecord{3d302970 2046:com.google.process.gapps/u0a7}
+    authority=subscribedfeeds
+  * ContentProviderRecord{36c1f4e9 u0 com.google.android.gms/.auth.account.be.legacy.AccountContentProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.gms.auth.accounts
+  * ContentProviderRecord{3e6a756e u0 com.google.android.gms/com.google.android.location.reporting.service.ReportingContentProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.location.reporting
+  * ContentProviderRecord{42fb40f u0 com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DictionaryProvider}
+    proc=ProcessRecord{23c66c9c 1733:com.android.inputmethod.latin/u0a32}
+    authority=com.android.inputmethod.dictionarypack.aosp
+  * ContentProviderRecord{d3bf6a5 u0 com.google.android.googlequicksearchbox/com.google.android.projection.CarAudioProvider}
+    proc=ProcessRecord{2a2b28ba 2000:com.google.android.googlequicksearchbox:search/u0a13}
+    authority=com.google.android.projection.CarAudioProvider
+  * ContentProviderRecord{104c7a7a u0 com.google.android.googlequicksearchbox/com.google.android.shared.util.debug.SelfDestructFileProvider}
+    proc=ProcessRecord{23ba1512 1834:com.google.android.googlequicksearchbox/u0a13}
+    authority=com.google.android.nowdev.trustedtestprovider
+  * ContentProviderRecord{323d822b u0 com.android.phone/.IccProvider}
+    proc=ProcessRecord{e00e0b1 1802:com.android.phone/1001}
+    authority=icc
+  * ContentProviderRecord{3a1bb688 u0 com.google.android.gms/.trustagent.framework.model.be.ModelContentProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.gms.trustagent.framework.model.be.provider
+  * ContentProviderRecord{249a5821 u0 com.google.android.gsf/.settings.GoogleSettingsProvider}
+    proc=ProcessRecord{3d302970 2046:com.google.process.gapps/u0a7}
+    launchingApp=ProcessRecord{3d302970 2046:com.google.process.gapps/u0a7}
+    authority=com.google.settings
+    1 connections, 0 external handles
+      -> 1945:com.google.android.gms.persistent/u0a7 s0/1 u1/1 +446ms
+  * ContentProviderRecord{2717c446 u0 com.android.providers.media/.MediaProvider}
+    proc=ProcessRecord{37101607 1682:android.process.media/u0a5}
+    authority=media
+  * ContentProviderRecord{28f9b334 u0 com.google.android.googlequicksearchbox/com.google.android.velvet.extradex.ExtraDexHostProvider}
+    proc=ProcessRecord{2a2b28ba 2000:com.google.android.googlequicksearchbox:search/u0a13}
+    authority=com.google.android.velvet.extradex.ExtraDexHostProvider
+  * ContentProviderRecord{1523555d u0 com.google.android.gms/.instantapps.routing.InstantAppsContentProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.gms.instantapps.provider.api
+  * ContentProviderRecord{26fbded2 u0 com.android.providers.contacts/.VoicemailContentProvider}
+    proc=ProcessRecord{3f8e0ba3 1890:android.process.acore/u0a2}
+    authority=com.android.voicemail
+  * ContentProviderRecord{3a18cea0 u0 com.google.android.googlequicksearchbox/com.google.android.speech.audio.AudioProvider}
+    proc=ProcessRecord{2a2b28ba 2000:com.google.android.googlequicksearchbox:search/u0a13}
+    authority=com.google.android.googlequicksearchbox.AudioProvider
+  * ContentProviderRecord{3b44ea59 u0 com.google.android.gsf/.gservices.GservicesProvider}
+    proc=ProcessRecord{3d302970 2046:com.google.process.gapps/u0a7}
+    launchingApp=ProcessRecord{3d302970 2046:com.google.process.gapps/u0a7}
+    authority=com.google.android.gsf.gservices
+    1 connections, 0 external handles
+      -> 1945:com.google.android.gms.persistent/u0a7 s0/9 u1/10 +2s6ms
+  * ContentProviderRecord{1595161e u0 com.google.android.googlequicksearchbox/com.google.android.velvet.util.StateDumpProvider}
+    proc=ProcessRecord{2a2b28ba 2000:com.google.android.googlequicksearchbox:search/u0a13}
+    authority=com.google.android.velvet.util.statedumpprovider
+  * ContentProviderRecord{166bbeff u0 com.google.android.gms/.auth.account.be.accountstate.CredentialStateContentProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.gms.auth.confirm
+  * ContentProviderRecord{184c34cc u0 com.google.android.googlequicksearchbox/com.google.android.search.core.google.GoogleSuggestionProvider}
+    proc=ProcessRecord{2a2b28ba 2000:com.google.android.googlequicksearchbox:search/u0a13}
+    authority=com.google.android.googlequicksearchbox.google
+  * ContentProviderRecord{3250d315 u0 com.android.providers.media/.MediaDocumentsProvider}
+    proc=ProcessRecord{37101607 1682:android.process.media/u0a5}
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{23f8762a u0 com.google.android.googlequicksearchbox/com.android.launcher3.LauncherProvider}
+    proc=ProcessRecord{23ba1512 1834:com.google.android.googlequicksearchbox/u0a13}
+    authority=com.google.android.launcher.settings
+  * ContentProviderRecord{13474c1b u0 com.google.android.gms/.fitness.sync.FitnessContentProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.gms.fitness
+  * ContentProviderRecord{266dd1b8 u0 com.android.providers.downloads/.DownloadProvider}
+    proc=ProcessRecord{37101607 1682:android.process.media/u0a5}
+    authority=downloads
+  * ContentProviderRecord{3ef88b91 u0 com.android.providers.contacts/.CallLogProvider}
+    proc=ProcessRecord{3f8e0ba3 1890:android.process.acore/u0a2}
+    launchingApp=ProcessRecord{3f8e0ba3 1890:android.process.acore/u0a2}
+    authority=call_log
+  * ContentProviderRecord{d7fcaf6 u0 com.google.android.gms/.auth.account.be.accountstate.AccountStateContentProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.gms.auth.accountstate
+  * ContentProviderRecord{1f848ef7 u0 com.google.android.googlequicksearchbox/com.google.android.search.core.imageloader.NetworkImageLoaderContentProvider}
+    proc=ProcessRecord{2a2b28ba 2000:com.google.android.googlequicksearchbox:search/u0a13}
+    authority=com.google.android.googlequicksearchbox.NetworkImageLoaderContentProvider
+  * ContentProviderRecord{190a5164 u0 com.google.android.googlequicksearchbox/com.google.android.search.core.icingsync.InternalIcingCorporaProvider}
+    proc=ProcessRecord{2a2b28ba 2000:com.google.android.googlequicksearchbox:search/u0a13}
+    authority=com.google.android.googlequicksearchbox.icing
+  * ContentProviderRecord{25894fcd u0 com.google.android.gms/com.google.android.location.internal.LocationContentProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.location.internal
+  * ContentProviderRecord{1755a082 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    proc=ProcessRecord{3f8e0ba3 1890:android.process.acore/u0a2}
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{2ce92393 u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    proc=ProcessRecord{3f8e0ba3 1890:android.process.acore/u0a2}
+    authority=user_dictionary
+  * ContentProviderRecord{3ecd1fd0 u0 com.google.android.gms/.common.config.PhenotypeProvider}
+    proc=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    authority=com.google.android.gms.common.phenotype
+  * ContentProviderRecord{27e81bc9 u0 com.android.externalstorage/.ExternalStorageProvider}
+    proc=ProcessRecord{3cc142ce 1909:com.android.externalstorage/u0a6}
+    authority=com.android.externalstorage.documents
+  * ContentProviderRecord{39f865ef u0 com.android.phone/.PhoneSearchIndexablesProvider}
+    proc=ProcessRecord{e00e0b1 1802:com.android.phone/1001}
+    authority=com.android.phone
+  * ContentProviderRecord{23ac68fc u0 com.android.providers.contacts/.ContactsProvider2}
+    proc=ProcessRecord{3f8e0ba3 1890:android.process.acore/u0a2}
+    authority=contacts;com.android.contacts
+    1 connections, 0 external handles
+      -> 1641:com.android.systemui/u0a12 s0/1 u1/2 +786ms
+  * ContentProviderRecord{274dab85 u0 com.android.providers.downloads/.DownloadStorageProvider}
+    proc=ProcessRecord{37101607 1682:android.process.media/u0a5}
+    authority=com.android.providers.downloads.documents
+
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{2a94fff6 u0 com.android.systemui/.keyguard.KeyguardService}
+    app=ProcessRecord{1432bdda 1641:com.android.systemui/u0a12}
+    created=-1s157ms started=false connections=1
+    Connections:
+       -> 1536:system/1000
+  * ServiceRecord{1f2dff66 u0 com.android.systemui/.ImageWallpaper}
+    app=ProcessRecord{1432bdda 1641:com.android.systemui/u0a12}
+    created=-4s653ms started=false connections=1
+    Connections:
+      act=android.service.wallpaper.WallpaperService -> 1536:system/1000
+  * ServiceRecord{22b7854d u0 com.google.android.gms/com.google.android.location.geocode.GeocodeService}
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    created=-2s847ms started=false connections=1
+    Connections:
+      act=com.android.location.service.GeocodeProvider pkg=com.google.android.gms -> 1536:system/1000
+  * ServiceRecord{217fae46 u0 com.android.printspooler/.model.PrintSpoolerService}
+    app=ProcessRecord{f720b 1871:com.android.printspooler/u0a44}
+    created=-3s982ms started=false connections=1
+    Connections:
+       -> 1536:system/1000
+  * ServiceRecord{1c24b525 u0 com.android.inputmethod.latin/.LatinIME}
+    app=ProcessRecord{23c66c9c 1733:com.android.inputmethod.latin/u0a32}
+    created=-4s637ms started=false connections=1
+    Connections:
+      act=android.view.InputMethod -> 1536:system/1000
+  * ServiceRecord{3e3e7e45 u0 com.google.android.gms/.usagereporting.service.UsageReportingService}
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    created=-249ms started=false connections=1
+    Connections:
+      act=com.google.android.gms.usagereporting.service.START pkg=com.google.android.gms -> 1945:com.google.android.gms.persistent/u0a7
+  * ServiceRecord{3666911 u0 com.google.android.gms/com.google.android.location.fused.FusedLocationService}
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    created=-2s883ms started=false connections=1
+    Connections:
+      act=com.android.location.service.FusedLocationProvider pkg=com.google.android.gms -> 1536:system/1000
+  * ServiceRecord{12c1dc68 u0 com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService}
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    created=-2s833ms started=false connections=1
+    Connections:
+      act=com.android.location.service.GeofenceProvider pkg=com.google.android.gms -> 1536:system/1000
+  * ServiceRecord{203f1b56 u0 com.android.systemui/.SystemUIService}
+    app=ProcessRecord{1432bdda 1641:com.android.systemui/u0a12}
+    created=-5s39ms started=true connections=0
+  * ServiceRecord{1d73ddc u0 android/.hardware.location.GeofenceHardwareService}
+    app=ProcessRecord{1a5111ff 1536:system/1000}
+    created=-4s365ms started=false connections=1
+    Connections:
+       -> 1536:system/1000
+  * ServiceRecord{35a8d297 u0 com.google.android.gms/com.google.android.location.network.NetworkLocationService}
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    created=-3s13ms started=false connections=1
+    Connections:
+      act=com.android.location.service.v3.NetworkLocationProvider pkg=com.google.android.gms -> 1536:system/1000
+  * ServiceRecord{39af439a u0 com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService}
+    app=ProcessRecord{949fbec 1704:com.google.android.googlequicksearchbox:interactor/u0a13}
+    created=-4s805ms started=false connections=1
+    Connections:
+      act=android.service.voice.VoiceInteractionService -> 1536:system/1000
+  * ServiceRecord{1510252a u0 android/com.android.internal.backup.LocalTransportService}
+    app=ProcessRecord{1a5111ff 1536:system/1000}
+    created=-5s124ms started=false connections=1
+    Connections:
+      act=android.backup.TRANSPORT_HOST -> 1536:system/1000
+  * ServiceRecord{1ad84599 u0 com.google.android.gms/.clearcut.service.ClearcutLoggerService}
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    created=-1s963ms started=false connections=1
+    Connections:
+      act=com.google.android.gms.clearcut.service.START pkg=com.google.android.gms -> 1834:com.google.android.googlequicksearchbox/u0a13
+  * ServiceRecord{3987a990 u0 com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService}
+    app=ProcessRecord{23c66c9c 1733:com.android.inputmethod.latin/u0a32}
+    created=-666ms started=false connections=1
+    Connections:
+      act=android.service.textservice.SpellCheckerService -> 1536:system/1000
+  * ServiceRecord{ce79afe u0 com.android.phone/.TelephonyDebugService}
+    app=ProcessRecord{e00e0b1 1802:com.android.phone/1001}
+    created=-2s512ms started=true connections=0
+  * ServiceRecord{189b6171 u0 com.android.server.telecom/.TelecomService}
+    app=ProcessRecord{1a5111ff 1536:system/1000}
+    created=-5s74ms started=false connections=1
+    Connections:
+      act=com.android.ITelecomService -> 1536:system/1000
+  * ServiceRecord{3fed53eb u0 com.google.android.gms/.backup.BackupTransportService}
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    created=-5s121ms started=false connections=1
+    Connections:
+      act=android.backup.TRANSPORT_HOST -> 1536:system/1000
+
+  Destroying services:
+  * Destroy ServiceRecord{164dfe1 u0 com.google.android.gms/com.google.android.location.network.NetworkLocationService}
+    intent={act=com.android.location.service.v3.NetworkLocationProvider pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/data/com.google.android.gms
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    createTime=-4s377ms startingBgTimeout=--
+    lastActivity=-3s328ms restartTime=-- createdFromFg=true
+    executeNesting=2 executeFg=true executingStart=-3s56ms
+    destroying=true destroyTime=-3s56ms
+  * Destroy ServiceRecord{1d301106 u0 com.google.android.gms/com.google.android.location.fused.FusedLocationService}
+    intent={act=com.android.location.service.FusedLocationProvider pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/data/com.google.android.gms
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    createTime=-4s376ms startingBgTimeout=--
+    lastActivity=-3s311ms restartTime=-- createdFromFg=true
+    executeNesting=2 executeFg=true executingStart=-2s919ms
+    destroying=true destroyTime=-2s920ms
+  * Destroy ServiceRecord{34b43c7 u0 com.google.android.gms/com.google.android.location.geocode.GeocodeService}
+    intent={act=com.android.location.service.GeocodeProvider pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/data/com.google.android.gms
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    createTime=-4s375ms startingBgTimeout=--
+    lastActivity=-3s311ms restartTime=-- createdFromFg=true
+    executeNesting=3 executeFg=true executingStart=-2s855ms
+    destroying=true destroyTime=-2s856ms
+  * Destroy ServiceRecord{89cadf4 u0 com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService}
+    intent={act=com.android.location.service.GeofenceProvider pkg=com.google.android.gms}
+    packageName=com.google.android.gms
+    processName=com.google.android.gms.persistent
+    baseDir=/system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+    dataDir=/data/data/com.google.android.gms
+    app=ProcessRecord{35a1428e 1945:com.google.android.gms.persistent/u0a7}
+    createTime=-4s371ms startingBgTimeout=--
+    lastActivity=-3s310ms restartTime=-- createdFromFg=true
+    executeNesting=4 executeFg=true executingStart=-2s841ms
+    destroying=true destroyTime=-2s841ms
+
+ACTIVITY MANAGER RECENT TASKS (dumpsys activity recents)
+  Recent tasks:
+  * Recent #0: TaskRecord{3ad518e8 #107 A=com.google.android.googlequicksearchbox U=0 sz=1}
+  * Recent #1: TaskRecord{25c27b01 #106 A=com.projects.xavi.image_editing_toolbox U=0 sz=0}
+
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+  Stack #0:
+    Task id #107
+      TaskRecord{3ad518e8 #107 A=com.google.android.googlequicksearchbox U=0 sz=1}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL }
+        Hist #0: ActivityRecord{3a627b04 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t107}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL }
+          ProcessRecord{23ba1512 1834:com.google.android.googlequicksearchbox/u0a13}
+
+    Running activities (most recent first):
+      TaskRecord{3ad518e8 #107 A=com.google.android.googlequicksearchbox U=0 sz=1}
+        Run #0: ActivityRecord{3a627b04 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t107}
+
+    mResumedActivity: ActivityRecord{3a627b04 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t107}
+
+  mFocusedActivity: ActivityRecord{3a627b04 u0 com.google.android.googlequicksearchbox/com.google.android.launcher.GEL t107}
+  mFocusedStack=ActivityStack{390edda6 stackId=0, 1 tasks} mLastFocusedStack=ActivityStack{274123e7 stackId=1, 1 tasks}
+  mSleepTimeout=false
+  mCurTaskId=107
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
+
+ACTIVITY MANAGER RUNNING PROCESSES (dumpsys activity processes)
+  Isolated process list (sorted by uid):
+    Isolated # 0: ProcessRecord{3b56db94 1624:WebViewLoader-x86/1037}
+
+  Process LRU list (sorted by oom_adj, 13 total, non-act at 1, non-svc at 1):
+    PERS #12: sys   F/ /P  trm: 0 1536:system/1000 (fixed)
+    PERS #10: pers  F/ /P  trm: 0 1641:com.android.systemui/u0a12 (fixed)
+    PERS # 9: pers  F/ /P  trm: 0 1802:com.android.phone/1001 (fixed)
+    Proc # 8: fore  F/A/T  trm: 0 1834:com.google.android.googlequicksearchbox/u0a13 (top-activity)
+    Proc # 3: fore  F/ /IF trm: 0 1890:android.process.acore/u0a2 (provider)
+        com.android.providers.contacts/.ContactsProvider2<=Proc{1641:com.android.systemui/u0a12}
+    Proc # 1: fore  F/ /IF trm: 0 2046:com.google.process.gapps/u0a7 (provider)
+        com.google.android.gsf/.gservices.GservicesProvider<=Proc{1945:com.google.android.gms.persistent/u0a7}
+    Proc # 0: fore  F/ /IF trm: 0 1945:com.google.android.gms.persistent/u0a7 (service)
+        com.google.android.gms/com.google.android.location.fused.FusedLocationService<=Proc{1536:system/1000}
+    Proc #11: vis   F/ /IF trm: 0 1704:com.google.android.googlequicksearchbox:interactor/u0a13 (service)
+        com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService<=Proc{1536:system/1000}
+    Proc # 7: vis   F/ /IF trm: 0 1871:com.android.printspooler/u0a44 (service)
+        com.android.printspooler/.model.PrintSpoolerService<=Proc{1536:system/1000}
+    Proc # 2: vis   F/ /IF trm: 0 1733:com.android.inputmethod.latin/u0a32 (service)
+        com.android.inputmethod.latin/.LatinIME<=Proc{1536:system/1000}
+    Proc # 4: cch   B/ /CE trm: 0 2000:com.google.android.googlequicksearchbox:search/u0a13 (cch-empty)
+    Proc # 5: cch+2 B/ /CE trm: 0 1682:android.process.media/u0a5 (cch-empty)
+    Proc # 6: cch+4 B/ /CE trm: 0 1909:com.android.externalstorage/u0a6 (cch-empty)
+
+  mStartedUsers:
+    User #0: mState=RUNNING
+  mStartedUserArray: [0]
+  mUserLru: [0]
+  mHomeProcess: ProcessRecord{23ba1512 1834:com.google.android.googlequicksearchbox/u0a13}
+  mConfiguration: {1.0 310mcc260mnc en_US ?layoutDir sw320dp w320dp h455dp 160dpi nrml port finger -keyb/v/h tball/v s.6}
+  mWakefulness=Awake
+  mSleeping=false mLockScreenShown=LOCK_SCREEN_HIDDEN
+  mShuttingDown=false mRunningVoice=false mTestPssMode=false

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:maxHeight="215dp"
+        android:maxWidth="215dp"
+        android:minHeight="215dp"
+        android:minWidth="215dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Spinner
+        android:id="@+id/cmbOptions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:layout_below="@+id/imgView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/txtParam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lblOptions"
+        android:layout_alignLeft="@+id/btnDone"
+        android:layout_alignStart="@+id/btnDone"
+        android:layout_alignRight="@+id/btnDone"
+        android:layout_alignEnd="@+id/btnDone" />
+
+    <EditText
+        android:id="@+id/lblOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:textSize = "14sp"
+        android:editable="true"
+        android:text="Parameters"
+        android:visibility="visible"
+        android:layout_below="@+id/cmbOptions"
+        android:layout_alignLeft="@+id/btnLoad"
+        android:layout_alignStart="@+id/btnLoad" />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="7dp"
+        android:text="Load"
+        tools:tag="loadTag" />
+
+    <Button
+        android:id="@+id/btnTakePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLoad"
+        android:layout_alignBottom="@+id/btnLoad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="Take Pic" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginRight="7dp"
+        android:text="Done" />
+    tools:context="com.projects.xavi.image_editing_toolbox.MainActivity"
+</RelativeLayout>
+

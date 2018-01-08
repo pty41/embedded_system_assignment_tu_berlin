@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

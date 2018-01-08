@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]

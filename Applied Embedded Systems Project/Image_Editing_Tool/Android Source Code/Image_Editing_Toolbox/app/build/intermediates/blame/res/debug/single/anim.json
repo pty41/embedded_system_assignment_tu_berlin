@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/res/anim/abc_slide_in_top.xml"
+    }
+]

@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:3:5-54
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:6:9-47
+uses-feature#android.permission.INTERNET
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:8:5-64
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:8:19-61
+uses-permission#android.permission.INTERNET
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:12:22-77
+application
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:14:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/shan_kuan/.android/build-cache/18032748b78e64fb9cac7a7d534683f7f81a2bd3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/shan_kuan/.android/build-cache/e3714400b5eafd80b6b56f0fa7d89a24ee094036/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/shan_kuan/.android/build-cache/1b2de42c670a287dfd7f3f8bb221a07eb2b6f274/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/shan_kuan/.android/build-cache/f1b6a42911981a1665e01b2487193da284fca671/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/shan_kuan/.android/build-cache/5d380b45c30c82e9563952851e53b18f5e893228/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/shan_kuan/.android/build-cache/eeed503b1350965d4e5d9900d09d084ca2088af6/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/shan_kuan/.android/build-cache/48ff60ee2c4a1e0414fba8279715543114a64863/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/shan_kuan/.android/build-cache/5473d4ed65f53fa32a343552937362323e8f62ad/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shan_kuan/.android/build-cache/8bde54e9c4d679fbd505f90698061d28b21a7d07/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:17:9-41
+	android:supportsRtl
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:19:9-35
+	android:roundIcon
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:18:9-54
+	android:allowBackup
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:16:9-43
+	android:theme
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:20:9-40
+activity#com.projects.xavi.image_editing_toolbox.MainActivity
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:21:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.projects.xavi.image_editing_toolbox.LoadImage
+ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml:28:19-44
+uses-sdk
+INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/shan_kuan/.android/build-cache/18032748b78e64fb9cac7a7d534683f7f81a2bd3/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/shan_kuan/.android/build-cache/e3714400b5eafd80b6b56f0fa7d89a24ee094036/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/shan_kuan/.android/build-cache/1b2de42c670a287dfd7f3f8bb221a07eb2b6f274/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/shan_kuan/.android/build-cache/f1b6a42911981a1665e01b2487193da284fca671/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/shan_kuan/.android/build-cache/5d380b45c30c82e9563952851e53b18f5e893228/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/shan_kuan/.android/build-cache/eeed503b1350965d4e5d9900d09d084ca2088af6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/shan_kuan/.android/build-cache/48ff60ee2c4a1e0414fba8279715543114a64863/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/shan_kuan/.android/build-cache/5473d4ed65f53fa32a343552937362323e8f62ad/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shan_kuan/.android/build-cache/8bde54e9c4d679fbd505f90698061d28b21a7d07/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shan_kuan/Documents/AES/Android- with communication/Image_Editing_Toolbox/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/shan_kuan/.android/build-cache/18032748b78e64fb9cac7a7d534683f7f81a2bd3/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/shan_kuan/.android/build-cache/e3714400b5eafd80b6b56f0fa7d89a24ee094036/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/shan_kuan/.android/build-cache/1b2de42c670a287dfd7f3f8bb221a07eb2b6f274/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/shan_kuan/.android/build-cache/f1b6a42911981a1665e01b2487193da284fca671/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/shan_kuan/.android/build-cache/5d380b45c30c82e9563952851e53b18f5e893228/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/shan_kuan/.android/build-cache/eeed503b1350965d4e5d9900d09d084ca2088af6/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/shan_kuan/.android/build-cache/48ff60ee2c4a1e0414fba8279715543114a64863/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/shan_kuan/.android/build-cache/5473d4ed65f53fa32a343552937362323e8f62ad/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/shan_kuan/.android/build-cache/1306f8209b2136b6181b9a6ba59c4e0ad184bd08/output/AndroidManifest.xml:26:9-47
