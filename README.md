@@ -23,4 +23,4 @@ The course assignments of Embedded System major from 2016 to 2017 in TU Berlin
 * SMT
 
 ## Applied Embedded Systems Project
-* Image Editing Toolbox - Andriod application upload the images to the zedboard via ethernet, and use the FPGA to processing the image with selected algorithm, such as, Grey, Zooming and Image Rotation. 
+* Image Editing Toolbox - Andriod application upload the images to the zedboard via ethernet, and use the FPGA to processing the image with selected algorithm. Such as, Grey, Zooming and Image Rotation. 
