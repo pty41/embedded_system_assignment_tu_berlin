@@ -1,26 +1,11 @@
-# 2016_2017_course_assignment
+# Image Editing Toolbox
 
-The course assignments of Embedded System major from 2016 to 2017 in TU Berlin
+Andriod application upload the images to the zedboard via ethernet, and use the FPGA to processing the image with selected algorithm. Such as, Grey, Zooming and Image Rotation
 
-## 2016 Winter Semester
-### Compiler Design
-* Lex
-* Bison
-* LLVM (1)
-* LLVM (2)
+## Introduction
+We developed an Android interface for the user to upload the image and choose the editing method they want to implement on the image. The uploaded image will then be sent to our FPGA board using FTP protocol. There is a Linux system running on the board. We use XML-RPC to communicate between the client APP and the server on the board. The image received by the board will be processed by a python program which converts the image to a matrix of binary numbers. The binary matrix will then be mapped into the physical memory on the FPGA board using mmap method. After storing the image in DDR memory on the board, we will use DMA controller to take the stored image from DDR memory, and then process it and store it back to DDR memory.
+At the moment, we have two algorithms available for users to choose from: Grayscale and Binary Image Conversion. The final processed image will be transferred back to our Android app via FTP.
+The block diagram shown in Figure_1 illustrates the overall workflow of our system.
 
-### Computer Arithmetic
-* Adder Circuits
-* Multi-operand Adder
-* Multiplication/Division Circuits
-* Floating Point Circuits
-
-## 2017 Summer Semester
-### Advanced Computer Architecture
-* MIPS
-* SIMD
-* SimpleScalar
-* SMT
-
-## Applied Embedded Systems Project
-* Image Editing Toolbox - Andriod application upload the images to the zedboard via ethernet, and use the FPGA to processing the image with selected algorithm. Such as, Grey, Zooming and Image Rotation. 
+* Figure_1
+![picture](https://github.com/pty41/2016_2017_course_assignment/blob/master/Applied%20Embedded%20Systems%20Project/figure_1.png)
