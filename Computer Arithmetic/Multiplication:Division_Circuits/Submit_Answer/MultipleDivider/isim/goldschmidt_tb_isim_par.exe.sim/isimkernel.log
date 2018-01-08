@@ -1,0 +1,28 @@
+Command line:
+   goldschmidt_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61545
+
+Thu Jan 26 10:43:49 2017
+
+
+ Elaboration Time: 2.375 sec
+
+ Current Memory Usage: 931.029 Meg
+
+ Total Signals          : 25064
+ Total Nets             : 12403
+ Total Signal Drivers   : 12394
+ Total Blocks           : 5317
+ Total Primitive Blocks : 3629
+ Total Processes        : 14534
+ Total Traceable Variables  : 13038
+ Total Scalar Nets and Variables : 387838
+
+ Total Simulation Time: 5.45313 sec
+
+ Current Memory Usage: 790.323 Meg
+
+Thu Jan 26 10:46:28 2017
+

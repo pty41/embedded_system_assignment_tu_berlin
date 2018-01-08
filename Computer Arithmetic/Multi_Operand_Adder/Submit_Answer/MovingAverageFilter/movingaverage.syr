@@ -1,0 +1,554 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: movingaverage.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "movingaverage.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "movingaverage"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : movingaverage
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/movingaverage is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/movingaverage.vhd".
+WARNING:HDLParsers:3607 - Unit work/movingaverage/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/movingaverage.vhd".
+WARNING:HDLParsers:3607 - Unit work/InputReg is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/InputReg.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/InputReg.vhd".
+WARNING:HDLParsers:3607 - Unit work/InputReg/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/InputReg.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/InputReg.vhd".
+WARNING:HDLParsers:3607 - Unit work/OperandAdder is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/OperandAdder.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/OperandAdder.vhd".
+WARNING:HDLParsers:3607 - Unit work/OperandAdder/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/OperandAdder.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/OperandAdder.vhd".
+WARNING:HDLParsers:3607 - Unit work/CarrySaveAdder is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/CarrySaveAdder.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/CarrySaveAdder.vhd".
+WARNING:HDLParsers:3607 - Unit work/CarrySaveAdder/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/CarrySaveAdder.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/CarrySaveAdder.vhd".
+WARNING:HDLParsers:3607 - Unit work/CLAAdder15Bits is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/CLAAdder15Bits.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/CLAAdder15Bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/CLAAdder15Bits/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/CLAAdder15Bits.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/CLAAdder15Bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg11bits is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/Reg11bits.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/Reg11bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/Reg11bits/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/Reg11bits.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/Reg11bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/CLA is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/CLA.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/CLA.vhd".
+WARNING:HDLParsers:3607 - Unit work/CLA/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/CLA.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/CLA.vhd".
+WARNING:HDLParsers:3607 - Unit work/Counter4to2 is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/Counter4to2.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/Counter4to2.vhd".
+WARNING:HDLParsers:3607 - Unit work/Counter4to2/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/Counter4to2.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/Counter4to2.vhd".
+WARNING:HDLParsers:3607 - Unit work/FullAdder is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/FullAdder.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/FullAdder.vhd".
+WARNING:HDLParsers:3607 - Unit work/FullAdder/Behavioral is now defined in a different file.  It was defined in "/home/shankuan/computer_arithmetic/MovingAverageFilter/FullAdder.vhd", and is now defined in "/home/shankuan/computer_new/MovingAverageFilter/FullAdder.vhd".
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/FullAdder.vhd" in Library work.
+Architecture behavioral of Entity fulladder is up to date.
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/CLA.vhd" in Library work.
+Architecture behavioral of Entity cla is up to date.
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/Counter4to2.vhd" in Library work.
+Architecture behavioral of Entity counter4to2 is up to date.
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/CarrySaveAdder.vhd" in Library work.
+Architecture behavioral of Entity carrysaveadder is up to date.
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/CLAAdder15Bits.vhd" in Library work.
+Architecture behavioral of Entity claadder15bits is up to date.
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/Reg11bits.vhd" in Library work.
+Architecture behavioral of Entity reg11bits is up to date.
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/InputReg.vhd" in Library work.
+Architecture behavioral of Entity inputreg is up to date.
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/OperandAdder.vhd" in Library work.
+Architecture behavioral of Entity operandadder is up to date.
+Compiling vhdl file "/home/shankuan/computer_new/MovingAverageFilter/movingaverage.vhd" in Library work.
+Architecture behavioral of Entity movingaverage is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <movingaverage> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <InputReg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OperandAdder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Reg11bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CarrySaveAdder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLAAdder15Bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Counter4to2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLA> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <movingaverage> in library <work> (Architecture <behavioral>).
+Entity <movingaverage> analyzed. Unit <movingaverage> generated.
+
+Analyzing Entity <InputReg> in library <work> (Architecture <behavioral>).
+Entity <InputReg> analyzed. Unit <InputReg> generated.
+
+Analyzing Entity <Reg11bits> in library <work> (Architecture <behavioral>).
+Entity <Reg11bits> analyzed. Unit <Reg11bits> generated.
+
+Analyzing Entity <OperandAdder> in library <work> (Architecture <behavioral>).
+Entity <OperandAdder> analyzed. Unit <OperandAdder> generated.
+
+Analyzing Entity <CarrySaveAdder> in library <work> (Architecture <behavioral>).
+Entity <CarrySaveAdder> analyzed. Unit <CarrySaveAdder> generated.
+
+Analyzing Entity <Counter4to2> in library <work> (Architecture <behavioral>).
+Entity <Counter4to2> analyzed. Unit <Counter4to2> generated.
+
+Analyzing Entity <FullAdder> in library <work> (Architecture <behavioral>).
+Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+
+Analyzing Entity <CLAAdder15Bits> in library <work> (Architecture <behavioral>).
+Entity <CLAAdder15Bits> analyzed. Unit <CLAAdder15Bits> generated.
+
+Analyzing Entity <CLA> in library <work> (Architecture <behavioral>).
+Entity <CLA> analyzed. Unit <CLA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Reg11bits>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/Reg11bits.vhd".
+    Found 11-bit register for signal <q>.
+    Summary:
+	inferred  11 D-type flip-flop(s).
+Unit <Reg11bits> synthesized.
+
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/FullAdder.vhd".
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <co$xor0000> created at line 44.
+Unit <FullAdder> synthesized.
+
+
+Synthesizing Unit <CLA>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/CLA.vhd".
+    Found 1-bit xor2 for signal <s>.
+Unit <CLA> synthesized.
+
+
+Synthesizing Unit <InputReg>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/InputReg.vhd".
+WARNING:Xst:737 - Found 11-bit latch for signal <s15_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s14_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s13_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s12_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s11_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s10_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s9_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s8_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s7_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s6_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s5_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s4_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s3_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s2_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s1_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 11-bit latch for signal <s0_temp1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 4-bit up counter for signal <count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <InputReg> synthesized.
+
+
+Synthesizing Unit <CLAAdder15Bits>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/CLAAdder15Bits.vhd".
+    Found 15-bit xor2 for signal <p>.
+Unit <CLAAdder15Bits> synthesized.
+
+
+Synthesizing Unit <Counter4to2>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/Counter4to2.vhd".
+Unit <Counter4to2> synthesized.
+
+
+Synthesizing Unit <CarrySaveAdder>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/CarrySaveAdder.vhd".
+WARNING:Xst:646 - Signal <tout<14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <CarrySaveAdder> synthesized.
+
+
+Synthesizing Unit <OperandAdder>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/OperandAdder.vhd".
+WARNING:Xst:646 - Signal <co> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c4<14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c3<14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c2_2<14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c2_1<14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c2<14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c1<14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c<14>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <OperandAdder> synthesized.
+
+
+Synthesizing Unit <movingaverage>.
+    Related source file is "/home/shankuan/computer_new/MovingAverageFilter/movingaverage.vhd".
+WARNING:Xst:646 - Signal <sum<3:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <movingaverage> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 16
+ 11-bit register                                       : 16
+# Latches                                              : 16
+ 11-bit latch                                          : 16
+# Xors                                                 : 436
+ 1-bit xor2                                            : 435
+ 15-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <u_start> is unconnected in block <uu8>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 4-bit up counter                                      : 1
+# Registers                                            : 176
+ Flip-Flops                                            : 176
+# Latches                                              : 16
+ 11-bit latch                                          : 16
+# Xors                                                 : 436
+ 1-bit xor2                                            : 435
+ 15-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <movingaverage> ...
+
+Optimizing unit <Reg11bits> ...
+
+Optimizing unit <InputReg> ...
+
+Optimizing unit <CLAAdder15Bits> ...
+
+Optimizing unit <CarrySaveAdder> ...
+
+Optimizing unit <OperandAdder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block movingaverage, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 180
+ Flip-Flops                                            : 180
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : movingaverage.ngr
+Top Level Output File Name         : movingaverage
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 358
+#      INV                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 322
+#      LUT4                        : 31
+#      MUXF5                       : 3
+# FlipFlops/Latches                : 356
+#      FDC                         : 180
+#      LD                          : 176
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 12
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      229  out of   4656     4%  
+ Number of Slice Flip Flops:            356  out of   9312     3%  
+ Number of 4 input LUTs:                355  out of   9312     3%  
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    232    10%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------------+-------------------------+-------+
+Clock Signal                                        | Clock buffer(FF name)   | Load  |
+----------------------------------------------------+-------------------------+-------+
+clk                                                 | BUFGP                   | 180   |
+u1/s15_temp1_cmp_eq00001(u1/s15_temp1_cmp_eq00001:O)| BUFG(*)(u1/s15_temp1_10)| 176   |
+----------------------------------------------------+-------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 180   |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.289ns (Maximum Frequency: 436.862MHz)
+   Minimum input arrival time before clock: 1.731ns
+   Maximum output required time after clock: 24.017ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.289ns (frequency: 436.862MHz)
+  Total number of paths / destination ports: 175 / 169
+-------------------------------------------------------------------------
+Delay:               2.289ns (Levels of Logic = 1)
+  Source:            u1/count_0 (FF)
+  Destination:       u1/count_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: u1/count_0 to u1/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.514   0.538  u1/count_0 (u1/count_0)
+     INV:I->O              1   0.612   0.357  u1/Mcount_count_xor<0>11_INV_0 (u1/Result<0>)
+     FDC:D                     0.268          u1/count_0
+    ----------------------------------------
+    Total                      2.289ns (1.394ns logic, 0.895ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              1.731ns (Levels of Logic = 1)
+  Source:            sin<0> (PAD)
+  Destination:       u1/u1/q_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: sin<0> to u1/u1/q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  sin_0_IBUF (sin_0_IBUF)
+     FDC:D                     0.268          u1/u1/q_0
+    ----------------------------------------
+    Total                      1.731ns (1.374ns logic, 0.357ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u1/s15_temp1_cmp_eq00001'
+  Total number of paths / destination ports: 55100 / 11
+-------------------------------------------------------------------------
+Offset:              24.017ns (Levels of Logic = 21)
+  Source:            u1/s1_temp1_0 (LATCH)
+  Destination:       sout<10> (PAD)
+  Source Clock:      u1/s15_temp1_cmp_eq00001 falling
+
+  Data Path: u1/s1_temp1_0 to sout<10>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               3   0.588   0.603  u1/s1_temp1_0 (u1/s1_temp1_0)
+     LUT3:I0->O            2   0.612   0.410  u2/uu1/sum_start/sum1/co1 (u2/uu1/tout<0>)
+     LUT3:I2->O            2   0.612   0.449  u2/uu1/GEN_REG[1].sum_loop/sum2/Mxor_s_Result1 (u2/sout1<1>)
+     LUT3:I1->O            2   0.612   0.383  u2/uu5/GEN_REG[1].sum_loop/sum1/Mxor_s_Result1 (u2/uu5/GEN_REG[1].sum_loop/Si)
+     LUT4:I3->O            4   0.612   0.651  u2/uu5/GEN_REG[1].sum_loop/sum2/Mxor_s_Result1 (u2/sout2_1<1>)
+     LUT3:I0->O            1   0.612   0.000  u2/uu7/GEN_REG[1].sum_loop/sum1/Mxor_s_Result12 (u2/uu7/GEN_REG[1].sum_loop/sum1/Mxor_s_Result11)
+     MUXF5:I0->O           1   0.278   0.426  u2/uu7/GEN_REG[1].sum_loop/sum1/Mxor_s_Result1_f5 (u2/uu7/GEN_REG[1].sum_loop/Si)
+     LUT3:I1->O            2   0.612   0.532  u2/uu8/GEN_REG[2].u_loop/co72_SW0 (N4)
+     LUT4:I0->O            1   0.612   0.000  u2/uu8/GEN_REG[3].u_loop/co_F (N6)
+     MUXF5:I0->O           2   0.278   0.449  u2/uu8/GEN_REG[3].u_loop/co (u2/uu8/ci<3>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[4].u_loop/co1 (u2/uu8/ci<4>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[5].u_loop/co1 (u2/uu8/ci<5>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[6].u_loop/co1 (u2/uu8/ci<6>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[7].u_loop/co1 (u2/uu8/ci<7>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[8].u_loop/co1 (u2/uu8/ci<8>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[9].u_loop/co1 (u2/uu8/ci<9>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[10].u_loop/co1 (u2/uu8/ci<10>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[11].u_loop/co1 (u2/uu8/ci<11>)
+     LUT3:I1->O            2   0.612   0.449  u2/uu8/GEN_REG[12].u_loop/co1 (u2/uu8/ci<12>)
+     LUT3:I1->O            1   0.612   0.387  u2/uu8/GEN_REG[13].u_loop/co1 (u2/uu8/ci<13>)
+     LUT3:I2->O            1   0.612   0.357  u2/uu8/u_end/Mxor_s_Result1 (sout_10_OBUF)
+     OBUF:I->O                 3.169          sout_10_OBUF (sout<10>)
+    ----------------------------------------
+    Total                     24.017ns (15.329ns logic, 8.688ns route)
+                                       (63.8% logic, 36.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.34 secs
+ 
+--> 
+
+
+Total memory usage is 546060 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   45 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

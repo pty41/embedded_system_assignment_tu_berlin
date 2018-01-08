@@ -1,0 +1,507 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Reading design: FloatingPointMulExe.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FloatingPointMulExe.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FloatingPointMulExe"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : FloatingPointMulExe
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/FloatingPointMultiplier/FullAdder.vhd" in Library work.
+Architecture behavioral of Entity fulladder is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/Counter4to2.vhd" in Library work.
+Architecture behavioral of Entity counter4to2 is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/HalfAdder.vhd" in Library work.
+Architecture behavioral of Entity halfadder is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/ResultGen.vhd" in Library work.
+Architecture behavioral of Entity resultgen is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/Selector1.vhd" in Library work.
+Architecture behavioral of Entity selector1 is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/Selector2.vhd" in Library work.
+Architecture behavioral of Entity selector2 is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/Selector3.vhd" in Library work.
+Architecture behavioral of Entity selector3 is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/PartialProGen.vhd" in Library work.
+Architecture behavioral of Entity partialprogen is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/CSA17bit.vhd" in Library work.
+Architecture behavioral of Entity csa17bit is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/CSA16bit.vhd" in Library work.
+Architecture behavioral of Entity csa16bit is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/R4BoothMultiplier.vhd" in Library work.
+Architecture behavioral of Entity r4boothmultiplier is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/ComSum_8bits.vhd" in Library work.
+Architecture behavioral of Entity consum_8bits is up to date.
+Compiling vhdl file "D:/FloatingPointMultiplier/FloatingPointMulExe.vhd" in Library work.
+Entity <floatingpointmulexe> compiled.
+Entity <floatingpointmulexe> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <FloatingPointMulExe> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <R4BoothMultiplier> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ConSum_8bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PartialProGen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <HalfAdder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CSA17bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CSA16bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ResultGen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Selector1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Selector2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Selector3> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Counter4to2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <FloatingPointMulExe> in library <work> (Architecture <behavioral>).
+Entity <FloatingPointMulExe> analyzed. Unit <FloatingPointMulExe> generated.
+
+Analyzing Entity <R4BoothMultiplier> in library <work> (Architecture <behavioral>).
+Entity <R4BoothMultiplier> analyzed. Unit <R4BoothMultiplier> generated.
+
+Analyzing Entity <PartialProGen> in library <work> (Architecture <behavioral>).
+Entity <PartialProGen> analyzed. Unit <PartialProGen> generated.
+
+Analyzing Entity <HalfAdder> in library <work> (Architecture <behavioral>).
+Entity <HalfAdder> analyzed. Unit <HalfAdder> generated.
+
+Analyzing Entity <FullAdder> in library <work> (Architecture <behavioral>).
+Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+
+Analyzing Entity <CSA17bit> in library <work> (Architecture <behavioral>).
+Entity <CSA17bit> analyzed. Unit <CSA17bit> generated.
+
+Analyzing Entity <Counter4to2> in library <work> (Architecture <behavioral>).
+Entity <Counter4to2> analyzed. Unit <Counter4to2> generated.
+
+Analyzing Entity <CSA16bit> in library <work> (Architecture <behavioral>).
+Entity <CSA16bit> analyzed. Unit <CSA16bit> generated.
+
+Analyzing Entity <ConSum_8bits> in library <work> (Architecture <behavioral>).
+Entity <ConSum_8bits> analyzed. Unit <ConSum_8bits> generated.
+
+Analyzing Entity <ResultGen> in library <work> (Architecture <behavioral>).
+Entity <ResultGen> analyzed. Unit <ResultGen> generated.
+
+Analyzing Entity <Selector1> in library <work> (Architecture <behavioral>).
+Entity <Selector1> analyzed. Unit <Selector1> generated.
+
+Analyzing Entity <Selector2> in library <work> (Architecture <behavioral>).
+Entity <Selector2> analyzed. Unit <Selector2> generated.
+
+Analyzing Entity <Selector3> in library <work> (Architecture <behavioral>).
+Entity <Selector3> analyzed. Unit <Selector3> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <PartialProGen>.
+    Related source file is "D:/FloatingPointMultiplier/PartialProGen.vhd".
+    Found 1-bit xor2 for signal <sign>.
+Unit <PartialProGen> synthesized.
+
+
+Synthesizing Unit <HalfAdder>.
+    Related source file is "D:/FloatingPointMultiplier/HalfAdder.vhd".
+    Found 1-bit xor2 for signal <s>.
+Unit <HalfAdder> synthesized.
+
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "D:/FloatingPointMultiplier/FullAdder.vhd".
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <co$xor0000> created at line 34.
+Unit <FullAdder> synthesized.
+
+
+Synthesizing Unit <ResultGen>.
+    Related source file is "D:/FloatingPointMultiplier/ResultGen.vhd".
+    Found 1-bit xor2 for signal <cs0$xor0000> created at line 43.
+Unit <ResultGen> synthesized.
+
+
+Synthesizing Unit <Selector1>.
+    Related source file is "D:/FloatingPointMultiplier/Selector1.vhd".
+Unit <Selector1> synthesized.
+
+
+Synthesizing Unit <Selector2>.
+    Related source file is "D:/FloatingPointMultiplier/Selector2.vhd".
+Unit <Selector2> synthesized.
+
+
+Synthesizing Unit <Selector3>.
+    Related source file is "D:/FloatingPointMultiplier/Selector3.vhd".
+Unit <Selector3> synthesized.
+
+
+Synthesizing Unit <ConSum_8bits>.
+    Related source file is "D:/FloatingPointMultiplier/ComSum_8bits.vhd".
+Unit <ConSum_8bits> synthesized.
+
+
+Synthesizing Unit <Counter4to2>.
+    Related source file is "D:/FloatingPointMultiplier/Counter4to2.vhd".
+Unit <Counter4to2> synthesized.
+
+
+Synthesizing Unit <CSA17bit>.
+    Related source file is "D:/FloatingPointMultiplier/CSA17bit.vhd".
+Unit <CSA17bit> synthesized.
+
+
+Synthesizing Unit <CSA16bit>.
+    Related source file is "D:/FloatingPointMultiplier/CSA16bit.vhd".
+Unit <CSA16bit> synthesized.
+
+
+Synthesizing Unit <R4BoothMultiplier>.
+    Related source file is "D:/FloatingPointMultiplier/R4BoothMultiplier.vhd".
+WARNING:Xst:646 - Signal <product_t<31:29>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c2<22>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c<31>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit adder for signal <product_t>.
+    Found 1-bit xor2 for signal <t_1$xor0000> created at line 110.
+    Found 1-bit xor2 for signal <t_1$xor0001> created at line 110.
+    Found 1-bit xor2 for signal <t_2$xor0000> created at line 112.
+    Found 1-bit xor2 for signal <t_2$xor0001> created at line 112.
+    Found 1-bit xor2 for signal <t_3$xor0000> created at line 114.
+    Found 1-bit xor2 for signal <t_3$xor0001> created at line 114.
+    Found 1-bit xor2 for signal <t_4$xor0000> created at line 116.
+    Found 1-bit xor2 for signal <t_4$xor0001> created at line 116.
+    Found 1-bit xor2 for signal <t_5$xor0000> created at line 118.
+    Found 1-bit xor2 for signal <t_5$xor0001> created at line 118.
+    Found 1-bit xor2 for signal <t_6$xor0000> created at line 120.
+    Found 1-bit xor2 for signal <t_6$xor0001> created at line 120.
+    Found 1-bit xor2 for signal <t_7$xor0000> created at line 122.
+    Found 1-bit xor2 for signal <t_7$xor0001> created at line 122.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <R4BoothMultiplier> synthesized.
+
+
+Synthesizing Unit <FloatingPointMulExe>.
+    Related source file is "D:/FloatingPointMultiplier/FloatingPointMulExe.vhd".
+WARNING:Xst:646 - Signal <temp_significand<13:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit xor2 for signal <result_sign>.
+Unit <FloatingPointMulExe> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Xors                                                 : 293
+ 1-bit xor2                                            : 293
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <ha6> is unconnected in block <significand_Mul>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <ha9> is unconnected in block <significand_Mul>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 29-bit adder                                          : 1
+# Xors                                                 : 293
+ 1-bit xor2                                            : 293
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <FloatingPointMulExe> ...
+
+Optimizing unit <CSA17bit> ...
+
+Optimizing unit <CSA16bit> ...
+
+Optimizing unit <R4BoothMultiplier> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FloatingPointMulExe, actual ratio is 7.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : FloatingPointMulExe.ngr
+Top Level Output File Name         : FloatingPointMulExe
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 73
+
+Cell Usage :
+# BELS                             : 643
+#      GND                         : 1
+#      LUT2                        : 7
+#      LUT3                        : 195
+#      LUT4                        : 314
+#      MUXCY                       : 28
+#      MUXF5                       : 81
+#      VCC                         : 1
+#      XORCY                       : 16
+# IO Buffers                       : 73
+#      IBUF                        : 46
+#      OBUF                        : 27
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      284  out of   4656     6%  
+ Number of 4 input LUTs:                516  out of   9312     5%  
+ Number of IOs:                          73
+ Number of bonded IOBs:                  73  out of    232    31%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 20.355ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 996949 / 27
+-------------------------------------------------------------------------
+Delay:               20.355ns (Levels of Logic = 29)
+  Source:            fp_multipier<3> (PAD)
+  Destination:       fp_result<21> (PAD)
+
+  Data Path: fp_multipier<3> to fp_result<21>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            65   1.106   1.234  fp_multipier_3_IBUF (fp_multipier_3_IBUF)
+     LUT4:I0->O            1   0.612   0.000  significand_Mul/ppb/partial_product<12>_F (N378)
+     MUXF5:I0->O           2   0.278   0.532  significand_Mul/ppb/partial_product<12> (significand_Mul/pp1<12>)
+     LUT3:I0->O            2   0.612   0.410  significand_Mul/csa1/GEN_REG[10].sum_loop/sum1/co1 (significand_Mul/csa1/tout<10>)
+     LUT3:I2->O            2   0.612   0.532  significand_Mul/csa1/GEN_REG[11].sum_loop/sum2/Mxor_s_Result1 (significand_Mul/s0<11>)
+     LUT3:I0->O            3   0.612   0.520  significand_Mul/csa3/GEN_REG[6].sum_loop/sum1/Mxor_s_Result1 (significand_Mul/csa3/GEN_REG[6].sum_loop/Si)
+     LUT3:I1->O            3   0.612   0.603  significand_Mul/csa3/GEN_REG[6].sum_loop/sum2/Mxor_s_Result1 (significand_Mul/s2<6>)
+     LUT4:I0->O            0   0.612   0.000  significand_Mul/Gen2[0].ha10/Mxor_s_Result1 (significand_Mul/s<14>)
+     MUXCY:DI->O           1   0.773   0.000  significand_Mul/Madd_product_t_Madd_cy<14> (significand_Mul/Madd_product_t_Madd_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<15> (significand_Mul/Madd_product_t_Madd_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<16> (significand_Mul/Madd_product_t_Madd_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<17> (significand_Mul/Madd_product_t_Madd_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<18> (significand_Mul/Madd_product_t_Madd_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<19> (significand_Mul/Madd_product_t_Madd_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<20> (significand_Mul/Madd_product_t_Madd_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<21> (significand_Mul/Madd_product_t_Madd_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<22> (significand_Mul/Madd_product_t_Madd_cy<22>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<23> (significand_Mul/Madd_product_t_Madd_cy<23>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<24> (significand_Mul/Madd_product_t_Madd_cy<24>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<25> (significand_Mul/Madd_product_t_Madd_cy<25>)
+     MUXCY:CI->O           1   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<26> (significand_Mul/Madd_product_t_Madd_cy<26>)
+     MUXCY:CI->O           0   0.052   0.000  significand_Mul/Madd_product_t_Madd_cy<27> (significand_Mul/Madd_product_t_Madd_cy<27>)
+     XORCY:CI->O          17   0.699   0.896  significand_Mul/Madd_product_t_Madd_xor<28> (temp_significand<29>)
+     LUT4:I3->O            1   0.612   0.360  exp_add3/u16/csout<2>_SW0 (N170)
+     LUT4:I3->O            3   0.612   0.520  exp_add3/u16/csout<2> (exp_add3/csout_31<2>)
+     LUT3:I1->O            3   0.612   0.603  fp_result<21>11 (N2)
+     LUT4:I0->O            1   0.612   0.360  fp_result<21>_SW0 (N172)
+     LUT4:I3->O            1   0.612   0.357  fp_result<21> (fp_result_21_OBUF)
+     OBUF:I->O                 3.169          fp_result_21_OBUF (fp_result<21>)
+    ----------------------------------------
+    Total                     20.355ns (13.427ns logic, 6.928ns route)
+                                       (66.0% logic, 34.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 25.00 secs
+Total CPU time to Xst completion: 24.77 secs
+ 
+--> 
+
+Total memory usage is 325016 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

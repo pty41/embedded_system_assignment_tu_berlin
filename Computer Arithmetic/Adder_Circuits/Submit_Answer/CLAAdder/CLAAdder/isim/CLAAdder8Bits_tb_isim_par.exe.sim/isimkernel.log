@@ -1,0 +1,30 @@
+Command line:
+   CLAAdder8Bits_tb_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/CLAAdder8Bits_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  49982
+
+Fri Nov 18 18:11:14 2016
+
+
+ Elaboration Time: 0.05 sec
+
+ Current Memory Usage: 200.503 Meg
+
+ Total Signals          : 445
+ Total Nets             : 266
+ Total Signal Drivers   : 229
+ Total Blocks           : 161
+ Total Primitive Blocks : 84
+ Total Processes        : 227
+ Total Traceable Variables  : 683
+ Total Scalar Nets and Variables : 6683
+
+ Total Simulation Time: 0.07 sec
+
+ Current Memory Usage: 276.079 Meg
+
+Fri Nov 18 18:12:33 2016
+

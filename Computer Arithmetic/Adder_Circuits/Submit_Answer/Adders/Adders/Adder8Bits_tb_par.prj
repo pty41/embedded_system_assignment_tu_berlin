@@ -1,0 +1,2 @@
+vhdl work "netgen/par/Adder8Bits_timesim.vhd"
+vhdl work "Adder8Bits_tb.vhd"

@@ -1,0 +1,6 @@
+work	"ComSum_8bits.vhd"
+work	"HalfAdder.vhd"
+work	"ResultGen.vhd"
+work	"Selector1.vhd"
+work	"Selector2.vhd"
+work	"Selector3.vhd"

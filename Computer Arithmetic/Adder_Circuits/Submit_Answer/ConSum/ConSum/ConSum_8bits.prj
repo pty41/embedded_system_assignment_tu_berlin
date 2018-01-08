@@ -1,0 +1,6 @@
+vhdl work "Selector3.vhd"
+vhdl work "Selector2.vhd"
+vhdl work "Selector1.vhd"
+vhdl work "ResultGen.vhd"
+vhdl work "HalfAdder.vhd"
+vhdl work "ComSum_8bits.vhd"

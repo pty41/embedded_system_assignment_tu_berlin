@@ -1,0 +1,5 @@
+set -tmpdir "/home/shankuan/computer_arithmetic/MultipleDivider/xst/projnav.tmp"
+set -xsthdpdir "/home/shankuan/computer_arithmetic/MultipleDivider/xst"
+elaborate
+-ifn CLA.prj
+-ifmt mixed

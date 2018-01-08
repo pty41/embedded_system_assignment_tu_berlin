@@ -1,0 +1,2 @@
+verilog work "netgen/par/FloatingPointMulExe_timesim.v"
+vhdl work "FloatingPointMulExe_tb.vhd"

@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits.xst" -ofn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits.syr" 
+xst -intstyle ise -ifn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits.xst" -ofn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-5 Adder8Bits.ngc Adder8Bits.ngd  
+map -intstyle ise -p xc3s500e-vq100-5 -cm area -ir off -pr off -c 100 -o Adder8Bits_map.ncd Adder8Bits.ngd Adder8Bits.pcf 
+par -w -intstyle ise -ol high -t 1 Adder8Bits_map.ncd Adder8Bits.ncd Adder8Bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Adder8Bits.twx Adder8Bits.ncd -o Adder8Bits.twr Adder8Bits.pcf 
+xst -intstyle ise -ifn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits.xst" -ofn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-vq100-5 Adder8Bits.ngc Adder8Bits.ngd  
+map -intstyle ise -p xc3s500e-vq100-5 -cm area -ir off -pr off -c 100 -o Adder8Bits_map.ncd Adder8Bits.ngd Adder8Bits.pcf 
+par -w -intstyle ise -ol high -t 1 Adder8Bits_map.ncd Adder8Bits.ncd Adder8Bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Adder8Bits.twx Adder8Bits.ncd -o Adder8Bits.twr Adder8Bits.pcf 
+netgen -intstyle ise -s 5  -pcf Adder8Bits.pcf -rpw 100 -tpw 0 -ar Structure -tm Adder8Bits -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Adder8Bits.ncd Adder8Bits_timesim.vhd 

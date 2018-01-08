@@ -1,0 +1,28 @@
+Command line:
+   FloatingPointMulExe_tb_isim_par.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58353
+
+Wed Feb 08 13:37:32 2017
+
+
+ Elaboration Time: 1.10938 sec
+
+ Current Memory Usage: 894.505 Meg
+
+ Total Signals          : 8994
+ Total Nets             : 4130
+ Total Signal Drivers   : 4039
+ Total Blocks           : 2106
+ Total Primitive Blocks : 1456
+ Total Processes        : 4531
+ Total Traceable Variables  : 4696
+ Total Scalar Nets and Variables : 148433
+
+ Total Simulation Time: 1.875 sec
+
+ Current Memory Usage: 737.219 Meg
+
+Wed Feb 08 13:42:59 2017
+

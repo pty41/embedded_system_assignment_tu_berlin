@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits.xst" -ofn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 CLAAdder8Bits.ngc CLAAdder8Bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CLAAdder8Bits_map.ncd CLAAdder8Bits.ngd CLAAdder8Bits.pcf 
+par -w -intstyle ise -ol high -t 1 CLAAdder8Bits_map.ncd CLAAdder8Bits.ncd CLAAdder8Bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CLAAdder8Bits.twx CLAAdder8Bits.ncd -o CLAAdder8Bits.twr CLAAdder8Bits.pcf 
+xst -intstyle ise -ifn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits.xst" -ofn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 CLAAdder8Bits.ngc CLAAdder8Bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CLAAdder8Bits_map.ncd CLAAdder8Bits.ngd CLAAdder8Bits.pcf 
+par -w -intstyle ise -ol high -t 1 CLAAdder8Bits_map.ncd CLAAdder8Bits.ncd CLAAdder8Bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CLAAdder8Bits.twx CLAAdder8Bits.ncd -o CLAAdder8Bits.twr CLAAdder8Bits.pcf 
+xst -intstyle ise -ifn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits.xst" -ofn "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 CLAAdder8Bits.ngc CLAAdder8Bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CLAAdder8Bits_map.ncd CLAAdder8Bits.ngd CLAAdder8Bits.pcf 
+par -w -intstyle ise -ol high -t 1 CLAAdder8Bits_map.ncd CLAAdder8Bits.ncd CLAAdder8Bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CLAAdder8Bits.twx CLAAdder8Bits.ncd -o CLAAdder8Bits.twr CLAAdder8Bits.pcf 
+netgen -intstyle ise -s 5  -pcf CLAAdder8Bits.pcf -rpw 100 -tpw 0 -ar Structure -tm CLAAdder8Bits -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim CLAAdder8Bits.ncd CLAAdder8Bits_timesim.vhd 

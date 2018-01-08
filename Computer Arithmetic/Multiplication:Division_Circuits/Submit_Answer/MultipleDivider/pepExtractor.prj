@@ -1,0 +1,7 @@
+work	"CSA16bit.vhd"
+work	"CSA17bit.vhd"
+work	"Counter4to2.vhd"
+work	"FullAdder.vhd"
+work	"HalfAdder.vhd"
+work	"PartialProGen.vhd"
+work	"R4BoothMultiplier.vhd"

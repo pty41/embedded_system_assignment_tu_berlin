@@ -1,0 +1,4 @@
+vhdl isim_temp "FullAdder.vhd"
+vhdl isim_temp "Counter4to2.vhd"
+vhdl isim_temp "CarrySaveAdder.vhd"
+vhdl isim_temp "CarrySaveAdder_tb.vhd"

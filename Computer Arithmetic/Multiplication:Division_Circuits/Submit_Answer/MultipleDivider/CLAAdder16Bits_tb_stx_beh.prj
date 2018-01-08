@@ -1,0 +1,3 @@
+vhdl isim_temp "CLA.vhd"
+vhdl isim_temp "CLAAdder16Bits.vhd"
+vhdl isim_temp "CLAAdder16Bits_tb.vhd"

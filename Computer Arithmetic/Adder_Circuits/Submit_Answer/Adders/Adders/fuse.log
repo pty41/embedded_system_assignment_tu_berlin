@@ -1,0 +1,33 @@
+Running: /afs/tu-berlin.de/units/Fak_IV/aes/tools/xilinx/14.5/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits_tb_isim_par.exe -prj /afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits_tb_par.prj work.Adder8Bits_tb 
+ISim P.58f (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/netgen/par/Adder8Bits_timesim.vhd" into library work
+Parsing VHDL file "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 138024 KB
+Fuse CPU Usage: 1560 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package vital_timing
+Compiling package vcomponents
+Compiling package vital_primitives
+Compiling package vpackage
+Compiling architecture x_obuf_v of entity X_OBUF [\X_OBUF(true,true,"DONT_CARE",12...]
+Compiling architecture x_buf_v of entity X_BUF [\X_BUF(true,true,"UNPLACED",(0,0...]
+Compiling architecture x_lut4_v of entity X_LUT4 [\X_LUT4(true,true,"UNPLACED",(0,...]
+Compiling architecture x_one_v of entity X_ONE [\X_ONE("UNPLACED")(1,8)\]
+Compiling architecture x_roc_v of entity X_ROC [\X_ROC("UNPLACED",100000,"*")(1,...]
+Compiling architecture x_toc_v of entity X_TOC [\X_TOC("UNPLACED",0,"*")(1,8,1,1...]
+Compiling architecture structure of entity Adder8Bits [adder8bits_default]
+Compiling architecture behavior of entity adder8bits_tb
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 126 VHDL Units
+Built simulation executable /afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/Adders/Adder8Bits_tb_isim_par.exe
+Fuse Memory Usage: 718656 KB
+Fuse CPU Usage: 1970 ms
+GCC CPU Usage: 3500 ms

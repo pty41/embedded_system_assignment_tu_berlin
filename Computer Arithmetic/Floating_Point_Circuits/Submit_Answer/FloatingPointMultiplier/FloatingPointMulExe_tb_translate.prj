@@ -1,0 +1,2 @@
+verilog work "netgen/translate/FloatingPointMulExe_translate.v"
+vhdl work "FloatingPointMulExe_tb.vhd"

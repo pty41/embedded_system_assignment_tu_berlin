@@ -1,0 +1,150 @@
+V3 110
+FL /home/shankuan/computer_arithmetic/MultipleDivider/CLA.vhd 2017/01/15.03:41:24 P.20131013
+FL /home/shankuan/computer_arithmetic/MultipleDivider/CLAAdder16Bits.vhd 2017/01/15.04:11:41 P.20131013
+FL /home/shankuan/computer_arithmetic/MultipleDivider/goldschmidt_algorithm.vhd 2017/01/15.04:16:04 P.20131013
+FL /home/shankuan/computer_arithmetic/MultipleDivider/recipocal_approximator.vhd 2017/01/15.04:19:08 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/CLA.vhd" 2017/01/15.02:41:24 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/CLAAdder16Bits.vhd" 2017/01/15.03:11:40 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/Counter4to2.vhd" 2017/01/19.12:25:36 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/CSA16bit.vhd" 2017/01/19.12:27:40 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/CSA17bit.vhd" 2017/01/19.12:28:20 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/divider_control.vhd" 2017/01/24.20:31:52 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/FullAdder.vhd" 2017/01/19.12:25:04 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/goldschmidt_algorithm.vhd" 2017/01/25.07:09:45 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/HalfAdder.vhd" 2017/01/19.12:23:04 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/PartialProGen.vhd" 2017/01/19.21:55:30 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/R4BoothMultiplier.vhd" 2017/01/23.17:30:06 P.20131013
+FL "/home/shankuan/Desktop/fianl_test/MultipleDivider V4/recipocal_approximator.vhd" 2017/01/15.03:19:08 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/CLA.vhd 2017/01/15.02:41:24 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/CLAAdder16Bits.vhd 2017/01/15.03:11:40 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/Counter4to2.vhd 2017/01/19.12:25:36 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/CSA16bit.vhd 2017/01/19.12:27:40 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/CSA17bit.vhd 2017/01/19.12:28:20 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/divider_control.vhd 2017/01/24.20:31:52 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/FullAdder.vhd 2017/01/19.12:25:04 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/goldschmidt_algorithm.vhd 2017/01/25.23:43:17 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/HalfAdder.vhd 2017/01/19.12:23:04 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/PartialProGen.vhd 2017/01/19.21:55:30 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/R4BoothMultiplier.vhd 2017/01/23.17:30:06 P.20131013
+FL /home/shankuan/Desktop/fianl_test/MultipleDivider/recipocal_approximator.vhd 2017/01/15.03:19:08 P.20131013
+FL /home/shankuan/MultipleDivider/CLA.vhd 2017/01/15.02:41:24 P.20131013
+FL /home/shankuan/MultipleDivider/CLAAdder16Bits.vhd 2017/01/15.03:11:40 P.20131013
+FL /home/shankuan/MultipleDivider/Counter4to2.vhd 2017/01/19.12:25:36 P.20131013
+FL /home/shankuan/MultipleDivider/CSA16bit.vhd 2017/01/19.12:27:40 P.20131013
+FL /home/shankuan/MultipleDivider/CSA17bit.vhd 2017/01/19.12:28:20 P.20131013
+FL /home/shankuan/MultipleDivider/FullAdder.vhd 2017/01/19.12:25:04 P.20131013
+FL /home/shankuan/MultipleDivider/goldschmidt_algorithm.vhd 2017/01/20.23:05:32 P.20131013
+FL /home/shankuan/MultipleDivider/HalfAdder.vhd 2017/01/19.12:23:04 P.20131013
+FL /home/shankuan/MultipleDivider/PartialProGen.vhd 2017/01/19.21:55:30 P.20131013
+FL /home/shankuan/MultipleDivider/R4BoothMultiplier.vhd 2017/01/19.23:05:40 P.20131013
+FL /home/shankuan/MultipleDivider/recipocal_approximator.vhd 2017/01/15.03:19:08 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/CLA.vhd" 2017/01/15.02:41:24 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/CLAAdder16Bits.vhd" 2017/01/15.03:11:40 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/Counter4to2.vhd" 2017/01/19.12:25:36 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/CSA16bit.vhd" 2017/01/19.12:27:40 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/CSA17bit.vhd" 2017/01/19.12:28:20 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/divider_control.vhd" 2017/01/24.20:05:45 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/FullAdder.vhd" 2017/01/19.12:25:04 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/goldschmidt_algorithm.vhd" 2017/01/24.20:04:12 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/HalfAdder.vhd" 2017/01/19.12:23:04 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/PartialProGen.vhd" 2017/01/19.21:55:30 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/R4BoothMultiplier.vhd" 2017/01/23.17:30:07 P.20131013
+FL "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider V4/recipocal_approximator.vhd" 2017/01/15.03:19:08 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/CLA.vhd 2017/01/15.02:41:24 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/CLAAdder16Bits.vhd 2017/01/15.03:11:40 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/Counter4to2.vhd 2017/01/19.12:25:36 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/CSA16bit.vhd 2017/01/19.12:27:40 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/CSA17bit.vhd 2017/01/19.12:28:20 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/divider_control.vhd 2017/01/23.17:23:01 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/FullAdder.vhd 2017/01/19.12:25:04 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/goldschmidt_algorithm.vhd 2017/01/23.18:11:42 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/HalfAdder.vhd 2017/01/19.12:23:04 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/PartialProGen.vhd 2017/01/19.21:55:30 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/R4BoothMultiplier.vhd 2017/01/23.17:30:07 P.20131013
+FL C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/recipocal_approximator.vhd 2017/01/15.03:19:08 P.20131013
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLA.vhd" 2017/01/14.19:41:24 P.20131013
+EN work/CLA 1485422450 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLA.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/CLA/Behavioral 1485422451 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLA.vhd" \
+      EN work/CLA 1485422450
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLAAdder16Bits.vhd" 2017/01/14.20:11:40 P.20131013
+EN work/CLAAdder16Bits 1485422466 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLAAdder16Bits.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/CLAAdder16Bits/Behavioral 1485422467 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLAAdder16Bits.vhd" \
+      EN work/CLAAdder16Bits 1485422466 CP CLA
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/Counter4to2.vhd" 2017/01/19.05:25:36 P.20131013
+EN work/Counter4to2 1485422448 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/Counter4to2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Counter4to2/Behavioral 1485422449 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/Counter4to2.vhd" \
+      EN work/Counter4to2 1485422448 CP FullAdder
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA16bit.vhd" 2017/01/19.05:27:40 P.20131013
+EN work/CSA16bit 1485422458 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA16bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/CSA16bit/Behavioral 1485422459 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA16bit.vhd" \
+      EN work/CSA16bit 1485422458 CP Counter4to2
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA17bit.vhd" 2017/01/19.05:28:20 P.20131013
+EN work/CSA17bit 1485422456 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA17bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/CSA17bit/Behavioral 1485422457 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA17bit.vhd" \
+      EN work/CSA17bit 1485422456 CP Counter4to2
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/divider_control.vhd" 2017/01/24.13:31:52 P.20131013
+EN work/divider_control 1485422460 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/divider_control.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/divider_control/Behavioral 1485422461 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/divider_control.vhd" \
+      EN work/divider_control 1485422460
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/FullAdder.vhd" 2017/01/19.05:25:04 P.20131013
+EN work/FullAdder 1485422446 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/FullAdder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/Behavioral 1485422447 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/FullAdder.vhd" \
+      EN work/FullAdder 1485422446
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_algorithm.vhd" 2017/01/26.10:18:53 P.20131013
+EN work/goldschmidt_algorithm 1485422468 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_algorithm.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/goldschmidt_algorithm/Behavioral 1485422469 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_algorithm.vhd" \
+      EN work/goldschmidt_algorithm 1485422468 CP divider_control \
+      CP recipocal_approximator CP R4BoothMultiplier CP CLAAdder16Bits
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/HalfAdder.vhd" 2017/01/19.05:23:04 P.20131013
+EN work/HalfAdder 1485422454 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/HalfAdder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/HalfAdder/Behavioral 1485422455 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/HalfAdder.vhd" \
+      EN work/HalfAdder 1485422454
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/PartialProGen.vhd" 2017/01/19.14:55:30 P.20131013
+EN work/PartialProGen 1485422452 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/PartialProGen.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178
+AR work/PartialProGen/Behavioral 1485422453 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/PartialProGen.vhd" \
+      EN work/PartialProGen 1485422452
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/R4BoothMultiplier.vhd" 2017/01/23.10:30:06 P.20131013
+EN work/R4BoothMultiplier 1485422464 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/R4BoothMultiplier.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178
+AR work/R4BoothMultiplier/Behavioral 1485422465 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/R4BoothMultiplier.vhd" \
+      EN work/R4BoothMultiplier 1485422464 CP PartialProGen CP HalfAdder \
+      CP FullAdder CP CSA17bit CP CSA16bit
+FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/recipocal_approximator.vhd" 2017/01/14.20:19:08 P.20131013
+EN work/recipocal_approximator 1485422462 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/recipocal_approximator.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/recipocal_approximator/Behavioral 1485422463 \
+      FL "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/recipocal_approximator.vhd" \
+      EN work/recipocal_approximator 1485422462

@@ -1,0 +1,3 @@
+vhdl work "FullAdder.vhd"
+vhdl work "Counter4to2.vhd"
+vhdl work "CSA17bit.vhd"

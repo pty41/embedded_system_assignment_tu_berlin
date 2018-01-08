@@ -1,0 +1,42 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/shankuan/computer_new/MovingAverageFilter/movingaverage_tb_isim_beh.exe -prj /home/shankuan/computer_new/MovingAverageFilter/movingaverage_tb_beh.prj work.movingaverage_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/FullAdder.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/Counter4to2.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/CLA.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/Reg11bits.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/CLAAdder15Bits.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/CarrySaveAdder.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/OperandAdder.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/InputReg.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/movingaverage.vhd" into library work
+Parsing VHDL file "/home/shankuan/computer_new/MovingAverageFilter/movingaverage_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98780 KB
+Fuse CPU Usage: 1150 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Reg11bits [reg11bits_default]
+Compiling architecture behavioral of entity InputReg [inputreg_default]
+Compiling architecture behavioral of entity FullAdder [fulladder_default]
+Compiling architecture behavioral of entity Counter4to2 [counter4to2_default]
+Compiling architecture behavioral of entity CarrySaveAdder [carrysaveadder_default]
+Compiling architecture behavioral of entity CLA [cla_default]
+Compiling architecture behavioral of entity CLAAdder15Bits [claadder15bits_default]
+Compiling architecture behavioral of entity OperandAdder [operandadder_default]
+Compiling architecture behavioral of entity movingaverage [movingaverage_default]
+Compiling architecture behavior of entity movingaverage_tb
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Built simulation executable /home/shankuan/computer_new/MovingAverageFilter/movingaverage_tb_isim_beh.exe
+Fuse Memory Usage: 676936 KB
+Fuse CPU Usage: 1360 ms
+GCC CPU Usage: 1190 ms

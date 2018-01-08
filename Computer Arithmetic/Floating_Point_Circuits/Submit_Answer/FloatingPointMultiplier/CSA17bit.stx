@@ -1,0 +1,45 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/shankuan/computer_arithmetic/FloatingPointMultiplier/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/shankuan/computer_arithmetic/FloatingPointMultiplier/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/shankuan/computer_arithmetic/FloatingPointMultiplier/FullAdder.vhd" in Library work.
+Entity <FullAdder> compiled.
+Entity <FullAdder> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/shankuan/computer_arithmetic/FloatingPointMultiplier/Counter4to2.vhd" in Library work.
+Entity <Counter4to2> compiled.
+Entity <Counter4to2> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/shankuan/computer_arithmetic/FloatingPointMultiplier/CSA17bit.vhd" in Library work.
+Entity <CSA17bit> compiled.
+Entity <CSA17bit> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+
+
+Total memory usage is 476148 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

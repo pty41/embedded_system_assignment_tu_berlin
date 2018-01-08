@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="MovingAverageFilter" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry10 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry11 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry12 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry13 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry14 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry15 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry2 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry3 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry4 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry5 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry6 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry7 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry8 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry9 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu2 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu3 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu4 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu5 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu6 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage - Behavioral |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage.vhd/u17 - OperandAdder - Behavioral/uu7 - CarrySaveAdder - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>movingaverage - Behavioral (/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001eb000000020000000000000000000000000200000064ffffffff000000810000000300000002000001eb0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>movingaverage - Behavioral (/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Synthesize - XST</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Synthesize - XST</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000048a000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009d0000000100000000000000530000000100000000000000730000000100000000000003270000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>CarrySaveAdder.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/CLAAdder15Bits_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|CLAAdder15Bits_tb.vhd</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry10 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry11 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry12 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry13 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry14 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry15 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry2 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry3 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry4 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry5 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry6 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry7 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry8 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu1 - CarrySaveAdder - Behavioral/sum_carry9 - Counter4to2 - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu2 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu3 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu4 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu5 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu6 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu7 - CarrySaveAdder - Behavioral</ClosedNode>
+         <ClosedNode>/movingaverage_tb - behavior |afs|tu-berlin.de|home|b|barracuda1994|irb-ubuntu|MovingAverageFilter|movingaverage_tb.vhd/uut - movingaverage - Behavioral/u17 - OperandAdder - Behavioral/uu8 - CLAAdder15Bits - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>movingaverage_tb - behavior (/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >102</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ff000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ff0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>movingaverage_tb - behavior (/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000013e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000013e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000e4000000e601000000040100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

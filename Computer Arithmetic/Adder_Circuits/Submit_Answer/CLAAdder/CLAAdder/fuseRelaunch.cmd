@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits_tb_isim_par.exe" -prj "/afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits_tb_par.prj" "work.CLAAdder8Bits_tb" 

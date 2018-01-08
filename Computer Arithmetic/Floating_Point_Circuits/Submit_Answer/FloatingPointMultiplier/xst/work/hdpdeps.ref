@@ -1,0 +1,78 @@
+V3 54
+FL /home/shankuan/computer_arithmetic/FloatingPointMultiplier/Counter4to2.vhd 2017/01/19.05:25:36 P.20131013
+FL /home/shankuan/computer_arithmetic/FloatingPointMultiplier/CSA17bit.vhd 2017/01/19.05:28:20 P.20131013
+FL /home/shankuan/computer_arithmetic/FloatingPointMultiplier/FullAdder.vhd 2017/01/19.05:25:04 P.20131013
+FL D:/FloatingPointMultiplier/ComSum_8bits.vhd 2016/11/18.15:50:24 P.20131013
+EN work/ConSum_8bits 1486558393 FL D:/FloatingPointMultiplier/ComSum_8bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ConSum_8bits/Behavioral 1486558394 \
+      FL D:/FloatingPointMultiplier/ComSum_8bits.vhd EN work/ConSum_8bits 1486558393 \
+      CP HalfAdder CP ResultGen CP Selector1 CP Selector2 CP Selector3
+FL D:/FloatingPointMultiplier/Counter4to2.vhd 2017/01/19.05:25:36 P.20131013
+EN work/Counter4to2 1486558373 FL D:/FloatingPointMultiplier/Counter4to2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Counter4to2/Behavioral 1486558374 \
+      FL D:/FloatingPointMultiplier/Counter4to2.vhd EN work/Counter4to2 1486558373 \
+      CP FullAdder
+FL D:/FloatingPointMultiplier/CSA16bit.vhd 2017/01/19.05:27:40 P.20131013
+EN work/CSA16bit 1486558389 FL D:/FloatingPointMultiplier/CSA16bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CSA16bit/Behavioral 1486558390 \
+      FL D:/FloatingPointMultiplier/CSA16bit.vhd EN work/CSA16bit 1486558389 \
+      CP Counter4to2
+FL D:/FloatingPointMultiplier/CSA17bit.vhd 2017/01/19.05:28:20 P.20131013
+EN work/CSA17bit 1486558387 FL D:/FloatingPointMultiplier/CSA17bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CSA17bit/Behavioral 1486558388 \
+      FL D:/FloatingPointMultiplier/CSA17bit.vhd EN work/CSA17bit 1486558387 \
+      CP Counter4to2
+FL D:/FloatingPointMultiplier/FloatingPointMulExe.vhd 2017/02/08.13:52:38 P.20131013
+EN work/FloatingPointMulExe 1486558395 \
+      FL D:/FloatingPointMultiplier/FloatingPointMulExe.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FloatingPointMulExe/Behavioral 1486558396 \
+      FL D:/FloatingPointMultiplier/FloatingPointMulExe.vhd \
+      EN work/FloatingPointMulExe 1486558395 CP R4BoothMultiplier CP ConSum_8bits
+FL D:/FloatingPointMultiplier/FullAdder.vhd 2017/01/19.05:25:04 P.20131013
+EN work/FullAdder 1486558371 FL D:/FloatingPointMultiplier/FullAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/Behavioral 1486558372 \
+      FL D:/FloatingPointMultiplier/FullAdder.vhd EN work/FullAdder 1486558371
+FL D:/FloatingPointMultiplier/HalfAdder.vhd 2016/11/18.15:39:22 P.20131013
+EN work/HalfAdder 1486558375 FL D:/FloatingPointMultiplier/HalfAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/HalfAdder/Behavioral 1486558376 \
+      FL D:/FloatingPointMultiplier/HalfAdder.vhd EN work/HalfAdder 1486558375
+FL D:/FloatingPointMultiplier/PartialProGen.vhd 2017/01/19.14:55:30 P.20131013
+EN work/PartialProGen 1486558385 FL D:/FloatingPointMultiplier/PartialProGen.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_SIGNED 1381692178
+AR work/PartialProGen/Behavioral 1486558386 \
+      FL D:/FloatingPointMultiplier/PartialProGen.vhd EN work/PartialProGen 1486558385
+FL D:/FloatingPointMultiplier/R4BoothMultiplier.vhd 2017/02/01.14:23:42 P.20131013
+EN work/R4BoothMultiplier 1486558391 \
+      FL D:/FloatingPointMultiplier/R4BoothMultiplier.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_SIGNED 1381692178
+AR work/R4BoothMultiplier/Behavioral 1486558392 \
+      FL D:/FloatingPointMultiplier/R4BoothMultiplier.vhd \
+      EN work/R4BoothMultiplier 1486558391 CP PartialProGen CP HalfAdder \
+      CP FullAdder CP CSA17bit CP CSA16bit
+FL D:/FloatingPointMultiplier/ResultGen.vhd 2016/11/18.15:40:54 P.20131013
+EN work/ResultGen 1486558377 FL D:/FloatingPointMultiplier/ResultGen.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ResultGen/Behavioral 1486558378 \
+      FL D:/FloatingPointMultiplier/ResultGen.vhd EN work/ResultGen 1486558377
+FL D:/FloatingPointMultiplier/Selector1.vhd 2016/11/18.15:43:04 P.20131013
+EN work/Selector1 1486558379 FL D:/FloatingPointMultiplier/Selector1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Selector1/Behavioral 1486558380 \
+      FL D:/FloatingPointMultiplier/Selector1.vhd EN work/Selector1 1486558379
+FL D:/FloatingPointMultiplier/Selector2.vhd 2016/11/18.15:44:04 P.20131013
+EN work/Selector2 1486558381 FL D:/FloatingPointMultiplier/Selector2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Selector2/Behavioral 1486558382 \
+      FL D:/FloatingPointMultiplier/Selector2.vhd EN work/Selector2 1486558381
+FL D:/FloatingPointMultiplier/Selector3.vhd 2016/11/18.15:45:06 P.20131013
+EN work/Selector3 1486558383 FL D:/FloatingPointMultiplier/Selector3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Selector3/Behavioral 1486558384 \
+      FL D:/FloatingPointMultiplier/Selector3.vhd EN work/Selector3 1486558383

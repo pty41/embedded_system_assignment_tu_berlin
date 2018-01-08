@@ -1,0 +1,29 @@
+Command line:
+   recipocal_approximator_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59821
+
+Wed Jan 25 21:29:49 2017
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 227.742 Meg
+
+ Total Signals          : 4
+ Total Nets             : 32
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 392
+Total Line Count : 10
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 303.243 Meg
+
+Wed Jan 25 21:29:51 2017
+

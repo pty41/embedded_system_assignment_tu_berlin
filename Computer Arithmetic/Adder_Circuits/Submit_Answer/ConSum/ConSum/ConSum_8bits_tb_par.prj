@@ -1,0 +1,2 @@
+vhdl work "netgen/par/ConSum_8bits_timesim.vhd"
+vhdl work "ConSum_8bits_tb.vhd"

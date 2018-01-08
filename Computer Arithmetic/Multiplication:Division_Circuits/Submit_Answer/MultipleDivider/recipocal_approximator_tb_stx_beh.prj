@@ -1,0 +1,2 @@
+vhdl isim_temp "recipocal_approximator.vhd"
+vhdl isim_temp "recipocal_approximator_tb.vhd"

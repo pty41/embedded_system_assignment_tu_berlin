@@ -1,0 +1,4 @@
+EN cla NULL /afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLA.vhd sub00/vhpl02 1479487939
+AR claadder8bits behavioral /afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits.vhd sub00/vhpl01 1479487942
+AR cla behavioral /afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLA.vhd sub00/vhpl03 1479487940
+EN claadder8bits NULL /afs/tu-berlin.de/home/b/barracuda1994/irb-ubuntu/CLAAdder/CLAAdder8Bits.vhd sub00/vhpl00 1479487941

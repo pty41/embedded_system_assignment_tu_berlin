@@ -1,0 +1,29 @@
+Command line:
+   R4BoothMutiplier_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  48445
+
+Wed Feb  1 20:17:38 2017
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 230.601 Meg
+
+ Total Signals          : 1233
+ Total Nets             : 681
+ Total Signal Drivers   : 336
+ Total Blocks           : 273
+ Total Primitive Blocks : 149
+ Total Processes        : 335
+ Total Traceable Variables  : 79
+ Total Scalar Nets and Variables : 1128
+Total Line Count : 360
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 306.102 Meg
+
+Wed Feb  1 20:20:38 2017
+

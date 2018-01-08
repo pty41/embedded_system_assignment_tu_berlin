@@ -1,0 +1,31 @@
+Command line:
+   InputReg_tb_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  34753
+
+Wed Dec 14 22:59:10 2016
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 227.811 Meg
+
+ Total Signals          : 19
+ Total Nets             : 189
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 2
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 673
+Total Line Count : 13
+
+ Total Simulation Time: 37 sec
+
+ Current Memory Usage: 303.317 Meg
+
+Wed Dec 14 23:00:08 2016
+

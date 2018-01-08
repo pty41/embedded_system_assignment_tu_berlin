@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/CLAAdder16Bits.xst" -ofn "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/CLAAdder16Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 CLAAdder16Bits.ngc CLAAdder16Bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CLAAdder16Bits_map.ncd CLAAdder16Bits.ngd CLAAdder16Bits.pcf 
+par -w -intstyle ise -ol high -t 1 CLAAdder16Bits_map.ncd CLAAdder16Bits.ncd CLAAdder16Bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CLAAdder16Bits.twx CLAAdder16Bits.ncd -o CLAAdder16Bits.twr CLAAdder16Bits.pcf 
+netgen -intstyle ise -s 5  -pcf CLAAdder16Bits.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim CLAAdder16Bits.ncd CLAAdder16Bits_timesim.v 
+xst -intstyle ise -ifn "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/CLAAdder16Bits.xst" -ofn "C:/Users/barra/Downloads/MultipleDivider/MultipleDivider/CLAAdder16Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 CLAAdder16Bits.ngc CLAAdder16Bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CLAAdder16Bits_map.ncd CLAAdder16Bits.ngd CLAAdder16Bits.pcf 
+par -w -intstyle ise -ol high -t 1 CLAAdder16Bits_map.ncd CLAAdder16Bits.ncd CLAAdder16Bits.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CLAAdder16Bits.twx CLAAdder16Bits.ncd -o CLAAdder16Bits.twr CLAAdder16Bits.pcf 
+netgen -intstyle ise -s 5  -pcf CLAAdder16Bits.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim CLAAdder16Bits.ncd CLAAdder16Bits_timesim.v 

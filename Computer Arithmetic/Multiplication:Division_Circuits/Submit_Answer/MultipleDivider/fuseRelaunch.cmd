@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_tb_isim_beh.exe" -prj "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_tb_beh.prj" "work.goldschmidt_tb" 

@@ -1,0 +1,31 @@
+Command line:
+   movingaverage_tb_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/movingaverage_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  46335
+
+Wed Dec 14 22:58:14 2016
+
+
+ Elaboration Time: 0.41 sec
+
+ Current Memory Usage: 302.002 Meg
+
+ Total Signals          : 16804
+ Total Nets             : 11035
+ Total Signal Drivers   : 11000
+ Total Blocks           : 4205
+ Total Primitive Blocks : 2286
+ Total Processes        : 11001
+ Total Traceable Variables  : 25563
+ Total Scalar Nets and Variables : 80283
+Total Line Count : 34961
+
+ Total Simulation Time: 1.36 sec
+
+ Current Memory Usage: 377.59 Meg
+
+Wed Dec 14 22:58:36 2016
+

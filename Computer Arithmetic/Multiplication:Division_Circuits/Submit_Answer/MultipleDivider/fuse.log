@@ -1,0 +1,44 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_tb_isim_beh.exe -prj D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_tb_beh.prj work.goldschmidt_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/FullAdder.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/Counter4to2.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/PartialProGen.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/HalfAdder.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA17bit.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA16bit.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLA.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/recipocal_approximator.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/R4BoothMultiplier.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/divider_control.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLAAdder16Bits.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_algorithm.vhd" into library work
+Parsing VHDL file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity divider_control [divider_control_default]
+Compiling architecture behavioral of entity recipocal_approximator [recipocal_approximator_default]
+Compiling architecture behavioral of entity PartialProGen [partialprogen_default]
+Compiling architecture behavioral of entity HalfAdder [halfadder_default]
+Compiling architecture behavioral of entity FullAdder [fulladder_default]
+Compiling architecture behavioral of entity Counter4to2 [counter4to2_default]
+Compiling architecture behavioral of entity CSA17bit [csa17bit_default]
+Compiling architecture behavioral of entity CSA16bit [csa16bit_default]
+Compiling architecture behavioral of entity R4BoothMultiplier [r4boothmultiplier_default]
+Compiling architecture behavioral of entity CLA [cla_default]
+Compiling architecture behavioral of entity CLAAdder16Bits [claadder16bits_default]
+Compiling architecture behavioral of entity goldschmidt_algorithm [goldschmidt_algorithm_default]
+Compiling architecture behavior of entity goldschmidt_tb
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 30 VHDL Units
+Built simulation executable D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_tb_isim_beh.exe
+Fuse Memory Usage: 34760 KB
+Fuse CPU Usage: 1796 ms

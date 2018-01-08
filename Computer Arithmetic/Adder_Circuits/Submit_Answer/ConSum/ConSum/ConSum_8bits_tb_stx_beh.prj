@@ -1,0 +1,7 @@
+vhdl isim_temp "Selector3.vhd"
+vhdl isim_temp "Selector2.vhd"
+vhdl isim_temp "Selector1.vhd"
+vhdl isim_temp "ResultGen.vhd"
+vhdl isim_temp "HalfAdder.vhd"
+vhdl isim_temp "ComSum_8bits.vhd"
+vhdl isim_temp "ConSum_8bits_tb.vhd"

@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 movingaverage.ngc movingaverage.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o movingaverage_map.ncd movingaverage.ngd movingaverage.pcf 
+par -w -intstyle ise -ol high -t 1 movingaverage_map.ncd movingaverage.ncd movingaverage.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml movingaverage.twx movingaverage.ncd -o movingaverage.twr movingaverage.pcf 
+xst -intstyle ise -ifn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 movingaverage.ngc movingaverage.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o movingaverage_map.ncd movingaverage.ngd movingaverage.pcf 
+par -w -intstyle ise -ol high -t 1 movingaverage_map.ncd movingaverage.ncd movingaverage.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml movingaverage.twx movingaverage.ncd -o movingaverage.twr movingaverage.pcf 
+netgen -intstyle ise -s 5  -pcf movingaverage.pcf -rpw 100 -tpw 0 -ar Structure -tm movingaverage -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim movingaverage.ncd movingaverage_timesim.vhd 
+xst -intstyle ise -ifn "/home/shankuan/computer_new/MovingAverageFilter/movingaverage.xst" -ofn "/home/shankuan/computer_new/MovingAverageFilter/movingaverage.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 movingaverage.ngc movingaverage.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o movingaverage_map.ncd movingaverage.ngd movingaverage.pcf 
+par -w -intstyle ise -ol high -t 1 movingaverage_map.ncd movingaverage.ncd movingaverage.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml movingaverage.twx movingaverage.ncd -o movingaverage.twr movingaverage.pcf 

@@ -1,0 +1,30 @@
+Command line:
+   Adder8Bits_tb_isim_par.exe
+     -simmode  gui
+     -sdfmax  /uut/=netgen/par/Adder8Bits_timesim.sdf
+     -sdfroot  /uut
+     -simrunnum  0
+     -socket  59816
+
+Fri Nov 18 15:30:54 2016
+
+
+ Elaboration Time: 0.09 sec
+
+ Current Memory Usage: 200.495 Meg
+
+ Total Signals          : 445
+ Total Nets             : 266
+ Total Signal Drivers   : 229
+ Total Blocks           : 161
+ Total Primitive Blocks : 84
+ Total Processes        : 227
+ Total Traceable Variables  : 683
+ Total Scalar Nets and Variables : 6677
+
+ Total Simulation Time: 0.11 sec
+
+ Current Memory Usage: 276.074 Meg
+
+Fri Nov 18 15:37:03 2016
+

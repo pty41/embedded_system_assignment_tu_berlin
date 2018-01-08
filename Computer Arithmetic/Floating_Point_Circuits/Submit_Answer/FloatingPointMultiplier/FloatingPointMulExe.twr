@@ -1,0 +1,1136 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml FloatingPointMulExe.twx FloatingPointMulExe.ncd -o
+FloatingPointMulExe.twr FloatingPointMulExe.pcf
+
+Design file:              FloatingPointMulExe.ncd
+Physical constraint file: FloatingPointMulExe.pcf
+Device,package,speed:     xc3s500e,fg320,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+------------------+---------------+---------+
+Source Pad        |Destination Pad|  Delay  |
+------------------+---------------+---------+
+fp_multipicand<0> |fp_result<0>   |   18.963|
+fp_multipicand<0> |fp_result<1>   |   18.863|
+fp_multipicand<0> |fp_result<2>   |   19.249|
+fp_multipicand<0> |fp_result<3>   |   19.452|
+fp_multipicand<0> |fp_result<4>   |   19.203|
+fp_multipicand<0> |fp_result<5>   |   19.151|
+fp_multipicand<0> |fp_result<6>   |   18.683|
+fp_multipicand<0> |fp_result<7>   |   19.005|
+fp_multipicand<0> |fp_result<8>   |   19.302|
+fp_multipicand<0> |fp_result<9>   |   19.720|
+fp_multipicand<0> |fp_result<10>  |   18.647|
+fp_multipicand<0> |fp_result<11>  |   18.691|
+fp_multipicand<0> |fp_result<12>  |   18.955|
+fp_multipicand<0> |fp_result<13>  |   18.959|
+fp_multipicand<0> |fp_result<14>  |   19.607|
+fp_multipicand<0> |fp_result<15>  |   21.662|
+fp_multipicand<0> |fp_result<16>  |   20.895|
+fp_multipicand<0> |fp_result<17>  |   21.040|
+fp_multipicand<0> |fp_result<18>  |   20.961|
+fp_multipicand<0> |fp_result<19>  |   21.383|
+fp_multipicand<0> |fp_result<20>  |   22.229|
+fp_multipicand<0> |fp_result<21>  |   23.152|
+fp_multipicand<0> |over_flag      |   23.029|
+fp_multipicand<0> |zero_flag      |   10.348|
+fp_multipicand<1> |fp_result<0>   |   18.308|
+fp_multipicand<1> |fp_result<1>   |   18.208|
+fp_multipicand<1> |fp_result<2>   |   18.594|
+fp_multipicand<1> |fp_result<3>   |   18.797|
+fp_multipicand<1> |fp_result<4>   |   18.548|
+fp_multipicand<1> |fp_result<5>   |   18.496|
+fp_multipicand<1> |fp_result<6>   |   18.028|
+fp_multipicand<1> |fp_result<7>   |   18.350|
+fp_multipicand<1> |fp_result<8>   |   18.647|
+fp_multipicand<1> |fp_result<9>   |   19.065|
+fp_multipicand<1> |fp_result<10>  |   17.992|
+fp_multipicand<1> |fp_result<11>  |   18.036|
+fp_multipicand<1> |fp_result<12>  |   18.300|
+fp_multipicand<1> |fp_result<13>  |   18.304|
+fp_multipicand<1> |fp_result<14>  |   18.952|
+fp_multipicand<1> |fp_result<15>  |   21.007|
+fp_multipicand<1> |fp_result<16>  |   20.240|
+fp_multipicand<1> |fp_result<17>  |   20.385|
+fp_multipicand<1> |fp_result<18>  |   20.306|
+fp_multipicand<1> |fp_result<19>  |   20.728|
+fp_multipicand<1> |fp_result<20>  |   21.574|
+fp_multipicand<1> |fp_result<21>  |   22.497|
+fp_multipicand<1> |over_flag      |   22.374|
+fp_multipicand<1> |zero_flag      |   10.030|
+fp_multipicand<2> |fp_result<0>   |   18.705|
+fp_multipicand<2> |fp_result<1>   |   18.605|
+fp_multipicand<2> |fp_result<2>   |   18.991|
+fp_multipicand<2> |fp_result<3>   |   19.194|
+fp_multipicand<2> |fp_result<4>   |   18.945|
+fp_multipicand<2> |fp_result<5>   |   18.893|
+fp_multipicand<2> |fp_result<6>   |   18.425|
+fp_multipicand<2> |fp_result<7>   |   18.747|
+fp_multipicand<2> |fp_result<8>   |   19.044|
+fp_multipicand<2> |fp_result<9>   |   19.462|
+fp_multipicand<2> |fp_result<10>  |   18.389|
+fp_multipicand<2> |fp_result<11>  |   18.433|
+fp_multipicand<2> |fp_result<12>  |   18.697|
+fp_multipicand<2> |fp_result<13>  |   18.701|
+fp_multipicand<2> |fp_result<14>  |   19.349|
+fp_multipicand<2> |fp_result<15>  |   21.404|
+fp_multipicand<2> |fp_result<16>  |   20.637|
+fp_multipicand<2> |fp_result<17>  |   20.782|
+fp_multipicand<2> |fp_result<18>  |   20.703|
+fp_multipicand<2> |fp_result<19>  |   21.125|
+fp_multipicand<2> |fp_result<20>  |   21.971|
+fp_multipicand<2> |fp_result<21>  |   22.894|
+fp_multipicand<2> |over_flag      |   22.771|
+fp_multipicand<2> |zero_flag      |    9.745|
+fp_multipicand<3> |fp_result<0>   |   18.222|
+fp_multipicand<3> |fp_result<1>   |   18.122|
+fp_multipicand<3> |fp_result<2>   |   18.508|
+fp_multipicand<3> |fp_result<3>   |   18.711|
+fp_multipicand<3> |fp_result<4>   |   18.462|
+fp_multipicand<3> |fp_result<5>   |   18.410|
+fp_multipicand<3> |fp_result<6>   |   17.942|
+fp_multipicand<3> |fp_result<7>   |   18.264|
+fp_multipicand<3> |fp_result<8>   |   18.561|
+fp_multipicand<3> |fp_result<9>   |   18.979|
+fp_multipicand<3> |fp_result<10>  |   17.906|
+fp_multipicand<3> |fp_result<11>  |   17.950|
+fp_multipicand<3> |fp_result<12>  |   18.214|
+fp_multipicand<3> |fp_result<13>  |   18.218|
+fp_multipicand<3> |fp_result<14>  |   18.866|
+fp_multipicand<3> |fp_result<15>  |   20.921|
+fp_multipicand<3> |fp_result<16>  |   20.154|
+fp_multipicand<3> |fp_result<17>  |   20.299|
+fp_multipicand<3> |fp_result<18>  |   20.220|
+fp_multipicand<3> |fp_result<19>  |   20.642|
+fp_multipicand<3> |fp_result<20>  |   21.488|
+fp_multipicand<3> |fp_result<21>  |   22.411|
+fp_multipicand<3> |over_flag      |   22.288|
+fp_multipicand<3> |zero_flag      |    9.257|
+fp_multipicand<4> |fp_result<0>   |   18.350|
+fp_multipicand<4> |fp_result<1>   |   18.250|
+fp_multipicand<4> |fp_result<2>   |   18.636|
+fp_multipicand<4> |fp_result<3>   |   18.839|
+fp_multipicand<4> |fp_result<4>   |   18.590|
+fp_multipicand<4> |fp_result<5>   |   18.538|
+fp_multipicand<4> |fp_result<6>   |   18.070|
+fp_multipicand<4> |fp_result<7>   |   18.392|
+fp_multipicand<4> |fp_result<8>   |   18.689|
+fp_multipicand<4> |fp_result<9>   |   19.107|
+fp_multipicand<4> |fp_result<10>  |   18.034|
+fp_multipicand<4> |fp_result<11>  |   18.078|
+fp_multipicand<4> |fp_result<12>  |   18.342|
+fp_multipicand<4> |fp_result<13>  |   18.346|
+fp_multipicand<4> |fp_result<14>  |   18.994|
+fp_multipicand<4> |fp_result<15>  |   21.049|
+fp_multipicand<4> |fp_result<16>  |   20.282|
+fp_multipicand<4> |fp_result<17>  |   20.427|
+fp_multipicand<4> |fp_result<18>  |   20.348|
+fp_multipicand<4> |fp_result<19>  |   20.770|
+fp_multipicand<4> |fp_result<20>  |   21.616|
+fp_multipicand<4> |fp_result<21>  |   22.539|
+fp_multipicand<4> |over_flag      |   22.416|
+fp_multipicand<4> |zero_flag      |    9.334|
+fp_multipicand<5> |fp_result<0>   |   18.303|
+fp_multipicand<5> |fp_result<1>   |   18.203|
+fp_multipicand<5> |fp_result<2>   |   18.589|
+fp_multipicand<5> |fp_result<3>   |   18.792|
+fp_multipicand<5> |fp_result<4>   |   18.543|
+fp_multipicand<5> |fp_result<5>   |   18.491|
+fp_multipicand<5> |fp_result<6>   |   18.023|
+fp_multipicand<5> |fp_result<7>   |   18.345|
+fp_multipicand<5> |fp_result<8>   |   18.642|
+fp_multipicand<5> |fp_result<9>   |   19.060|
+fp_multipicand<5> |fp_result<10>  |   17.987|
+fp_multipicand<5> |fp_result<11>  |   18.031|
+fp_multipicand<5> |fp_result<12>  |   18.295|
+fp_multipicand<5> |fp_result<13>  |   18.299|
+fp_multipicand<5> |fp_result<14>  |   18.947|
+fp_multipicand<5> |fp_result<15>  |   21.002|
+fp_multipicand<5> |fp_result<16>  |   20.235|
+fp_multipicand<5> |fp_result<17>  |   20.380|
+fp_multipicand<5> |fp_result<18>  |   20.301|
+fp_multipicand<5> |fp_result<19>  |   20.723|
+fp_multipicand<5> |fp_result<20>  |   21.569|
+fp_multipicand<5> |fp_result<21>  |   22.492|
+fp_multipicand<5> |over_flag      |   22.369|
+fp_multipicand<5> |zero_flag      |    9.102|
+fp_multipicand<6> |fp_result<0>   |   19.865|
+fp_multipicand<6> |fp_result<1>   |   19.765|
+fp_multipicand<6> |fp_result<2>   |   20.151|
+fp_multipicand<6> |fp_result<3>   |   20.354|
+fp_multipicand<6> |fp_result<4>   |   20.105|
+fp_multipicand<6> |fp_result<5>   |   20.053|
+fp_multipicand<6> |fp_result<6>   |   19.585|
+fp_multipicand<6> |fp_result<7>   |   19.907|
+fp_multipicand<6> |fp_result<8>   |   20.204|
+fp_multipicand<6> |fp_result<9>   |   20.622|
+fp_multipicand<6> |fp_result<10>  |   19.549|
+fp_multipicand<6> |fp_result<11>  |   19.593|
+fp_multipicand<6> |fp_result<12>  |   19.857|
+fp_multipicand<6> |fp_result<13>  |   19.861|
+fp_multipicand<6> |fp_result<14>  |   20.509|
+fp_multipicand<6> |fp_result<15>  |   22.564|
+fp_multipicand<6> |fp_result<16>  |   21.797|
+fp_multipicand<6> |fp_result<17>  |   21.942|
+fp_multipicand<6> |fp_result<18>  |   21.863|
+fp_multipicand<6> |fp_result<19>  |   22.285|
+fp_multipicand<6> |fp_result<20>  |   23.131|
+fp_multipicand<6> |fp_result<21>  |   24.054|
+fp_multipicand<6> |over_flag      |   23.931|
+fp_multipicand<6> |zero_flag      |    9.637|
+fp_multipicand<7> |fp_result<0>   |   19.281|
+fp_multipicand<7> |fp_result<1>   |   19.181|
+fp_multipicand<7> |fp_result<2>   |   19.567|
+fp_multipicand<7> |fp_result<3>   |   19.770|
+fp_multipicand<7> |fp_result<4>   |   19.521|
+fp_multipicand<7> |fp_result<5>   |   19.469|
+fp_multipicand<7> |fp_result<6>   |   19.001|
+fp_multipicand<7> |fp_result<7>   |   19.323|
+fp_multipicand<7> |fp_result<8>   |   19.620|
+fp_multipicand<7> |fp_result<9>   |   20.038|
+fp_multipicand<7> |fp_result<10>  |   18.965|
+fp_multipicand<7> |fp_result<11>  |   19.009|
+fp_multipicand<7> |fp_result<12>  |   19.273|
+fp_multipicand<7> |fp_result<13>  |   19.277|
+fp_multipicand<7> |fp_result<14>  |   19.925|
+fp_multipicand<7> |fp_result<15>  |   21.980|
+fp_multipicand<7> |fp_result<16>  |   21.213|
+fp_multipicand<7> |fp_result<17>  |   21.358|
+fp_multipicand<7> |fp_result<18>  |   21.279|
+fp_multipicand<7> |fp_result<19>  |   21.701|
+fp_multipicand<7> |fp_result<20>  |   22.547|
+fp_multipicand<7> |fp_result<21>  |   23.470|
+fp_multipicand<7> |over_flag      |   23.347|
+fp_multipicand<7> |zero_flag      |    9.930|
+fp_multipicand<8> |fp_result<0>   |   19.112|
+fp_multipicand<8> |fp_result<1>   |   19.012|
+fp_multipicand<8> |fp_result<2>   |   19.398|
+fp_multipicand<8> |fp_result<3>   |   19.601|
+fp_multipicand<8> |fp_result<4>   |   19.352|
+fp_multipicand<8> |fp_result<5>   |   19.300|
+fp_multipicand<8> |fp_result<6>   |   18.832|
+fp_multipicand<8> |fp_result<7>   |   19.154|
+fp_multipicand<8> |fp_result<8>   |   19.451|
+fp_multipicand<8> |fp_result<9>   |   19.869|
+fp_multipicand<8> |fp_result<10>  |   18.796|
+fp_multipicand<8> |fp_result<11>  |   18.840|
+fp_multipicand<8> |fp_result<12>  |   19.104|
+fp_multipicand<8> |fp_result<13>  |   19.108|
+fp_multipicand<8> |fp_result<14>  |   19.756|
+fp_multipicand<8> |fp_result<15>  |   21.811|
+fp_multipicand<8> |fp_result<16>  |   21.044|
+fp_multipicand<8> |fp_result<17>  |   21.189|
+fp_multipicand<8> |fp_result<18>  |   21.110|
+fp_multipicand<8> |fp_result<19>  |   21.532|
+fp_multipicand<8> |fp_result<20>  |   22.378|
+fp_multipicand<8> |fp_result<21>  |   23.301|
+fp_multipicand<8> |over_flag      |   23.178|
+fp_multipicand<8> |zero_flag      |    9.735|
+fp_multipicand<9> |fp_result<0>   |   18.771|
+fp_multipicand<9> |fp_result<1>   |   18.671|
+fp_multipicand<9> |fp_result<2>   |   19.057|
+fp_multipicand<9> |fp_result<3>   |   19.260|
+fp_multipicand<9> |fp_result<4>   |   19.011|
+fp_multipicand<9> |fp_result<5>   |   18.959|
+fp_multipicand<9> |fp_result<6>   |   18.491|
+fp_multipicand<9> |fp_result<7>   |   18.813|
+fp_multipicand<9> |fp_result<8>   |   19.110|
+fp_multipicand<9> |fp_result<9>   |   19.528|
+fp_multipicand<9> |fp_result<10>  |   18.455|
+fp_multipicand<9> |fp_result<11>  |   18.499|
+fp_multipicand<9> |fp_result<12>  |   18.763|
+fp_multipicand<9> |fp_result<13>  |   18.767|
+fp_multipicand<9> |fp_result<14>  |   19.415|
+fp_multipicand<9> |fp_result<15>  |   21.470|
+fp_multipicand<9> |fp_result<16>  |   20.703|
+fp_multipicand<9> |fp_result<17>  |   20.848|
+fp_multipicand<9> |fp_result<18>  |   20.769|
+fp_multipicand<9> |fp_result<19>  |   21.191|
+fp_multipicand<9> |fp_result<20>  |   22.037|
+fp_multipicand<9> |fp_result<21>  |   22.960|
+fp_multipicand<9> |over_flag      |   22.837|
+fp_multipicand<9> |zero_flag      |    9.718|
+fp_multipicand<10>|fp_result<0>   |   18.083|
+fp_multipicand<10>|fp_result<1>   |   17.983|
+fp_multipicand<10>|fp_result<2>   |   18.369|
+fp_multipicand<10>|fp_result<3>   |   18.572|
+fp_multipicand<10>|fp_result<4>   |   18.323|
+fp_multipicand<10>|fp_result<5>   |   18.271|
+fp_multipicand<10>|fp_result<6>   |   17.803|
+fp_multipicand<10>|fp_result<7>   |   18.125|
+fp_multipicand<10>|fp_result<8>   |   18.422|
+fp_multipicand<10>|fp_result<9>   |   18.840|
+fp_multipicand<10>|fp_result<10>  |   17.767|
+fp_multipicand<10>|fp_result<11>  |   17.811|
+fp_multipicand<10>|fp_result<12>  |   18.075|
+fp_multipicand<10>|fp_result<13>  |   18.079|
+fp_multipicand<10>|fp_result<14>  |   18.727|
+fp_multipicand<10>|fp_result<15>  |   20.782|
+fp_multipicand<10>|fp_result<16>  |   20.015|
+fp_multipicand<10>|fp_result<17>  |   20.160|
+fp_multipicand<10>|fp_result<18>  |   20.081|
+fp_multipicand<10>|fp_result<19>  |   20.503|
+fp_multipicand<10>|fp_result<20>  |   21.349|
+fp_multipicand<10>|fp_result<21>  |   22.272|
+fp_multipicand<10>|over_flag      |   22.149|
+fp_multipicand<10>|zero_flag      |    8.714|
+fp_multipicand<11>|fp_result<0>   |   18.343|
+fp_multipicand<11>|fp_result<1>   |   18.243|
+fp_multipicand<11>|fp_result<2>   |   18.629|
+fp_multipicand<11>|fp_result<3>   |   18.832|
+fp_multipicand<11>|fp_result<4>   |   18.583|
+fp_multipicand<11>|fp_result<5>   |   18.531|
+fp_multipicand<11>|fp_result<6>   |   18.063|
+fp_multipicand<11>|fp_result<7>   |   18.385|
+fp_multipicand<11>|fp_result<8>   |   18.682|
+fp_multipicand<11>|fp_result<9>   |   19.100|
+fp_multipicand<11>|fp_result<10>  |   18.027|
+fp_multipicand<11>|fp_result<11>  |   18.071|
+fp_multipicand<11>|fp_result<12>  |   18.335|
+fp_multipicand<11>|fp_result<13>  |   18.339|
+fp_multipicand<11>|fp_result<14>  |   18.987|
+fp_multipicand<11>|fp_result<15>  |   21.042|
+fp_multipicand<11>|fp_result<16>  |   20.275|
+fp_multipicand<11>|fp_result<17>  |   20.420|
+fp_multipicand<11>|fp_result<18>  |   20.341|
+fp_multipicand<11>|fp_result<19>  |   20.763|
+fp_multipicand<11>|fp_result<20>  |   21.609|
+fp_multipicand<11>|fp_result<21>  |   22.532|
+fp_multipicand<11>|over_flag      |   22.409|
+fp_multipicand<11>|zero_flag      |    8.690|
+fp_multipicand<12>|fp_result<0>   |   18.095|
+fp_multipicand<12>|fp_result<1>   |   17.995|
+fp_multipicand<12>|fp_result<2>   |   18.381|
+fp_multipicand<12>|fp_result<3>   |   18.584|
+fp_multipicand<12>|fp_result<4>   |   18.335|
+fp_multipicand<12>|fp_result<5>   |   18.283|
+fp_multipicand<12>|fp_result<6>   |   17.815|
+fp_multipicand<12>|fp_result<7>   |   18.137|
+fp_multipicand<12>|fp_result<8>   |   18.434|
+fp_multipicand<12>|fp_result<9>   |   18.852|
+fp_multipicand<12>|fp_result<10>  |   17.779|
+fp_multipicand<12>|fp_result<11>  |   17.823|
+fp_multipicand<12>|fp_result<12>  |   18.087|
+fp_multipicand<12>|fp_result<13>  |   18.091|
+fp_multipicand<12>|fp_result<14>  |   18.739|
+fp_multipicand<12>|fp_result<15>  |   20.794|
+fp_multipicand<12>|fp_result<16>  |   20.027|
+fp_multipicand<12>|fp_result<17>  |   20.172|
+fp_multipicand<12>|fp_result<18>  |   20.093|
+fp_multipicand<12>|fp_result<19>  |   20.515|
+fp_multipicand<12>|fp_result<20>  |   21.361|
+fp_multipicand<12>|fp_result<21>  |   22.284|
+fp_multipicand<12>|over_flag      |   22.161|
+fp_multipicand<12>|zero_flag      |    9.325|
+fp_multipicand<13>|fp_result<0>   |   18.826|
+fp_multipicand<13>|fp_result<1>   |   18.726|
+fp_multipicand<13>|fp_result<2>   |   19.112|
+fp_multipicand<13>|fp_result<3>   |   19.315|
+fp_multipicand<13>|fp_result<4>   |   19.066|
+fp_multipicand<13>|fp_result<5>   |   19.014|
+fp_multipicand<13>|fp_result<6>   |   18.546|
+fp_multipicand<13>|fp_result<7>   |   18.868|
+fp_multipicand<13>|fp_result<8>   |   19.165|
+fp_multipicand<13>|fp_result<9>   |   19.583|
+fp_multipicand<13>|fp_result<10>  |   18.510|
+fp_multipicand<13>|fp_result<11>  |   18.554|
+fp_multipicand<13>|fp_result<12>  |   18.818|
+fp_multipicand<13>|fp_result<13>  |   18.822|
+fp_multipicand<13>|fp_result<14>  |   19.470|
+fp_multipicand<13>|fp_result<15>  |   21.525|
+fp_multipicand<13>|fp_result<16>  |   20.758|
+fp_multipicand<13>|fp_result<17>  |   20.903|
+fp_multipicand<13>|fp_result<18>  |   20.824|
+fp_multipicand<13>|fp_result<19>  |   21.246|
+fp_multipicand<13>|fp_result<20>  |   22.092|
+fp_multipicand<13>|fp_result<21>  |   23.015|
+fp_multipicand<13>|over_flag      |   22.892|
+fp_multipicand<13>|zero_flag      |   10.130|
+fp_multipicand<14>|fp_result<0>   |   11.642|
+fp_multipicand<14>|fp_result<1>   |   11.564|
+fp_multipicand<14>|fp_result<2>   |   11.785|
+fp_multipicand<14>|fp_result<3>   |   11.744|
+fp_multipicand<14>|fp_result<4>   |   11.547|
+fp_multipicand<14>|fp_result<5>   |   11.315|
+fp_multipicand<14>|fp_result<6>   |   10.587|
+fp_multipicand<14>|fp_result<7>   |   11.550|
+fp_multipicand<14>|fp_result<8>   |   11.166|
+fp_multipicand<14>|fp_result<9>   |    9.535|
+fp_multipicand<14>|fp_result<10>  |   10.814|
+fp_multipicand<14>|fp_result<11>  |   10.510|
+fp_multipicand<14>|fp_result<12>  |   11.004|
+fp_multipicand<14>|fp_result<13>  |   11.135|
+fp_multipicand<14>|fp_result<14>  |    9.663|
+fp_multipicand<14>|fp_result<15>  |   10.704|
+fp_multipicand<14>|fp_result<16>  |   10.379|
+fp_multipicand<14>|fp_result<17>  |   10.395|
+fp_multipicand<14>|fp_result<18>  |   10.915|
+fp_multipicand<14>|fp_result<19>  |   11.381|
+fp_multipicand<14>|fp_result<20>  |   12.700|
+fp_multipicand<14>|fp_result<21>  |   13.133|
+fp_multipicand<14>|over_flag      |   14.073|
+fp_multipicand<14>|underflow_flag |   13.045|
+fp_multipicand<14>|zero_flag      |    8.661|
+fp_multipicand<15>|fp_result<0>   |   11.549|
+fp_multipicand<15>|fp_result<1>   |   11.471|
+fp_multipicand<15>|fp_result<2>   |   11.692|
+fp_multipicand<15>|fp_result<3>   |   11.651|
+fp_multipicand<15>|fp_result<4>   |   11.454|
+fp_multipicand<15>|fp_result<5>   |   11.222|
+fp_multipicand<15>|fp_result<6>   |   10.494|
+fp_multipicand<15>|fp_result<7>   |   11.457|
+fp_multipicand<15>|fp_result<8>   |   11.073|
+fp_multipicand<15>|fp_result<9>   |    9.442|
+fp_multipicand<15>|fp_result<10>  |   10.721|
+fp_multipicand<15>|fp_result<11>  |   10.417|
+fp_multipicand<15>|fp_result<12>  |   10.911|
+fp_multipicand<15>|fp_result<13>  |   11.042|
+fp_multipicand<15>|fp_result<14>  |    9.570|
+fp_multipicand<15>|fp_result<15>  |   10.611|
+fp_multipicand<15>|fp_result<16>  |   10.286|
+fp_multipicand<15>|fp_result<17>  |   10.147|
+fp_multipicand<15>|fp_result<18>  |   10.578|
+fp_multipicand<15>|fp_result<19>  |   11.044|
+fp_multipicand<15>|fp_result<20>  |   12.363|
+fp_multipicand<15>|fp_result<21>  |   12.796|
+fp_multipicand<15>|over_flag      |   13.736|
+fp_multipicand<15>|underflow_flag |   12.708|
+fp_multipicand<15>|zero_flag      |    8.568|
+fp_multipicand<16>|fp_result<0>   |   12.435|
+fp_multipicand<16>|fp_result<1>   |   12.357|
+fp_multipicand<16>|fp_result<2>   |   12.578|
+fp_multipicand<16>|fp_result<3>   |   12.537|
+fp_multipicand<16>|fp_result<4>   |   12.340|
+fp_multipicand<16>|fp_result<5>   |   12.108|
+fp_multipicand<16>|fp_result<6>   |   11.380|
+fp_multipicand<16>|fp_result<7>   |   12.343|
+fp_multipicand<16>|fp_result<8>   |   11.959|
+fp_multipicand<16>|fp_result<9>   |   10.328|
+fp_multipicand<16>|fp_result<10>  |   11.607|
+fp_multipicand<16>|fp_result<11>  |   11.303|
+fp_multipicand<16>|fp_result<12>  |   11.797|
+fp_multipicand<16>|fp_result<13>  |   11.928|
+fp_multipicand<16>|fp_result<14>  |   10.456|
+fp_multipicand<16>|fp_result<15>  |   11.497|
+fp_multipicand<16>|fp_result<16>  |   11.172|
+fp_multipicand<16>|fp_result<17>  |   11.033|
+fp_multipicand<16>|fp_result<18>  |   10.929|
+fp_multipicand<16>|fp_result<19>  |   10.744|
+fp_multipicand<16>|fp_result<20>  |   11.194|
+fp_multipicand<16>|fp_result<21>  |   11.769|
+fp_multipicand<16>|over_flag      |   12.293|
+fp_multipicand<16>|underflow_flag |   11.265|
+fp_multipicand<16>|zero_flag      |    9.454|
+fp_multipicand<17>|fp_result<0>   |   11.657|
+fp_multipicand<17>|fp_result<1>   |   11.579|
+fp_multipicand<17>|fp_result<2>   |   11.800|
+fp_multipicand<17>|fp_result<3>   |   11.759|
+fp_multipicand<17>|fp_result<4>   |   11.562|
+fp_multipicand<17>|fp_result<5>   |   11.330|
+fp_multipicand<17>|fp_result<6>   |   10.602|
+fp_multipicand<17>|fp_result<7>   |   11.565|
+fp_multipicand<17>|fp_result<8>   |   11.181|
+fp_multipicand<17>|fp_result<9>   |    9.550|
+fp_multipicand<17>|fp_result<10>  |   10.829|
+fp_multipicand<17>|fp_result<11>  |   10.525|
+fp_multipicand<17>|fp_result<12>  |   11.019|
+fp_multipicand<17>|fp_result<13>  |   11.150|
+fp_multipicand<17>|fp_result<14>  |    9.678|
+fp_multipicand<17>|fp_result<15>  |   10.719|
+fp_multipicand<17>|fp_result<16>  |   10.394|
+fp_multipicand<17>|fp_result<17>  |   10.255|
+fp_multipicand<17>|fp_result<18>  |   10.151|
+fp_multipicand<17>|fp_result<19>  |    9.966|
+fp_multipicand<17>|fp_result<20>  |   10.778|
+fp_multipicand<17>|fp_result<21>  |   11.211|
+fp_multipicand<17>|over_flag      |   12.151|
+fp_multipicand<17>|underflow_flag |   11.123|
+fp_multipicand<17>|zero_flag      |    8.676|
+fp_multipicand<18>|fp_result<0>   |   11.612|
+fp_multipicand<18>|fp_result<1>   |   11.534|
+fp_multipicand<18>|fp_result<2>   |   11.755|
+fp_multipicand<18>|fp_result<3>   |   11.714|
+fp_multipicand<18>|fp_result<4>   |   11.517|
+fp_multipicand<18>|fp_result<5>   |   11.285|
+fp_multipicand<18>|fp_result<6>   |   10.557|
+fp_multipicand<18>|fp_result<7>   |   11.520|
+fp_multipicand<18>|fp_result<8>   |   11.136|
+fp_multipicand<18>|fp_result<9>   |    9.505|
+fp_multipicand<18>|fp_result<10>  |   10.784|
+fp_multipicand<18>|fp_result<11>  |   10.480|
+fp_multipicand<18>|fp_result<12>  |   10.974|
+fp_multipicand<18>|fp_result<13>  |   11.105|
+fp_multipicand<18>|fp_result<14>  |    9.633|
+fp_multipicand<18>|fp_result<15>  |   10.674|
+fp_multipicand<18>|fp_result<16>  |   10.349|
+fp_multipicand<18>|fp_result<17>  |   10.210|
+fp_multipicand<18>|fp_result<18>  |   10.106|
+fp_multipicand<18>|fp_result<19>  |    9.921|
+fp_multipicand<18>|fp_result<20>  |   10.371|
+fp_multipicand<18>|fp_result<21>  |   10.946|
+fp_multipicand<18>|over_flag      |   11.066|
+fp_multipicand<18>|underflow_flag |   10.038|
+fp_multipicand<18>|zero_flag      |    8.631|
+fp_multipicand<19>|fp_result<0>   |   12.746|
+fp_multipicand<19>|fp_result<1>   |   12.668|
+fp_multipicand<19>|fp_result<2>   |   12.889|
+fp_multipicand<19>|fp_result<3>   |   12.848|
+fp_multipicand<19>|fp_result<4>   |   12.651|
+fp_multipicand<19>|fp_result<5>   |   12.419|
+fp_multipicand<19>|fp_result<6>   |   11.691|
+fp_multipicand<19>|fp_result<7>   |   12.654|
+fp_multipicand<19>|fp_result<8>   |   12.270|
+fp_multipicand<19>|fp_result<9>   |   10.639|
+fp_multipicand<19>|fp_result<10>  |   11.918|
+fp_multipicand<19>|fp_result<11>  |   11.614|
+fp_multipicand<19>|fp_result<12>  |   12.108|
+fp_multipicand<19>|fp_result<13>  |   12.239|
+fp_multipicand<19>|fp_result<14>  |   10.767|
+fp_multipicand<19>|fp_result<15>  |   11.808|
+fp_multipicand<19>|fp_result<16>  |   11.483|
+fp_multipicand<19>|fp_result<17>  |   11.344|
+fp_multipicand<19>|fp_result<18>  |   11.240|
+fp_multipicand<19>|fp_result<19>  |   11.055|
+fp_multipicand<19>|fp_result<20>  |   11.505|
+fp_multipicand<19>|fp_result<21>  |   12.080|
+fp_multipicand<19>|over_flag      |   10.629|
+fp_multipicand<19>|underflow_flag |    9.601|
+fp_multipicand<19>|zero_flag      |    9.765|
+fp_multipicand<20>|fp_result<0>   |   12.396|
+fp_multipicand<20>|fp_result<1>   |   12.318|
+fp_multipicand<20>|fp_result<2>   |   12.539|
+fp_multipicand<20>|fp_result<3>   |   12.498|
+fp_multipicand<20>|fp_result<4>   |   12.301|
+fp_multipicand<20>|fp_result<5>   |   12.069|
+fp_multipicand<20>|fp_result<6>   |   11.341|
+fp_multipicand<20>|fp_result<7>   |   12.304|
+fp_multipicand<20>|fp_result<8>   |   11.920|
+fp_multipicand<20>|fp_result<9>   |   10.289|
+fp_multipicand<20>|fp_result<10>  |   11.568|
+fp_multipicand<20>|fp_result<11>  |   11.264|
+fp_multipicand<20>|fp_result<12>  |   11.758|
+fp_multipicand<20>|fp_result<13>  |   11.889|
+fp_multipicand<20>|fp_result<14>  |   10.417|
+fp_multipicand<20>|fp_result<15>  |   11.458|
+fp_multipicand<20>|fp_result<16>  |   11.133|
+fp_multipicand<20>|fp_result<17>  |   10.994|
+fp_multipicand<20>|fp_result<18>  |   10.890|
+fp_multipicand<20>|fp_result<19>  |   10.705|
+fp_multipicand<20>|fp_result<20>  |   11.155|
+fp_multipicand<20>|fp_result<21>  |   11.730|
+fp_multipicand<20>|over_flag      |    9.599|
+fp_multipicand<20>|underflow_flag |    8.516|
+fp_multipicand<20>|zero_flag      |    9.415|
+fp_multipicand<21>|fp_result<0>   |   12.880|
+fp_multipicand<21>|fp_result<1>   |   12.802|
+fp_multipicand<21>|fp_result<2>   |   13.023|
+fp_multipicand<21>|fp_result<3>   |   12.982|
+fp_multipicand<21>|fp_result<4>   |   12.785|
+fp_multipicand<21>|fp_result<5>   |   12.553|
+fp_multipicand<21>|fp_result<6>   |   11.825|
+fp_multipicand<21>|fp_result<7>   |   12.788|
+fp_multipicand<21>|fp_result<8>   |   12.404|
+fp_multipicand<21>|fp_result<9>   |   10.773|
+fp_multipicand<21>|fp_result<10>  |   12.052|
+fp_multipicand<21>|fp_result<11>  |   11.748|
+fp_multipicand<21>|fp_result<12>  |   12.242|
+fp_multipicand<21>|fp_result<13>  |   12.373|
+fp_multipicand<21>|fp_result<14>  |   10.901|
+fp_multipicand<21>|fp_result<15>  |   11.942|
+fp_multipicand<21>|fp_result<16>  |   11.617|
+fp_multipicand<21>|fp_result<17>  |   11.478|
+fp_multipicand<21>|fp_result<18>  |   11.374|
+fp_multipicand<21>|fp_result<19>  |   11.189|
+fp_multipicand<21>|fp_result<20>  |   11.639|
+fp_multipicand<21>|fp_result<21>  |   12.214|
+fp_multipicand<21>|over_flag      |    9.345|
+fp_multipicand<21>|underflow_flag |    5.911|
+fp_multipicand<21>|zero_flag      |    9.899|
+fp_multipicand<22>|fp_result<22>  |    6.458|
+fp_multipicand<22>|sign_flag      |    6.704|
+fp_multipier<0>   |fp_result<0>   |   18.337|
+fp_multipier<0>   |fp_result<1>   |   18.237|
+fp_multipier<0>   |fp_result<2>   |   18.623|
+fp_multipier<0>   |fp_result<3>   |   18.826|
+fp_multipier<0>   |fp_result<4>   |   18.577|
+fp_multipier<0>   |fp_result<5>   |   18.525|
+fp_multipier<0>   |fp_result<6>   |   18.057|
+fp_multipier<0>   |fp_result<7>   |   18.379|
+fp_multipier<0>   |fp_result<8>   |   18.676|
+fp_multipier<0>   |fp_result<9>   |   19.094|
+fp_multipier<0>   |fp_result<10>  |   18.021|
+fp_multipier<0>   |fp_result<11>  |   18.065|
+fp_multipier<0>   |fp_result<12>  |   18.329|
+fp_multipier<0>   |fp_result<13>  |   18.333|
+fp_multipier<0>   |fp_result<14>  |   18.981|
+fp_multipier<0>   |fp_result<15>  |   21.036|
+fp_multipier<0>   |fp_result<16>  |   20.269|
+fp_multipier<0>   |fp_result<17>  |   20.414|
+fp_multipier<0>   |fp_result<18>  |   20.335|
+fp_multipier<0>   |fp_result<19>  |   20.757|
+fp_multipier<0>   |fp_result<20>  |   21.603|
+fp_multipier<0>   |fp_result<21>  |   22.526|
+fp_multipier<0>   |over_flag      |   22.403|
+fp_multipier<0>   |zero_flag      |   10.578|
+fp_multipier<1>   |fp_result<0>   |   18.150|
+fp_multipier<1>   |fp_result<1>   |   18.050|
+fp_multipier<1>   |fp_result<2>   |   18.436|
+fp_multipier<1>   |fp_result<3>   |   18.639|
+fp_multipier<1>   |fp_result<4>   |   18.390|
+fp_multipier<1>   |fp_result<5>   |   18.338|
+fp_multipier<1>   |fp_result<6>   |   17.870|
+fp_multipier<1>   |fp_result<7>   |   18.192|
+fp_multipier<1>   |fp_result<8>   |   18.489|
+fp_multipier<1>   |fp_result<9>   |   18.907|
+fp_multipier<1>   |fp_result<10>  |   17.834|
+fp_multipier<1>   |fp_result<11>  |   17.878|
+fp_multipier<1>   |fp_result<12>  |   18.142|
+fp_multipier<1>   |fp_result<13>  |   18.146|
+fp_multipier<1>   |fp_result<14>  |   18.794|
+fp_multipier<1>   |fp_result<15>  |   20.849|
+fp_multipier<1>   |fp_result<16>  |   20.082|
+fp_multipier<1>   |fp_result<17>  |   20.227|
+fp_multipier<1>   |fp_result<18>  |   20.148|
+fp_multipier<1>   |fp_result<19>  |   20.570|
+fp_multipier<1>   |fp_result<20>  |   21.416|
+fp_multipier<1>   |fp_result<21>  |   22.339|
+fp_multipier<1>   |over_flag      |   22.216|
+fp_multipier<1>   |zero_flag      |   10.087|
+fp_multipier<2>   |fp_result<0>   |   18.149|
+fp_multipier<2>   |fp_result<1>   |   18.049|
+fp_multipier<2>   |fp_result<2>   |   18.435|
+fp_multipier<2>   |fp_result<3>   |   18.638|
+fp_multipier<2>   |fp_result<4>   |   18.389|
+fp_multipier<2>   |fp_result<5>   |   18.337|
+fp_multipier<2>   |fp_result<6>   |   17.869|
+fp_multipier<2>   |fp_result<7>   |   18.191|
+fp_multipier<2>   |fp_result<8>   |   18.488|
+fp_multipier<2>   |fp_result<9>   |   18.906|
+fp_multipier<2>   |fp_result<10>  |   17.833|
+fp_multipier<2>   |fp_result<11>  |   17.877|
+fp_multipier<2>   |fp_result<12>  |   18.141|
+fp_multipier<2>   |fp_result<13>  |   18.145|
+fp_multipier<2>   |fp_result<14>  |   18.793|
+fp_multipier<2>   |fp_result<15>  |   20.848|
+fp_multipier<2>   |fp_result<16>  |   20.081|
+fp_multipier<2>   |fp_result<17>  |   20.226|
+fp_multipier<2>   |fp_result<18>  |   20.147|
+fp_multipier<2>   |fp_result<19>  |   20.569|
+fp_multipier<2>   |fp_result<20>  |   21.415|
+fp_multipier<2>   |fp_result<21>  |   22.338|
+fp_multipier<2>   |over_flag      |   22.215|
+fp_multipier<2>   |zero_flag      |   10.015|
+fp_multipier<3>   |fp_result<0>   |   20.321|
+fp_multipier<3>   |fp_result<1>   |   20.221|
+fp_multipier<3>   |fp_result<2>   |   20.607|
+fp_multipier<3>   |fp_result<3>   |   20.810|
+fp_multipier<3>   |fp_result<4>   |   20.561|
+fp_multipier<3>   |fp_result<5>   |   20.509|
+fp_multipier<3>   |fp_result<6>   |   20.041|
+fp_multipier<3>   |fp_result<7>   |   20.363|
+fp_multipier<3>   |fp_result<8>   |   20.660|
+fp_multipier<3>   |fp_result<9>   |   21.078|
+fp_multipier<3>   |fp_result<10>  |   20.005|
+fp_multipier<3>   |fp_result<11>  |   20.049|
+fp_multipier<3>   |fp_result<12>  |   20.313|
+fp_multipier<3>   |fp_result<13>  |   20.317|
+fp_multipier<3>   |fp_result<14>  |   20.965|
+fp_multipier<3>   |fp_result<15>  |   23.020|
+fp_multipier<3>   |fp_result<16>  |   22.253|
+fp_multipier<3>   |fp_result<17>  |   22.398|
+fp_multipier<3>   |fp_result<18>  |   22.319|
+fp_multipier<3>   |fp_result<19>  |   22.741|
+fp_multipier<3>   |fp_result<20>  |   23.587|
+fp_multipier<3>   |fp_result<21>  |   24.510|
+fp_multipier<3>   |over_flag      |   24.387|
+fp_multipier<3>   |zero_flag      |    9.898|
+fp_multipier<4>   |fp_result<0>   |   20.029|
+fp_multipier<4>   |fp_result<1>   |   19.929|
+fp_multipier<4>   |fp_result<2>   |   20.315|
+fp_multipier<4>   |fp_result<3>   |   20.518|
+fp_multipier<4>   |fp_result<4>   |   20.269|
+fp_multipier<4>   |fp_result<5>   |   20.217|
+fp_multipier<4>   |fp_result<6>   |   19.749|
+fp_multipier<4>   |fp_result<7>   |   20.071|
+fp_multipier<4>   |fp_result<8>   |   20.368|
+fp_multipier<4>   |fp_result<9>   |   20.786|
+fp_multipier<4>   |fp_result<10>  |   19.713|
+fp_multipier<4>   |fp_result<11>  |   19.757|
+fp_multipier<4>   |fp_result<12>  |   20.021|
+fp_multipier<4>   |fp_result<13>  |   20.025|
+fp_multipier<4>   |fp_result<14>  |   20.673|
+fp_multipier<4>   |fp_result<15>  |   22.728|
+fp_multipier<4>   |fp_result<16>  |   21.961|
+fp_multipier<4>   |fp_result<17>  |   22.106|
+fp_multipier<4>   |fp_result<18>  |   22.027|
+fp_multipier<4>   |fp_result<19>  |   22.449|
+fp_multipier<4>   |fp_result<20>  |   23.295|
+fp_multipier<4>   |fp_result<21>  |   24.218|
+fp_multipier<4>   |over_flag      |   24.095|
+fp_multipier<4>   |zero_flag      |    9.586|
+fp_multipier<5>   |fp_result<0>   |   19.827|
+fp_multipier<5>   |fp_result<1>   |   19.727|
+fp_multipier<5>   |fp_result<2>   |   20.113|
+fp_multipier<5>   |fp_result<3>   |   20.316|
+fp_multipier<5>   |fp_result<4>   |   20.067|
+fp_multipier<5>   |fp_result<5>   |   20.015|
+fp_multipier<5>   |fp_result<6>   |   19.547|
+fp_multipier<5>   |fp_result<7>   |   19.869|
+fp_multipier<5>   |fp_result<8>   |   20.166|
+fp_multipier<5>   |fp_result<9>   |   20.584|
+fp_multipier<5>   |fp_result<10>  |   19.511|
+fp_multipier<5>   |fp_result<11>  |   19.555|
+fp_multipier<5>   |fp_result<12>  |   19.819|
+fp_multipier<5>   |fp_result<13>  |   19.823|
+fp_multipier<5>   |fp_result<14>  |   20.471|
+fp_multipier<5>   |fp_result<15>  |   22.526|
+fp_multipier<5>   |fp_result<16>  |   21.759|
+fp_multipier<5>   |fp_result<17>  |   21.904|
+fp_multipier<5>   |fp_result<18>  |   21.825|
+fp_multipier<5>   |fp_result<19>  |   22.247|
+fp_multipier<5>   |fp_result<20>  |   23.093|
+fp_multipier<5>   |fp_result<21>  |   24.016|
+fp_multipier<5>   |over_flag      |   23.893|
+fp_multipier<5>   |zero_flag      |    9.894|
+fp_multipier<6>   |fp_result<0>   |   18.429|
+fp_multipier<6>   |fp_result<1>   |   18.329|
+fp_multipier<6>   |fp_result<2>   |   18.715|
+fp_multipier<6>   |fp_result<3>   |   18.918|
+fp_multipier<6>   |fp_result<4>   |   18.669|
+fp_multipier<6>   |fp_result<5>   |   18.617|
+fp_multipier<6>   |fp_result<6>   |   18.149|
+fp_multipier<6>   |fp_result<7>   |   18.471|
+fp_multipier<6>   |fp_result<8>   |   18.768|
+fp_multipier<6>   |fp_result<9>   |   19.186|
+fp_multipier<6>   |fp_result<10>  |   18.113|
+fp_multipier<6>   |fp_result<11>  |   18.157|
+fp_multipier<6>   |fp_result<12>  |   18.421|
+fp_multipier<6>   |fp_result<13>  |   18.425|
+fp_multipier<6>   |fp_result<14>  |   19.073|
+fp_multipier<6>   |fp_result<15>  |   21.128|
+fp_multipier<6>   |fp_result<16>  |   20.361|
+fp_multipier<6>   |fp_result<17>  |   20.506|
+fp_multipier<6>   |fp_result<18>  |   20.427|
+fp_multipier<6>   |fp_result<19>  |   20.849|
+fp_multipier<6>   |fp_result<20>  |   21.695|
+fp_multipier<6>   |fp_result<21>  |   22.618|
+fp_multipier<6>   |over_flag      |   22.495|
+fp_multipier<6>   |zero_flag      |    9.924|
+fp_multipier<7>   |fp_result<0>   |   19.699|
+fp_multipier<7>   |fp_result<1>   |   19.599|
+fp_multipier<7>   |fp_result<2>   |   19.985|
+fp_multipier<7>   |fp_result<3>   |   20.188|
+fp_multipier<7>   |fp_result<4>   |   19.939|
+fp_multipier<7>   |fp_result<5>   |   19.887|
+fp_multipier<7>   |fp_result<6>   |   19.419|
+fp_multipier<7>   |fp_result<7>   |   19.741|
+fp_multipier<7>   |fp_result<8>   |   20.038|
+fp_multipier<7>   |fp_result<9>   |   20.456|
+fp_multipier<7>   |fp_result<10>  |   19.383|
+fp_multipier<7>   |fp_result<11>  |   19.427|
+fp_multipier<7>   |fp_result<12>  |   19.691|
+fp_multipier<7>   |fp_result<13>  |   19.695|
+fp_multipier<7>   |fp_result<14>  |   20.343|
+fp_multipier<7>   |fp_result<15>  |   22.398|
+fp_multipier<7>   |fp_result<16>  |   21.631|
+fp_multipier<7>   |fp_result<17>  |   21.776|
+fp_multipier<7>   |fp_result<18>  |   21.697|
+fp_multipier<7>   |fp_result<19>  |   22.119|
+fp_multipier<7>   |fp_result<20>  |   22.965|
+fp_multipier<7>   |fp_result<21>  |   23.888|
+fp_multipier<7>   |over_flag      |   23.765|
+fp_multipier<7>   |zero_flag      |   10.041|
+fp_multipier<8>   |fp_result<0>   |   19.035|
+fp_multipier<8>   |fp_result<1>   |   18.935|
+fp_multipier<8>   |fp_result<2>   |   19.321|
+fp_multipier<8>   |fp_result<3>   |   19.524|
+fp_multipier<8>   |fp_result<4>   |   19.275|
+fp_multipier<8>   |fp_result<5>   |   19.223|
+fp_multipier<8>   |fp_result<6>   |   18.755|
+fp_multipier<8>   |fp_result<7>   |   19.077|
+fp_multipier<8>   |fp_result<8>   |   19.374|
+fp_multipier<8>   |fp_result<9>   |   19.792|
+fp_multipier<8>   |fp_result<10>  |   18.719|
+fp_multipier<8>   |fp_result<11>  |   18.763|
+fp_multipier<8>   |fp_result<12>  |   19.027|
+fp_multipier<8>   |fp_result<13>  |   19.031|
+fp_multipier<8>   |fp_result<14>  |   19.679|
+fp_multipier<8>   |fp_result<15>  |   21.734|
+fp_multipier<8>   |fp_result<16>  |   20.967|
+fp_multipier<8>   |fp_result<17>  |   21.112|
+fp_multipier<8>   |fp_result<18>  |   21.033|
+fp_multipier<8>   |fp_result<19>  |   21.455|
+fp_multipier<8>   |fp_result<20>  |   22.301|
+fp_multipier<8>   |fp_result<21>  |   23.224|
+fp_multipier<8>   |over_flag      |   23.101|
+fp_multipier<8>   |zero_flag      |   10.656|
+fp_multipier<9>   |fp_result<0>   |   20.571|
+fp_multipier<9>   |fp_result<1>   |   20.471|
+fp_multipier<9>   |fp_result<2>   |   20.857|
+fp_multipier<9>   |fp_result<3>   |   21.060|
+fp_multipier<9>   |fp_result<4>   |   20.811|
+fp_multipier<9>   |fp_result<5>   |   20.759|
+fp_multipier<9>   |fp_result<6>   |   20.291|
+fp_multipier<9>   |fp_result<7>   |   20.613|
+fp_multipier<9>   |fp_result<8>   |   20.910|
+fp_multipier<9>   |fp_result<9>   |   21.328|
+fp_multipier<9>   |fp_result<10>  |   20.255|
+fp_multipier<9>   |fp_result<11>  |   20.299|
+fp_multipier<9>   |fp_result<12>  |   20.563|
+fp_multipier<9>   |fp_result<13>  |   20.567|
+fp_multipier<9>   |fp_result<14>  |   21.215|
+fp_multipier<9>   |fp_result<15>  |   23.270|
+fp_multipier<9>   |fp_result<16>  |   22.503|
+fp_multipier<9>   |fp_result<17>  |   22.648|
+fp_multipier<9>   |fp_result<18>  |   22.569|
+fp_multipier<9>   |fp_result<19>  |   22.991|
+fp_multipier<9>   |fp_result<20>  |   23.837|
+fp_multipier<9>   |fp_result<21>  |   24.760|
+fp_multipier<9>   |over_flag      |   24.637|
+fp_multipier<9>   |zero_flag      |   10.529|
+fp_multipier<10>  |fp_result<0>   |   18.963|
+fp_multipier<10>  |fp_result<1>   |   18.863|
+fp_multipier<10>  |fp_result<2>   |   19.249|
+fp_multipier<10>  |fp_result<3>   |   19.452|
+fp_multipier<10>  |fp_result<4>   |   19.203|
+fp_multipier<10>  |fp_result<5>   |   19.151|
+fp_multipier<10>  |fp_result<6>   |   18.683|
+fp_multipier<10>  |fp_result<7>   |   19.005|
+fp_multipier<10>  |fp_result<8>   |   19.302|
+fp_multipier<10>  |fp_result<9>   |   19.720|
+fp_multipier<10>  |fp_result<10>  |   18.647|
+fp_multipier<10>  |fp_result<11>  |   18.691|
+fp_multipier<10>  |fp_result<12>  |   18.955|
+fp_multipier<10>  |fp_result<13>  |   18.959|
+fp_multipier<10>  |fp_result<14>  |   19.607|
+fp_multipier<10>  |fp_result<15>  |   21.662|
+fp_multipier<10>  |fp_result<16>  |   20.895|
+fp_multipier<10>  |fp_result<17>  |   21.040|
+fp_multipier<10>  |fp_result<18>  |   20.961|
+fp_multipier<10>  |fp_result<19>  |   21.383|
+fp_multipier<10>  |fp_result<20>  |   22.229|
+fp_multipier<10>  |fp_result<21>  |   23.152|
+fp_multipier<10>  |over_flag      |   23.029|
+fp_multipier<10>  |zero_flag      |    9.816|
+fp_multipier<11>  |fp_result<0>   |   19.993|
+fp_multipier<11>  |fp_result<1>   |   19.893|
+fp_multipier<11>  |fp_result<2>   |   20.279|
+fp_multipier<11>  |fp_result<3>   |   20.482|
+fp_multipier<11>  |fp_result<4>   |   20.233|
+fp_multipier<11>  |fp_result<5>   |   20.181|
+fp_multipier<11>  |fp_result<6>   |   19.713|
+fp_multipier<11>  |fp_result<7>   |   20.035|
+fp_multipier<11>  |fp_result<8>   |   20.332|
+fp_multipier<11>  |fp_result<9>   |   20.750|
+fp_multipier<11>  |fp_result<10>  |   19.677|
+fp_multipier<11>  |fp_result<11>  |   19.721|
+fp_multipier<11>  |fp_result<12>  |   19.985|
+fp_multipier<11>  |fp_result<13>  |   19.989|
+fp_multipier<11>  |fp_result<14>  |   20.637|
+fp_multipier<11>  |fp_result<15>  |   22.692|
+fp_multipier<11>  |fp_result<16>  |   21.925|
+fp_multipier<11>  |fp_result<17>  |   22.070|
+fp_multipier<11>  |fp_result<18>  |   21.991|
+fp_multipier<11>  |fp_result<19>  |   22.413|
+fp_multipier<11>  |fp_result<20>  |   23.259|
+fp_multipier<11>  |fp_result<21>  |   24.182|
+fp_multipier<11>  |over_flag      |   24.059|
+fp_multipier<11>  |zero_flag      |   10.381|
+fp_multipier<12>  |fp_result<0>   |   19.804|
+fp_multipier<12>  |fp_result<1>   |   19.704|
+fp_multipier<12>  |fp_result<2>   |   20.090|
+fp_multipier<12>  |fp_result<3>   |   20.293|
+fp_multipier<12>  |fp_result<4>   |   20.044|
+fp_multipier<12>  |fp_result<5>   |   19.992|
+fp_multipier<12>  |fp_result<6>   |   19.524|
+fp_multipier<12>  |fp_result<7>   |   19.846|
+fp_multipier<12>  |fp_result<8>   |   20.143|
+fp_multipier<12>  |fp_result<9>   |   20.561|
+fp_multipier<12>  |fp_result<10>  |   19.488|
+fp_multipier<12>  |fp_result<11>  |   19.532|
+fp_multipier<12>  |fp_result<12>  |   19.796|
+fp_multipier<12>  |fp_result<13>  |   19.800|
+fp_multipier<12>  |fp_result<14>  |   20.448|
+fp_multipier<12>  |fp_result<15>  |   22.503|
+fp_multipier<12>  |fp_result<16>  |   21.736|
+fp_multipier<12>  |fp_result<17>  |   21.881|
+fp_multipier<12>  |fp_result<18>  |   21.802|
+fp_multipier<12>  |fp_result<19>  |   22.224|
+fp_multipier<12>  |fp_result<20>  |   23.070|
+fp_multipier<12>  |fp_result<21>  |   23.993|
+fp_multipier<12>  |over_flag      |   23.870|
+fp_multipier<12>  |zero_flag      |   10.090|
+fp_multipier<13>  |fp_result<0>   |   19.677|
+fp_multipier<13>  |fp_result<1>   |   19.577|
+fp_multipier<13>  |fp_result<2>   |   19.963|
+fp_multipier<13>  |fp_result<3>   |   20.166|
+fp_multipier<13>  |fp_result<4>   |   19.917|
+fp_multipier<13>  |fp_result<5>   |   19.865|
+fp_multipier<13>  |fp_result<6>   |   19.397|
+fp_multipier<13>  |fp_result<7>   |   19.719|
+fp_multipier<13>  |fp_result<8>   |   20.016|
+fp_multipier<13>  |fp_result<9>   |   20.434|
+fp_multipier<13>  |fp_result<10>  |   19.361|
+fp_multipier<13>  |fp_result<11>  |   19.405|
+fp_multipier<13>  |fp_result<12>  |   19.669|
+fp_multipier<13>  |fp_result<13>  |   19.673|
+fp_multipier<13>  |fp_result<14>  |   20.321|
+fp_multipier<13>  |fp_result<15>  |   22.376|
+fp_multipier<13>  |fp_result<16>  |   21.609|
+fp_multipier<13>  |fp_result<17>  |   21.754|
+fp_multipier<13>  |fp_result<18>  |   21.675|
+fp_multipier<13>  |fp_result<19>  |   22.097|
+fp_multipier<13>  |fp_result<20>  |   22.943|
+fp_multipier<13>  |fp_result<21>  |   23.866|
+fp_multipier<13>  |over_flag      |   23.743|
+fp_multipier<13>  |zero_flag      |   10.512|
+fp_multipier<14>  |fp_result<0>   |   12.636|
+fp_multipier<14>  |fp_result<1>   |   12.558|
+fp_multipier<14>  |fp_result<2>   |   12.779|
+fp_multipier<14>  |fp_result<3>   |   12.738|
+fp_multipier<14>  |fp_result<4>   |   12.541|
+fp_multipier<14>  |fp_result<5>   |   12.309|
+fp_multipier<14>  |fp_result<6>   |   11.581|
+fp_multipier<14>  |fp_result<7>   |   12.544|
+fp_multipier<14>  |fp_result<8>   |   12.160|
+fp_multipier<14>  |fp_result<9>   |   10.529|
+fp_multipier<14>  |fp_result<10>  |   11.808|
+fp_multipier<14>  |fp_result<11>  |   11.504|
+fp_multipier<14>  |fp_result<12>  |   11.998|
+fp_multipier<14>  |fp_result<13>  |   12.129|
+fp_multipier<14>  |fp_result<14>  |   10.657|
+fp_multipier<14>  |fp_result<15>  |   11.698|
+fp_multipier<14>  |fp_result<16>  |   11.373|
+fp_multipier<14>  |fp_result<17>  |   11.234|
+fp_multipier<14>  |fp_result<18>  |   11.130|
+fp_multipier<14>  |fp_result<19>  |   10.945|
+fp_multipier<14>  |fp_result<20>  |   12.121|
+fp_multipier<14>  |fp_result<21>  |   12.554|
+fp_multipier<14>  |over_flag      |   13.494|
+fp_multipier<14>  |underflow_flag |   12.466|
+fp_multipier<14>  |zero_flag      |    9.655|
+fp_multipier<15>  |fp_result<0>   |   12.628|
+fp_multipier<15>  |fp_result<1>   |   12.550|
+fp_multipier<15>  |fp_result<2>   |   12.771|
+fp_multipier<15>  |fp_result<3>   |   12.730|
+fp_multipier<15>  |fp_result<4>   |   12.533|
+fp_multipier<15>  |fp_result<5>   |   12.301|
+fp_multipier<15>  |fp_result<6>   |   11.573|
+fp_multipier<15>  |fp_result<7>   |   12.536|
+fp_multipier<15>  |fp_result<8>   |   12.152|
+fp_multipier<15>  |fp_result<9>   |   10.521|
+fp_multipier<15>  |fp_result<10>  |   11.800|
+fp_multipier<15>  |fp_result<11>  |   11.496|
+fp_multipier<15>  |fp_result<12>  |   11.990|
+fp_multipier<15>  |fp_result<13>  |   12.121|
+fp_multipier<15>  |fp_result<14>  |   10.649|
+fp_multipier<15>  |fp_result<15>  |   11.690|
+fp_multipier<15>  |fp_result<16>  |   11.365|
+fp_multipier<15>  |fp_result<17>  |   11.226|
+fp_multipier<15>  |fp_result<18>  |   11.122|
+fp_multipier<15>  |fp_result<19>  |   10.937|
+fp_multipier<15>  |fp_result<20>  |   12.078|
+fp_multipier<15>  |fp_result<21>  |   12.511|
+fp_multipier<15>  |over_flag      |   13.451|
+fp_multipier<15>  |underflow_flag |   12.423|
+fp_multipier<15>  |zero_flag      |    9.647|
+fp_multipier<16>  |fp_result<0>   |   12.288|
+fp_multipier<16>  |fp_result<1>   |   12.210|
+fp_multipier<16>  |fp_result<2>   |   12.431|
+fp_multipier<16>  |fp_result<3>   |   12.390|
+fp_multipier<16>  |fp_result<4>   |   12.193|
+fp_multipier<16>  |fp_result<5>   |   11.961|
+fp_multipier<16>  |fp_result<6>   |   11.233|
+fp_multipier<16>  |fp_result<7>   |   12.196|
+fp_multipier<16>  |fp_result<8>   |   11.812|
+fp_multipier<16>  |fp_result<9>   |   10.181|
+fp_multipier<16>  |fp_result<10>  |   11.460|
+fp_multipier<16>  |fp_result<11>  |   11.156|
+fp_multipier<16>  |fp_result<12>  |   11.650|
+fp_multipier<16>  |fp_result<13>  |   11.781|
+fp_multipier<16>  |fp_result<14>  |   10.309|
+fp_multipier<16>  |fp_result<15>  |   11.350|
+fp_multipier<16>  |fp_result<16>  |   11.025|
+fp_multipier<16>  |fp_result<17>  |   10.886|
+fp_multipier<16>  |fp_result<18>  |   10.782|
+fp_multipier<16>  |fp_result<19>  |   10.597|
+fp_multipier<16>  |fp_result<20>  |   11.047|
+fp_multipier<16>  |fp_result<21>  |   11.622|
+fp_multipier<16>  |over_flag      |   11.610|
+fp_multipier<16>  |underflow_flag |   10.582|
+fp_multipier<16>  |zero_flag      |    9.307|
+fp_multipier<17>  |fp_result<0>   |   13.044|
+fp_multipier<17>  |fp_result<1>   |   12.966|
+fp_multipier<17>  |fp_result<2>   |   13.187|
+fp_multipier<17>  |fp_result<3>   |   13.146|
+fp_multipier<17>  |fp_result<4>   |   12.949|
+fp_multipier<17>  |fp_result<5>   |   12.717|
+fp_multipier<17>  |fp_result<6>   |   11.989|
+fp_multipier<17>  |fp_result<7>   |   12.952|
+fp_multipier<17>  |fp_result<8>   |   12.568|
+fp_multipier<17>  |fp_result<9>   |   10.937|
+fp_multipier<17>  |fp_result<10>  |   12.216|
+fp_multipier<17>  |fp_result<11>  |   11.912|
+fp_multipier<17>  |fp_result<12>  |   12.406|
+fp_multipier<17>  |fp_result<13>  |   12.537|
+fp_multipier<17>  |fp_result<14>  |   11.065|
+fp_multipier<17>  |fp_result<15>  |   12.106|
+fp_multipier<17>  |fp_result<16>  |   11.781|
+fp_multipier<17>  |fp_result<17>  |   11.642|
+fp_multipier<17>  |fp_result<18>  |   11.538|
+fp_multipier<17>  |fp_result<19>  |   11.353|
+fp_multipier<17>  |fp_result<20>  |   11.803|
+fp_multipier<17>  |fp_result<21>  |   12.378|
+fp_multipier<17>  |over_flag      |   12.376|
+fp_multipier<17>  |underflow_flag |   11.348|
+fp_multipier<17>  |zero_flag      |   10.063|
+fp_multipier<18>  |fp_result<0>   |   12.255|
+fp_multipier<18>  |fp_result<1>   |   12.177|
+fp_multipier<18>  |fp_result<2>   |   12.398|
+fp_multipier<18>  |fp_result<3>   |   12.357|
+fp_multipier<18>  |fp_result<4>   |   12.160|
+fp_multipier<18>  |fp_result<5>   |   11.928|
+fp_multipier<18>  |fp_result<6>   |   11.200|
+fp_multipier<18>  |fp_result<7>   |   12.163|
+fp_multipier<18>  |fp_result<8>   |   11.779|
+fp_multipier<18>  |fp_result<9>   |   10.148|
+fp_multipier<18>  |fp_result<10>  |   11.427|
+fp_multipier<18>  |fp_result<11>  |   11.123|
+fp_multipier<18>  |fp_result<12>  |   11.617|
+fp_multipier<18>  |fp_result<13>  |   11.748|
+fp_multipier<18>  |fp_result<14>  |   10.276|
+fp_multipier<18>  |fp_result<15>  |   11.317|
+fp_multipier<18>  |fp_result<16>  |   10.992|
+fp_multipier<18>  |fp_result<17>  |   10.853|
+fp_multipier<18>  |fp_result<18>  |   10.749|
+fp_multipier<18>  |fp_result<19>  |   10.564|
+fp_multipier<18>  |fp_result<20>  |   11.014|
+fp_multipier<18>  |fp_result<21>  |   11.589|
+fp_multipier<18>  |over_flag      |   10.568|
+fp_multipier<18>  |underflow_flag |    9.540|
+fp_multipier<18>  |zero_flag      |    9.274|
+fp_multipier<19>  |fp_result<0>   |   12.384|
+fp_multipier<19>  |fp_result<1>   |   12.306|
+fp_multipier<19>  |fp_result<2>   |   12.527|
+fp_multipier<19>  |fp_result<3>   |   12.486|
+fp_multipier<19>  |fp_result<4>   |   12.289|
+fp_multipier<19>  |fp_result<5>   |   12.057|
+fp_multipier<19>  |fp_result<6>   |   11.329|
+fp_multipier<19>  |fp_result<7>   |   12.292|
+fp_multipier<19>  |fp_result<8>   |   11.908|
+fp_multipier<19>  |fp_result<9>   |   10.277|
+fp_multipier<19>  |fp_result<10>  |   11.556|
+fp_multipier<19>  |fp_result<11>  |   11.252|
+fp_multipier<19>  |fp_result<12>  |   11.746|
+fp_multipier<19>  |fp_result<13>  |   11.877|
+fp_multipier<19>  |fp_result<14>  |   10.405|
+fp_multipier<19>  |fp_result<15>  |   11.446|
+fp_multipier<19>  |fp_result<16>  |   11.121|
+fp_multipier<19>  |fp_result<17>  |   10.982|
+fp_multipier<19>  |fp_result<18>  |   10.878|
+fp_multipier<19>  |fp_result<19>  |   10.693|
+fp_multipier<19>  |fp_result<20>  |   11.143|
+fp_multipier<19>  |fp_result<21>  |   11.718|
+fp_multipier<19>  |over_flag      |   10.558|
+fp_multipier<19>  |underflow_flag |    9.530|
+fp_multipier<19>  |zero_flag      |    9.403|
+fp_multipier<20>  |fp_result<0>   |   13.050|
+fp_multipier<20>  |fp_result<1>   |   12.972|
+fp_multipier<20>  |fp_result<2>   |   13.193|
+fp_multipier<20>  |fp_result<3>   |   13.152|
+fp_multipier<20>  |fp_result<4>   |   12.955|
+fp_multipier<20>  |fp_result<5>   |   12.723|
+fp_multipier<20>  |fp_result<6>   |   11.995|
+fp_multipier<20>  |fp_result<7>   |   12.958|
+fp_multipier<20>  |fp_result<8>   |   12.574|
+fp_multipier<20>  |fp_result<9>   |   10.943|
+fp_multipier<20>  |fp_result<10>  |   12.222|
+fp_multipier<20>  |fp_result<11>  |   11.918|
+fp_multipier<20>  |fp_result<12>  |   12.412|
+fp_multipier<20>  |fp_result<13>  |   12.543|
+fp_multipier<20>  |fp_result<14>  |   11.071|
+fp_multipier<20>  |fp_result<15>  |   12.112|
+fp_multipier<20>  |fp_result<16>  |   11.787|
+fp_multipier<20>  |fp_result<17>  |   11.648|
+fp_multipier<20>  |fp_result<18>  |   11.544|
+fp_multipier<20>  |fp_result<19>  |   11.359|
+fp_multipier<20>  |fp_result<20>  |   11.809|
+fp_multipier<20>  |fp_result<21>  |   12.384|
+fp_multipier<20>  |over_flag      |    9.576|
+fp_multipier<20>  |underflow_flag |    8.362|
+fp_multipier<20>  |zero_flag      |   10.069|
+fp_multipier<21>  |fp_result<0>   |   12.788|
+fp_multipier<21>  |fp_result<1>   |   12.710|
+fp_multipier<21>  |fp_result<2>   |   12.931|
+fp_multipier<21>  |fp_result<3>   |   12.890|
+fp_multipier<21>  |fp_result<4>   |   12.693|
+fp_multipier<21>  |fp_result<5>   |   12.461|
+fp_multipier<21>  |fp_result<6>   |   11.733|
+fp_multipier<21>  |fp_result<7>   |   12.696|
+fp_multipier<21>  |fp_result<8>   |   12.312|
+fp_multipier<21>  |fp_result<9>   |   10.681|
+fp_multipier<21>  |fp_result<10>  |   11.960|
+fp_multipier<21>  |fp_result<11>  |   11.656|
+fp_multipier<21>  |fp_result<12>  |   12.150|
+fp_multipier<21>  |fp_result<13>  |   12.281|
+fp_multipier<21>  |fp_result<14>  |   10.809|
+fp_multipier<21>  |fp_result<15>  |   11.850|
+fp_multipier<21>  |fp_result<16>  |   11.525|
+fp_multipier<21>  |fp_result<17>  |   11.386|
+fp_multipier<21>  |fp_result<18>  |   11.282|
+fp_multipier<21>  |fp_result<19>  |   11.097|
+fp_multipier<21>  |fp_result<20>  |   11.547|
+fp_multipier<21>  |fp_result<21>  |   12.122|
+fp_multipier<21>  |over_flag      |    8.532|
+fp_multipier<21>  |underflow_flag |    6.020|
+fp_multipier<21>  |zero_flag      |    9.807|
+fp_multipier<22>  |fp_result<22>  |    7.222|
+fp_multipier<22>  |sign_flag      |    7.468|
+------------------+---------------+---------+
+
+
+Analysis completed Wed Feb 08 13:54:02 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 181 MB
+
+
+

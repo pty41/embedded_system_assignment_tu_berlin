@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/shankuan/computer_new/MovingAverageFilter/movingaverage_tb_isim_beh.exe" -prj "/home/shankuan/computer_new/MovingAverageFilter/movingaverage_tb_beh.prj" "work.movingaverage_tb" 

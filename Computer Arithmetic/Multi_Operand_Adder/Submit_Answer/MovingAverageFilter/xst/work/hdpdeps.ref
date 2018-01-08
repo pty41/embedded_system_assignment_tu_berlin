@@ -1,0 +1,71 @@
+V3 44
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/CarrySaveAdder.vhd 2016/12/03.01:08:57 P.20131013
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/CLA.vhd 2016/11/30.15:54:27 P.20131013
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/CLAAdder15Bits.vhd 2016/12/03.00:32:00 P.20131013
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/Counter4to2.vhd 2016/12/02.14:55:40 P.20131013
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/FullAdder.vhd 2016/11/30.15:48:05 P.20131013
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/InputReg.vhd 2016/12/02.15:40:02 P.20131013
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/movingaverage.vhd 2016/12/14.08:47:20 P.20131013
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/OperandAdder.vhd 2016/12/03.01:22:27 P.20131013
+FL /home/shankuan/computer_arithmetic/MovingAverageFilter/Reg11bits.vhd 2016/11/30.17:18:04 P.20131013
+FL /home/shankuan/computer_new/MovingAverageFilter/CarrySaveAdder.vhd 2016/12/03.01:08:57 P.20131013
+EN work/CarrySaveAdder 1481753347 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/CarrySaveAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CarrySaveAdder/Behavioral 1481753348 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/CarrySaveAdder.vhd \
+      EN work/CarrySaveAdder 1481753347 CP Counter4to2
+FL /home/shankuan/computer_new/MovingAverageFilter/CLA.vhd 2016/11/30.15:54:27 P.20131013
+EN work/CLA 1481753343 FL /home/shankuan/computer_new/MovingAverageFilter/CLA.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CLA/Behavioral 1481753344 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/CLA.vhd EN work/CLA 1481753343
+FL /home/shankuan/computer_new/MovingAverageFilter/CLAAdder15Bits.vhd 2016/12/03.00:32:00 P.20131013
+EN work/CLAAdder15Bits 1481753349 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/CLAAdder15Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/CLAAdder15Bits/Behavioral 1481753350 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/CLAAdder15Bits.vhd \
+      EN work/CLAAdder15Bits 1481753349 CP CLA
+FL /home/shankuan/computer_new/MovingAverageFilter/Counter4to2.vhd 2016/12/02.14:55:40 P.20131013
+EN work/Counter4to2 1481753345 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/Counter4to2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Counter4to2/Behavioral 1481753346 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/Counter4to2.vhd \
+      EN work/Counter4to2 1481753345 CP FullAdder
+FL /home/shankuan/computer_new/MovingAverageFilter/FullAdder.vhd 2016/11/30.15:48:05 P.20131013
+EN work/FullAdder 1481753341 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/FullAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/Behavioral 1481753342 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/FullAdder.vhd \
+      EN work/FullAdder 1481753341
+FL /home/shankuan/computer_new/MovingAverageFilter/InputReg.vhd 2016/12/02.15:40:02 P.20131013
+EN work/InputReg 1481753353 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/InputReg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/InputReg/Behavioral 1481753354 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/InputReg.vhd \
+      EN work/InputReg 1481753353 CP Reg11bits
+FL /home/shankuan/computer_new/MovingAverageFilter/movingaverage.vhd 2016/12/14.08:47:20 P.20131013
+EN work/movingaverage 1481753357 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/movingaverage.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/movingaverage/Behavioral 1481753358 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/movingaverage.vhd \
+      EN work/movingaverage 1481753357 CP InputReg CP OperandAdder
+FL /home/shankuan/computer_new/MovingAverageFilter/OperandAdder.vhd 2016/12/03.01:22:27 P.20131013
+EN work/OperandAdder 1481753355 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/OperandAdder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/OperandAdder/Behavioral 1481753356 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/OperandAdder.vhd \
+      EN work/OperandAdder 1481753355 CP CarrySaveAdder CP CLAAdder15Bits
+FL /home/shankuan/computer_new/MovingAverageFilter/Reg11bits.vhd 2016/11/30.17:18:04 P.20131013
+EN work/Reg11bits 1481753351 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/Reg11bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg11bits/Behavioral 1481753352 \
+      FL /home/shankuan/computer_new/MovingAverageFilter/Reg11bits.vhd \
+      EN work/Reg11bits 1481753351

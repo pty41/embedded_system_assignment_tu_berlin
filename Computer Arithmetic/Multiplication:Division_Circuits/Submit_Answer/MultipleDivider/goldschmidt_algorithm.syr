@@ -1,0 +1,682 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> Reading design: goldschmidt_algorithm.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "goldschmidt_algorithm.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "goldschmidt_algorithm"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : goldschmidt_algorithm
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/FullAdder.vhd" in Library work.
+Architecture behavioral of Entity fulladder is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/Counter4to2.vhd" in Library work.
+Architecture behavioral of Entity counter4to2 is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLA.vhd" in Library work.
+Architecture behavioral of Entity cla is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/PartialProGen.vhd" in Library work.
+Architecture behavioral of Entity partialprogen is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/HalfAdder.vhd" in Library work.
+Architecture behavioral of Entity halfadder is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA17bit.vhd" in Library work.
+Architecture behavioral of Entity csa17bit is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA16bit.vhd" in Library work.
+Architecture behavioral of Entity csa16bit is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/divider_control.vhd" in Library work.
+Architecture behavioral of Entity divider_control is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/recipocal_approximator.vhd" in Library work.
+Architecture behavioral of Entity recipocal_approximator is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/R4BoothMultiplier.vhd" in Library work.
+Architecture behavioral of Entity r4boothmultiplier is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLAAdder16Bits.vhd" in Library work.
+Architecture behavioral of Entity claadder16bits is up to date.
+Compiling vhdl file "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_algorithm.vhd" in Library work.
+Entity <goldschmidt_algorithm> compiled.
+Entity <goldschmidt_algorithm> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <goldschmidt_algorithm> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <divider_control> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <recipocal_approximator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <R4BoothMultiplier> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLAAdder16Bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PartialProGen> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <HalfAdder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CSA17bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CSA16bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLA> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Counter4to2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FullAdder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <goldschmidt_algorithm> in library <work> (Architecture <behavioral>).
+Entity <goldschmidt_algorithm> analyzed. Unit <goldschmidt_algorithm> generated.
+
+Analyzing Entity <divider_control> in library <work> (Architecture <behavioral>).
+Entity <divider_control> analyzed. Unit <divider_control> generated.
+
+Analyzing Entity <recipocal_approximator> in library <work> (Architecture <behavioral>).
+Entity <recipocal_approximator> analyzed. Unit <recipocal_approximator> generated.
+
+Analyzing Entity <R4BoothMultiplier> in library <work> (Architecture <behavioral>).
+Entity <R4BoothMultiplier> analyzed. Unit <R4BoothMultiplier> generated.
+
+Analyzing Entity <PartialProGen> in library <work> (Architecture <behavioral>).
+Entity <PartialProGen> analyzed. Unit <PartialProGen> generated.
+
+Analyzing Entity <HalfAdder> in library <work> (Architecture <behavioral>).
+Entity <HalfAdder> analyzed. Unit <HalfAdder> generated.
+
+Analyzing Entity <FullAdder> in library <work> (Architecture <behavioral>).
+Entity <FullAdder> analyzed. Unit <FullAdder> generated.
+
+Analyzing Entity <CSA17bit> in library <work> (Architecture <behavioral>).
+Entity <CSA17bit> analyzed. Unit <CSA17bit> generated.
+
+Analyzing Entity <Counter4to2> in library <work> (Architecture <behavioral>).
+Entity <Counter4to2> analyzed. Unit <Counter4to2> generated.
+
+Analyzing Entity <CSA16bit> in library <work> (Architecture <behavioral>).
+Entity <CSA16bit> analyzed. Unit <CSA16bit> generated.
+
+Analyzing Entity <CLAAdder16Bits> in library <work> (Architecture <behavioral>).
+Entity <CLAAdder16Bits> analyzed. Unit <CLAAdder16Bits> generated.
+
+Analyzing Entity <CLA> in library <work> (Architecture <behavioral>).
+Entity <CLA> analyzed. Unit <CLA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <divider_control>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/divider_control.vhd".
+    Found finite state machine <FSM_0> for signal <cur_state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | state_0                                        |
+    | Power Up State     | state_0                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit register for signal <output>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   3 D-type flip-flop(s).
+Unit <divider_control> synthesized.
+
+
+Synthesizing Unit <recipocal_approximator>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/recipocal_approximator.vhd".
+WARNING:Xst:647 - Input <b_divisor<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <recipocal_approximator> synthesized.
+
+
+Synthesizing Unit <PartialProGen>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/PartialProGen.vhd".
+    Found 1-bit xor2 for signal <sign>.
+Unit <PartialProGen> synthesized.
+
+
+Synthesizing Unit <HalfAdder>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/HalfAdder.vhd".
+    Found 1-bit xor2 for signal <s>.
+Unit <HalfAdder> synthesized.
+
+
+Synthesizing Unit <FullAdder>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/FullAdder.vhd".
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <co$xor0000> created at line 34.
+Unit <FullAdder> synthesized.
+
+
+Synthesizing Unit <CLA>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLA.vhd".
+    Found 1-bit xor2 for signal <s>.
+Unit <CLA> synthesized.
+
+
+Synthesizing Unit <CLAAdder16Bits>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CLAAdder16Bits.vhd".
+WARNING:Xst:646 - Signal <ci<15>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <CLAAdder16Bits> synthesized.
+
+
+Synthesizing Unit <Counter4to2>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/Counter4to2.vhd".
+Unit <Counter4to2> synthesized.
+
+
+Synthesizing Unit <CSA17bit>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA17bit.vhd".
+Unit <CSA17bit> synthesized.
+
+
+Synthesizing Unit <CSA16bit>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/CSA16bit.vhd".
+Unit <CSA16bit> synthesized.
+
+
+Synthesizing Unit <R4BoothMultiplier>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/R4BoothMultiplier.vhd".
+WARNING:Xst:646 - Signal <product_t<31>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c2<22>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <c<31>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit register for signal <product>.
+    Found 32-bit adder for signal <product_t>.
+    Found 1-bit xor2 for signal <t_1$xor0000> created at line 111.
+    Found 1-bit xor2 for signal <t_1$xor0001> created at line 111.
+    Found 1-bit xor2 for signal <t_2$xor0000> created at line 113.
+    Found 1-bit xor2 for signal <t_2$xor0001> created at line 113.
+    Found 1-bit xor2 for signal <t_3$xor0000> created at line 115.
+    Found 1-bit xor2 for signal <t_3$xor0001> created at line 115.
+    Found 1-bit xor2 for signal <t_4$xor0000> created at line 117.
+    Found 1-bit xor2 for signal <t_4$xor0001> created at line 117.
+    Found 1-bit xor2 for signal <t_5$xor0000> created at line 119.
+    Found 1-bit xor2 for signal <t_5$xor0001> created at line 119.
+    Found 1-bit xor2 for signal <t_6$xor0000> created at line 121.
+    Found 1-bit xor2 for signal <t_6$xor0001> created at line 121.
+    Found 1-bit xor2 for signal <t_7$xor0000> created at line 123.
+    Found 1-bit xor2 for signal <t_7$xor0001> created at line 123.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <R4BoothMultiplier> synthesized.
+
+
+Synthesizing Unit <goldschmidt_algorithm>.
+    Related source file is "D:/Yuan Zhang_ Shan Kuan_lab_assignment3/Yuan Zhang_ Shan Kuan_lab_assignment3/MultipleDivider/goldschmidt_algorithm.vhd".
+WARNING:Xst:646 - Signal <n_temp<31:24>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <n_temp<7:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <d_temp<31:24>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <d_temp<7:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 16-bit register for signal <quotient>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <goldschmidt_algorithm> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 2
+# Registers                                            : 4
+ 16-bit register                                       : 1
+ 3-bit register                                        : 1
+ 32-bit register                                       : 2
+# Xors                                                 : 552
+ 1-bit xor2                                            : 552
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <control/cur_state/FSM> on signal <cur_state[1:3]> with user encoding.
+---------------------
+ State   | Encoding
+---------------------
+ state_0 | 000
+ state_1 | 001
+ state_2 | 010
+ state_3 | 011
+ state_4 | 100
+ state_5 | 101
+---------------------
+WARNING:Xst:2677 - Node <product_0> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_1> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_2> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_3> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_4> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_5> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_6> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_7> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_24> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_25> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_26> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_27> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_28> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_29> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_30> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_31> of sequential type is unconnected in block <dMultif>.
+WARNING:Xst:2677 - Node <product_0> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_1> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_2> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_3> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_4> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_5> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_6> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_7> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_24> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_25> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_26> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_27> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_28> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_29> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_30> of sequential type is unconnected in block <nMultif>.
+WARNING:Xst:2677 - Node <product_31> of sequential type is unconnected in block <nMultif>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 31-bit adder                                          : 2
+# Registers                                            : 83
+ Flip-Flops                                            : 83
+# Xors                                                 : 552
+ 1-bit xor2                                            : 552
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <goldschmidt_algorithm> ...
+
+Optimizing unit <CLAAdder16Bits> ...
+
+Optimizing unit <CSA17bit> ...
+
+Optimizing unit <CSA16bit> ...
+
+Optimizing unit <R4BoothMultiplier> ...
+WARNING:Xst:2677 - Node <nMultif/product_31> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_30> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_29> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_28> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_27> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_26> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_25> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_24> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_7> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_6> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_5> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_4> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_3> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_2> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_1> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <nMultif/product_0> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_31> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_30> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_29> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_28> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_27> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_26> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_25> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_24> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_7> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_6> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_5> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_4> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_3> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_2> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_1> of sequential type is unconnected in block <goldschmidt_algorithm>.
+WARNING:Xst:2677 - Node <dMultif/product_0> of sequential type is unconnected in block <goldschmidt_algorithm>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block goldschmidt_algorithm, actual ratio is 14.
+FlipFlop dMultif/product_9 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 55
+ Flip-Flops                                            : 55
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : goldschmidt_algorithm.ngr
+Top Level Output File Name         : goldschmidt_algorithm
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 50
+
+Cell Usage :
+# BELS                             : 1628
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 60
+#      LUT2_D                      : 5
+#      LUT2_L                      : 16
+#      LUT3                        : 227
+#      LUT3_D                      : 55
+#      LUT3_L                      : 38
+#      LUT4                        : 722
+#      LUT4_D                      : 193
+#      LUT4_L                      : 170
+#      MUXCY                       : 44
+#      MUXF5                       : 63
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 55
+#      FDC                         : 38
+#      FDCE                        : 17
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 49
+#      IBUF                        : 33
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      767  out of   4656    16%  
+ Number of Slice Flip Flops:             55  out of   9312     0%  
+ Number of 4 input LUTs:               1487  out of   9312    15%  
+ Number of IOs:                          50
+ Number of bonded IOBs:                  50  out of    232    21%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 55    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 55    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 14.765ns (Maximum Frequency: 67.726MHz)
+   Minimum input arrival time before clock: 15.999ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 14.765ns (frequency: 67.726MHz)
+  Total number of paths / destination ports: 4127502 / 72
+-------------------------------------------------------------------------
+Delay:               14.765ns (Levels of Logic = 19)
+  Source:            control/output_2 (FF)
+  Destination:       nMultif/product_23 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: control/output_2 to nMultif/product_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             16   0.514   1.031  control/output_2 (control/output_2)
+     LUT3_D:I0->O         18   0.612   0.911  d_cmp_eq00001_1 (d_cmp_eq00001)
+     LUT4_D:I3->O         36   0.612   1.143  f<2> (f<2>)
+     LUT3_D:I1->O         11   0.612   0.796  nMultif/ppb/partial_product_or00011_1 (nMultif/ppb/partial_product_or00011)
+     LUT4:I3->O            2   0.612   0.410  nMultif/ppb/partial_product<8>12 (nMultif/ppb/partial_product<8>12)
+     LUT4:I2->O            2   0.612   0.449  nMultif/csa1/GEN_REG[6].sum_loop/sum1/co1 (nMultif/csa1/tout<6>)
+     LUT3:I1->O            2   0.612   0.383  nMultif/csa1/GEN_REG[7].sum_loop/sum2/co1 (nMultif/c0<7>)
+     LUT4:I3->O            2   0.612   0.410  nMultif/csa3/GEN_REG[3].sum_loop/sum1/co1 (nMultif/csa3/tout<3>)
+     LUT4:I2->O            3   0.612   0.451  nMultif/csa3/GEN_REG[4].sum_loop/sum2/co1 (nMultif/c2<4>)
+     MUXF5:S->O            1   0.641   0.387  nMultif/Gen2[0].ha10/Mxor_s_Result1_SW1 (N650)
+     LUT4:I2->O            1   0.612   0.000  nMultif/Madd_product_t_Madd_lut<14> (nMultif/Madd_product_t_Madd_lut<14>)
+     MUXCY:S->O            1   0.404   0.000  nMultif/Madd_product_t_Madd_cy<14> (nMultif/Madd_product_t_Madd_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<15> (nMultif/Madd_product_t_Madd_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<16> (nMultif/Madd_product_t_Madd_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<17> (nMultif/Madd_product_t_Madd_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<18> (nMultif/Madd_product_t_Madd_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<19> (nMultif/Madd_product_t_Madd_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<20> (nMultif/Madd_product_t_Madd_cy<20>)
+     MUXCY:CI->O           0   0.051   0.000  nMultif/Madd_product_t_Madd_cy<21> (nMultif/Madd_product_t_Madd_cy<21>)
+     XORCY:CI->O           1   0.699   0.000  nMultif/Madd_product_t_Madd_xor<22> (nMultif/product_t<22>)
+     FDC:D                     0.268          nMultif/product_23
+    ----------------------------------------
+    Total                     14.765ns (8.395ns logic, 6.371ns route)
+                                       (56.9% logic, 43.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 822059 / 49
+-------------------------------------------------------------------------
+Offset:              15.999ns (Levels of Logic = 21)
+  Source:            b_divisor<14> (PAD)
+  Destination:       nMultif/product_23 (FF)
+  Destination Clock: clk rising
+
+  Data Path: b_divisor<14> to nMultif/product_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.106   0.651  b_divisor_14_IBUF (b_divisor_14_IBUF)
+     LUT4:I0->O            5   0.612   0.538  Recip_Appro/f_reciprocal_and000011 (Recip_Appro/f_reciprocal_and0001)
+     MUXF5:S->O            7   0.641   0.754  Recip_Appro/f_reciprocal_and0000_f5 (Recip_Appro/f_reciprocal_and0000)
+     LUT4_D:I0->O         36   0.612   1.143  f<2> (f<2>)
+     LUT3_D:I1->O         11   0.612   0.796  nMultif/ppb/partial_product_or00011_1 (nMultif/ppb/partial_product_or00011)
+     LUT4:I3->O            2   0.612   0.410  nMultif/ppb/partial_product<8>12 (nMultif/ppb/partial_product<8>12)
+     LUT4:I2->O            2   0.612   0.449  nMultif/csa1/GEN_REG[6].sum_loop/sum1/co1 (nMultif/csa1/tout<6>)
+     LUT3:I1->O            2   0.612   0.383  nMultif/csa1/GEN_REG[7].sum_loop/sum2/co1 (nMultif/c0<7>)
+     LUT4:I3->O            2   0.612   0.410  nMultif/csa3/GEN_REG[3].sum_loop/sum1/co1 (nMultif/csa3/tout<3>)
+     LUT4:I2->O            3   0.612   0.451  nMultif/csa3/GEN_REG[4].sum_loop/sum2/co1 (nMultif/c2<4>)
+     MUXF5:S->O            1   0.641   0.387  nMultif/Gen2[0].ha10/Mxor_s_Result1_SW1 (N650)
+     LUT4:I2->O            1   0.612   0.000  nMultif/Madd_product_t_Madd_lut<14> (nMultif/Madd_product_t_Madd_lut<14>)
+     MUXCY:S->O            1   0.404   0.000  nMultif/Madd_product_t_Madd_cy<14> (nMultif/Madd_product_t_Madd_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<15> (nMultif/Madd_product_t_Madd_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<16> (nMultif/Madd_product_t_Madd_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<17> (nMultif/Madd_product_t_Madd_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<18> (nMultif/Madd_product_t_Madd_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<19> (nMultif/Madd_product_t_Madd_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  nMultif/Madd_product_t_Madd_cy<20> (nMultif/Madd_product_t_Madd_cy<20>)
+     MUXCY:CI->O           0   0.051   0.000  nMultif/Madd_product_t_Madd_cy<21> (nMultif/Madd_product_t_Madd_cy<21>)
+     XORCY:CI->O           1   0.699   0.000  nMultif/Madd_product_t_Madd_xor<22> (nMultif/product_t<22>)
+     FDC:D                     0.268          nMultif/product_23
+    ----------------------------------------
+    Total                     15.999ns (9.628ns logic, 6.372ns route)
+                                       (60.2% logic, 39.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            quotient_15 (FF)
+  Destination:       quotient<15> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: quotient_15 to quotient<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.514   0.357  quotient_15 (quotient_15)
+     OBUF:I->O                 3.169          quotient_15_OBUF (quotient<15>)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 75.00 secs
+Total CPU time to Xst completion: 74.82 secs
+ 
+--> 
+
+Total memory usage is 322640 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   73 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

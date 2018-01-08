@@ -1,0 +1,5 @@
+set -tmpdir "/home/shankuan/computer_arithmetic/FloatingPointMultiplier/xst/projnav.tmp"
+set -xsthdpdir "/home/shankuan/computer_arithmetic/FloatingPointMultiplier/xst"
+elaborate
+-ifn CSA17bit.prj
+-ifmt mixed

@@ -1,0 +1,29 @@
+Command line:
+   movingaverage_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  48884
+
+Wed Dec 14 23:07:05 2016
+
+
+ Elaboration Time: 0.05 sec
+
+ Current Memory Usage: 233.292 Meg
+
+ Total Signals          : 2331
+ Total Nets             : 1389
+ Total Signal Drivers   : 528
+ Total Blocks           : 474
+ Total Primitive Blocks : 246
+ Total Processes        : 527
+ Total Traceable Variables  : 127
+ Total Scalar Nets and Variables : 2002
+Total Line Count : 590
+
+ Total Simulation Time: 0.08 sec
+
+ Current Memory Usage: 308.81 Meg
+
+Wed Dec 14 23:08:38 2016
+
