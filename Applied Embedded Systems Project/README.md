@@ -11,3 +11,14 @@ The block diagram shown in Figure_1 illustrates the overall workflow of our syst
 
 * Figure_1
 ![picture](https://github.com/pty41/2016_2017_course_assignment/blob/master/Applied%20Embedded%20Systems%20Project/figure_1.png)
+
+## Task Accomplished by me
+* Linux Kernel, Setup Linaro Environment on Zed Board
+	[Maven](https://www.youtube.com/watch?v=IH5vk8N8bl0&t=1077s) - Linaro Setup
+* Memory Reservation (256Mb\32Mb)
+* XML-RPC and FTP Protocol Implementation
+* Image Conversion (PNG to .bin file)
+* Memory Management on Linux (mmap to physical memory)
+	[Maven](https://en.wikipedia.org/wiki/Mmap) - mmap
+
+
