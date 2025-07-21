@@ -1,4 +1,4 @@
-# embedded_system_assignment
+# embedded system assignment - TU Berlin
 
 The course assignments of Embedded System major from 2016 to 2017 in TU Berlin
 
